@@ -15,7 +15,7 @@ function Home() {
       <main>
         <NavPath homePage={true} />
         <About />
-        <Distances />
+        {/* <Distances /> */}
         <Acommodation />
         <Photogalleries />
         <TouristGuide />

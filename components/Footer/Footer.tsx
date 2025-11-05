@@ -16,14 +16,14 @@ function Footer() {
             <Image src={SSL} alt="ssl Villa Relax" width={200} />
             <p>{t("year")}</p>
             <p>{t("rights")}</p>
-            <p className="">
+            {/* <p className="">
               <a
                 href="https://www.boostweb.io"
                 className="!text-white hover:!text-yellow"
               >
                 {t("created_by")}
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="w-full h-full relative pl-5 sm:pl-0 sm:w-3/5 lg:w-auto">
@@ -56,10 +56,10 @@ function Footer() {
             {t("Contact_Us.title")}
           </h2>
           <ul className="space-y-4">
-            <li>Alen Smoljan</li>
-            <li>Tršičani 43, 52215, Vodnjan</li>
+            <li></li>
+            <li>Istria, Žminj, Damijanići 6, 52341, Žminj</li>
             {/* <li>+(385) 98 263 136</li> */}
-            <li>info@villapanoramaistria.com</li>
+            <li>villa.bergi.wb@gmail.com</li>
           </ul>
         </div>
       </div>

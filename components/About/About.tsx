@@ -17,13 +17,13 @@ function About() {
         <div className="pt-10">
           <Markdown>{a("des")}</Markdown>
           <br />
-          <h2 className="font-ExtraBold text-lg">
+          {/* <h2 className="font-ExtraBold text-lg">
             <Markdown>{a("the_space.title")}</Markdown>
-          </h2>
-          <Markdown>{a("the_space.des")}</Markdown>
-          <br />
+          </h2> */}
+          {/* <Markdown>{a("the_space.des")}</Markdown> */}
+          {/* <br />
           <Markdown>{a("the_space.des2")}</Markdown>
-          <br />
+          <br /> */}
           <h2 className="font-ExtraBold text-lg">{a("guest_access.title")}</h2>
           <p>{a("guest_access.des")}</p>
         </div>

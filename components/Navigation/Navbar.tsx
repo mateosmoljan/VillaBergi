@@ -68,7 +68,7 @@ const Navbar = () => {
           />
           <p className="font-arbutus font-black text-2xl text-yellow">
             <span className="text-dark_blue_black">Villa</span>
-            Panorama
+            Bergi
           </p>
         </Link>
 
