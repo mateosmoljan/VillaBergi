@@ -46,7 +46,7 @@ export const metadata: Metadata = {
       "Welcome to Villa Bergi, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
     images: [
       {
-        url: "https://www.villabergi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F27.92c57344.jpg&w=3840&q=75",
+        url: "https://villa-bergi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F38.4b2773c1.jpg&w=3840&q=75",
         alt: "Villa Bergi",
       },
     ],
