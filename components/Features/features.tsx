@@ -129,7 +129,7 @@ function FeaturesComponent({ handleClose }: Props) {
               <h2 className="font-titleBold text-xl text-dark_blue_black mb-3">
                 {FeaturesTitleData.data[0].title7}
               </h2>
-              {FeaturesData.data.slice(19, 23).map((item, index) => (
+              {FeaturesData.data.slice(19, 22).map((item, index) => (
                 <div
                   key={index}
                   className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}
@@ -147,7 +147,7 @@ function FeaturesComponent({ handleClose }: Props) {
               <h2 className="font-titleBold text-xl text-dark_blue_black mb-3">
                 {FeaturesTitleData.data[0].title8}
               </h2>
-              {FeaturesData.data.slice(23, 25).map((item, index) => (
+              {FeaturesData.data.slice(22, 24).map((item, index) => (
                 <div
                   key={index}
                   className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}
@@ -169,11 +169,11 @@ function FeaturesComponent({ handleClose }: Props) {
                 className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}
               >
                 <Image
-                  src={FeaturesData.data[25].icon}
-                  alt={FeaturesData.data[25].icon_alt}
+                  src={FeaturesData.data[24].icon}
+                  alt={FeaturesData.data[24].icon_alt}
                 />
                 <li className={`py-4 flex flex-col justify-center`}>
-                  {FeaturesData.data[25].titles}
+                  {FeaturesData.data[24].titles}
                 </li>
               </div>
             </div>
@@ -203,14 +203,14 @@ function FeaturesComponent({ handleClose }: Props) {
                 className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}
               >
                 <Image
-                  src={FeaturesData.data[37].icon}
-                  alt={FeaturesData.data[37].icon_alt}
+                  src={FeaturesData.data[36].icon}
+                  alt={FeaturesData.data[36].icon_alt}
                 />
                 <li className={`py-4 flex flex-col justify-center`}>
-                  {FeaturesData.data[37].titles}
+                  {FeaturesData.data[36].titles}
 
                   <span className="text-sm text-grey">
-                    {FeaturesData.data[37].des}
+                    {FeaturesData.data[36].des}
                   </span>
                 </li>
               </div>
@@ -219,7 +219,7 @@ function FeaturesComponent({ handleClose }: Props) {
               <h2 className="font-titleBold text-xl text-dark_blue_black mb-3">
                 {FeaturesTitleData.data[0].title12}
               </h2>
-              {FeaturesData.data.slice(38, 40).map((item, index) => (
+              {FeaturesData.data.slice(37, 39).map((item, index) => (
                 <div
                   key={index}
                   className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}
@@ -237,7 +237,7 @@ function FeaturesComponent({ handleClose }: Props) {
               <h2 className="font-titleBold text-xl text-dark_blue_black mb-3">
                 {FeaturesTitleData.data[0].title13}
               </h2>
-              {FeaturesData.data.slice(40, 44).map((item, index) => (
+              {FeaturesData.data.slice(39, 43).map((item, index) => (
                 <div
                   key={index}
                   className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}
@@ -255,7 +255,7 @@ function FeaturesComponent({ handleClose }: Props) {
               <h2 className="font-titleBold text-xl text-dark_blue_black mb-3">
                 {FeaturesTitleData.data[0].title14}
               </h2>
-              {FeaturesData.data.slice(44, 46).map((item, index) => (
+              {FeaturesData.data.slice(43, 45).map((item, index) => (
                 <div
                   key={index}
                   className={`flex gap-3 items-center border-b-[1px] border-[#e5e7eb]`}

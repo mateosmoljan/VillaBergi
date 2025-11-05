@@ -1,133 +1,116 @@
 {
   "Titles": {
-    "homepage_title": "Villa Panorama - Istria",
-    "Villa_Panorama": "Casa Vacanze Villa Panorama",
+    "homepage_title": "Villa Bergi - Istria",
+    "Villa_Panorama": "Casa Vacanze Villa Bergi",
     "Villa_Map_Location": "Posizione sulla mappa",
     "Availability_Calendar": "Calendario disponibilità",
-    "Availability_Appointments_sub": "APPUNTAMENTI DISPONIBILI",
-    "Price_list": "Listino prezzi Villa Panorama",
-    "Photogallery": "Fotogalleria Villa Panorama, Istra",
-    "Surrondings": "Gajana e dintorni",
-    "Surrondings_sub": "GAJANA & ISTRA"
+    "Availability_Appointments_sub": "DATE DISPONIBILI",
+    "Price_list": "Listino Casa Vacanze Villa Bergi",
+    "Photogallery": "Galleria fotografica Casa Vacanze Villa Bergi, Istria",
+    "Surrondings": "Žminj e dintorni",
+    "Surrondings_sub": "Žminj & ISTRIA"
   },
   "Buttons": {
-    "Show_Gallery": "Mostra Galleria"
+    "Show_Gallery": "Mostra galleria"
   },
   "Navigation": {
-    "navlinks": [
-      "Villa Panorama",
-      "Listino prezzi",
-      "Fotogalleria",
-      "Dintorni",
-      "Contatti"
-    ],
+    "navlinks": ["Villa Bergi", "Listino", "Galleria", "Dintorni", "Contatto"],
     "navLinksButton": "Prenota"
   },
-
   "HeaderSwiper": {
     "titles": [
-      "Benvenuti alla Villa Panorama - Istra",
-      "Paradiso del Jacuzzi",
-      "Ritiro con Rustico Camino",
-      "Design Moderno e Tavolo da Pranzo Spazioso",
-      "Ritiro Elegante con Tavolo da Biliardo Stiloso",
-      "Ingresso di Benvenuto",
-      "Oasi Acquatica",
-      "Piscina Serena sotto le Stelle"
+      "Benvenuti a Villa Bergi - Istria",
+      "Rilassati e goditi",
+      "Splendore della Jacuzzi",
+      "Pasti all'aperto"
     ],
     "descriptions": [
-      "Villa Oasi Tranquilla",
-      "Concediti l'esperienza di relax definitiva mentre ti distendi nel Jacuzzi",
-      "Abbraccia il calore e il fascino del tradizionale camino istriano 'Kažun' presso Villa Panorama, dove le serate accoglienti sono trascorse in tranquillità rustica.",
-      "Goditi raduni accoglienti intorno al tavolo da pranzo di dimensioni generose",
-      "Rilassati con una partita a biliardo sullo splendido tavolo da biliardo",
-      "Ingresso elegante che fonde perfettamente design moderno e ambiente accogliente, invitandoti a rilassarti con stile.",
-      "Un Ritiro Moderno con Piscina Privata, Immersa nell'Abbraccio della Natura",
-      "Piscina Serena sotto le Stelle"
+      "Rilassati a bordo piscina in completo comfort",
+      "Goditi la piscina con un tocco di eleganza.",
+      "Vivi il lusso in un ambiente perfetto.",
+      "Riunioni, barbecue e momenti di piacere con stile."
     ],
-    "button": "Leggi Altro"
+    "button": "Leggi di più"
   },
-
   "About": {
     "title": "Panoramica",
-    "des": "Bellissima **Villa Panorama Istria** circondata dalla **natura**. È un luogo ideale per **riposare** per tutti gli amanti della **pace**, della **tranquillità** e della **natura**. La villa di **520 metri quadrati** è situata su un terreno di **2500 m2**. Avete a disposizione un bellissimo **giardino** e un grande **prato** per il **divertimento** (**trampolino**, **porte da calcio**). La villa è arredata con cura, con **mobili di qualità** e grande attenzione ai dettagli. Gli elementi **tradizionali** e **moderni** si fondono per creare un **insieme interessante**.",
+    "des": "La struttura dispone di camere non fumatori. È disponibile il noleggio biciclette. Sono ammessi animali domestici. Gli ospiti possono parcheggiare gratuitamente. Accesso a internet disponibile. La vasca idromassaggio è molto utile per la salute e qui avete la possibilità di usufruirne. A disposizione piscina all'aperto e un giardino ben curato.",
     "the_space": {
       "title": "Lo spazio",
-      "des": "Di fronte alla villa c'è una spaziosa cucina estiva con camino a legna che serve per pranzi e intrattenimento (calcio balilla, piccado e biliardo). C'è anche una stanza di lavoro e un bagno. Oltre alla cucina estiva c'è una **piscina di 68 metri quadrati con impianti di idromassaggio, una cascata**. Una specialità tradizionale è occupata da un capo istriano costruito in stile in pietra. È composto da un focolare per preparare una griglia o cuocere per pranzo. È particolarmente attraente il grande terrazzo che si estende su un lato della villa con vista sul mare e sulle aree verdi circostanti, il che lo rende anche un luogo ideale per pranzare e riposare.",
-      "des2": "È composto da un ampio soggiorno, cucina completamente attrezzata, **7 affascinanti camere da letto con bagni, aria condizionata e TV**. Riscaldamento in ogni stanza con radiatori. Tutte le camere sono climatizzate. Oltre alla villa, c'è una stanza benessere (sauna, jacuzzi, attrezzature per l'esercizio fisico). C'è anche un garage con **2 posti auto** e ci sono **8 biciclette**. Il parcheggio offre la possibilità di più di una dozzina di posti auto."
+      "des": "Di fronte alla Villa c'è una spaziosa cucina estiva con camino a legna, utilizzata per pranzi e intrattenimento (calcio balilla, freccette e biliardo). Inoltre c'è una stanza lavoro e un bagno. Oltre alla cucina estiva, c'è una **piscina di 68 m² con idromassaggio e cascata**. La specialità tradizionale è rappresentata da un 'capanno istriano' costruito in pietra. Comprende un focolare per grigliare o cuocere all'aperto. Particolarmente attraente è la grande terrazza che si estende su un lato della villa con vista sul mare e sulle aree verdi circostanti, rendendola ideale per pranzi e relax.",
+      "des2": "La villa comprende un ampio soggiorno, cucina completamente attrezzata, **7 camere da letto affascinanti con bagno privato, aria condizionata e TV**. Riscaldamento in ogni stanza tramite radiatori. Tutte le camere sono climatizzate. Oltre alla villa, è disponibile una sala benessere (**sauna, jacuzzi, attrezzi per esercizi**). Vi è anche un garage con **2 posti auto** e **8 biciclette**. Il parcheggio offre la possibilità di ospitare più di una dozzina di veicoli."
     },
     "guest_access": {
       "title": "Accesso ospiti",
-      "des": "Jacuzzi, sauna, fitness, biciclette, karaoke, biliardo, calcetto, freccette, trampolino."
+      "des": "Jacuzzi, parcheggio, calcio balilla, piscina esterna, barbecue"
     },
     "locations": {
-      "title": "Cosa vedere e visitare:",
+      "title": "Cosa visitare:",
       "des": [
-        "- Il parco acquatico Aquacolors.",
+        "- Parco acquatico Aquacolors.",
         "- Esplora le splendide isole del Parco Nazionale di Brijuni, ricche di bellezze naturali e patrimonio culturale.",
-        "- Scopri l'antico anfiteatro romano a Pula, uno dei migliori anfiteatri romani meglio conservati al mondo.",
-        "- Tuffati nel mondo sottomarino all'Acquario di Pula, situato nei pressi del centro della città. Esplora vari habitat marini, osserva diverse specie acquatiche e scopri l'importanza della conservazione marina.",
-        "- Vivi emozionanti scivoli d'acqua, fiumi pigri e piscine rilassanti all'Istralandia Aquapark, situato nei pressi di Novigrad. Perfetto per famiglie e appassionati di acqua, questo parco acquatico offre una giornata divertente per tutte le età."
+        "- Scopri l'antico anfiteatro romano a Pola, uno dei meglio conservati al mondo.",
+        "- Immergiti nel mondo sottomarino all'Acquario di Pola, vicino al centro città. Esplora diversi habitat marini, osserva specie diverse e comprendi l'importanza della conservazione del mare.",
+        "- Vivi emozionanti scivoli, fiumi pigri e piscine rilassanti all'aquapark Istralandia, vicino a Novigrad. Perfetto per famiglie e appassionati d'acqua, offre divertimento per tutte le età."
       ]
     }
   },
-
   "Distances": {
-    "title": "Distanze dalla Villa Panorama",
+    "title": "Distanze da Villa Bergi",
     "button": "Mostra Mappa",
     "place": [
       "Mare",
       "Spiaggia",
-      "Negozio di alimentari",
+      "Negozio alimentare",
       "Ristorante",
       "Banca / Bancomat",
       "Farmacia",
-      "Ospedale / Pronto soccorso",
-      "Ufficio postale",
-      "Distributore di benzina",
+      "Ospedale / Ambulatorio",
+      "Posta",
+      "Stazione di servizio",
       "Campi sportivi",
       "Stazione ferroviaria",
       "Aeroporto"
     ]
   },
   "Acommodation": {
-    "subtitle": "ALLOGGIO",
+    "subtitle": "Alloggio",
     "title": "Offriamo 1 Villa",
-    "card_title": "Villa Panorama",
-    "card_des": "Massimo di 16 persone",
+    "card_title": "Villa Bergi",
+    "card_des": "Massimo 10 persone",
     "card_des2": "Prezzo da",
     "card_des3": "a notte"
   },
   "Photogalleries": {
-    "subtitle": "GALLERIE FOTOGRAFICHE",
-    "title": "Seleziona foto da Villa Panorama",
-    "button": "Mostra Galleria Fotografica"
+    "subtitle": "Gallerie fotografiche",
+    "title": "Scegli le foto di Villa Bergi",
+    "button": "Mostra galleria fotografica"
   },
   "Tourist_Guide": {
     "subtitle": "GUIDA TURISTICA",
     "title": "Cosa visitare, vedere e fare?",
     "image_des": [
-      "Il più grande in Croazia",
-      "Parco Nazionale",
+      "Il più grande della Croazia",
+      "Parco nazionale",
       "Parco acquatico",
       "Eventi",
       "Parco acquatico",
-      "Tuffi dalla spiaggia/scogliera"
+      "tuffi da spiaggia/scogliera"
     ]
   },
   "Send_Message": {
-    "des": "Per favore, **inviateci una** risposta se desiderate appartenere alla Villa Panorama in Istria e garantire la vostra prenotazione?",
-    "button": "Invia Messaggio"
+    "des": "Si prega di **inviarci** una risposta se desiderate soggiornare a Villa Bergi in Istria e assicurare la vostra prenotazione?",
+    "button": "Invia messaggio"
   },
   "Footer": {
-    "year": "©2024 . Villa Panorama - Istria",
+    "year": "©2024 . Villa Bergi - Istria",
     "rights": "Tutti i diritti riservati",
     "created_by": "Sito web di BoostWeb",
     "Discover": {
       "title": "Scopri",
       "list": {
-        "Pula": "Informazioni su Pula",
-        "Guide": "Guida turistica Istra"
+        "Pula": "Info Pula",
+        "Guide": "Guida turistica Istria"
       }
     },
     "Contact_Us": {
@@ -135,85 +118,86 @@
     }
   },
   "Categorization": {
-    "title": ["Categorizzazione", "Capacità", "Dimensioni", "Giardino"]
+    "title": ["Categorizzazione", "Capacità", "Dimensione", "Giardino"]
   },
   "Villa_Description": {
-    "des": "La lussuosa Villa in Pietra è situata a Gajana, un luogo tranquillo nei pressi di Vodnjan (Dignano). Questa villa di 7 camere da letto (con bagno privato in ogni camera) è perfetta per gli amanti della natura che amano rilassarsi lontano dal rumore della città. Ha molto da offrire ai suoi ospiti.",
-    "subtitle": "Lo Spazio",
-    "des2": "C'è una piscina all'aperto (68 m2) con possibilità di idromassaggio e una cascata d'acqua sul lato della piscina. Il prato spazioso offre un'area giochi per bambini con trampolino e porte da calcio. Accanto alla piscina, c'è una replica di un vecchio casolare istriano chiamato \"kazun\", che offre strutture per il barbecue. La bellissima terrazza è un luogo perfetto per godersi il pasto. Un altro luogo per cenare è una cucina estiva, che si trova all'interno di una sala giochi con freccette, tavolo da biliardo e calcetto. La stanza della bellezza accanto alla villa offre una sauna, jacuzzi e attrezzature per l'esercizio fisico. La villa dispone di un sistema di videosorveglianza, che riprende gli dintorni della villa e garantisce la sicurezza ai suoi ospiti. La villa può ospitare 16 persone. Ci sono 7 camere da letto nella villa. 3 camere da letto offrono letti king size, e ognuna di esse può ospitare 2 persone. Nel resto delle camere da letto (4 di esse), ci sono 2 letti singoli in ognuna di esse. Qualcuno può anche dormire sui divani del soggiorno, se lo desidera.",
-    "subtitle2": "Accesso Ospiti",
-    "des3": "Gli ospiti possono accedere a 7 camere da letto, 2 soggiorni, 2 cucine, 9 bagni + un bagno separato, balconi, terrazza, stanza della bellezza, sala giochi/cucina estiva, \"kazun\" con strutture per il barbecue, una stanza con lavatrice e ferro da stiro, piscina, prato, giardino, area giochi per bambini e l'intera area esterna (2500 m2)."
+    "des": "La struttura dispone di camere non fumatori. È disponibile il noleggio biciclette. Sono ammessi animali domestici. Gli ospiti possono parcheggiare gratuitamente. Accesso a internet disponibile. La vasca idromassaggio è molto utile per la salute. Piscina all'aperto disponibile. Il giardino è ben curato.",
+    "subtitle": "Spazio",
+    "des2": "Di fronte alla villa c'è una piscina esterna (68 m²) con idromassaggio e cascata laterale. Un ampio prato offre un'area giochi per bambini con trampolino e porte da calcio. Accanto alla piscina, una replica della vecchia casa istriana chiamata \"kazun\" offre attrezzature per barbecue. La splendida terrazza è il luogo perfetto per godersi i pasti. Un altro spazio per pranzare è la cucina estiva, situata nella sala giochi con freccette, biliardo e calcio balilla. La sala benessere accanto alla villa offre sauna, jacuzzi e attrezzi per esercizi. La villa dispone di un sistema di sorveglianza per la sicurezza degli ospiti. La villa può ospitare fino a 16 persone. Ci sono 7 camere da letto: 3 camere matrimoniali king size e 4 camere con 2 letti singoli ciascuna. È possibile dormire anche sui divani del soggiorno.",
+    "subtitle2": "Accesso ospiti",
+    "des3": "Gli ospiti possono accedere a 7 camere da letto, 2 soggiorni, 2 cucine, 9 bagni + WC separato, balconi, terrazza, sala benessere, sala giochi/cucina estiva, \"kazun\" con attrezzature per barbecue, stanza con lavatrice e ferro da stiro, piscina, prato, giardino, area giochi per bambini e tutto lo spazio esterno (2500 m²)."
   },
+
   "Villa_Features": {
     "title": "Caratteristiche",
-    "title2": "Cosa offre questo posto",
+    "title2": "Cosa offre questa struttura",
     "title3": "Bagno",
     "title4": "Camera da letto e lavanderia",
-    "title5": "Intrattenimento",
+    "title5": "Divertimento",
     "title6": "Famiglia",
     "title7": "Riscaldamento e raffreddamento",
-    "title8": "Sicurezza domestica",
+    "title8": "Sicurezza della casa",
     "title9": "Internet e ufficio",
     "title10": "Cucina e sala da pranzo",
-    "title11": "All'aperto",
-    "title12": "Parcheggio e strutture",
+    "title11": "Spazio esterno",
+    "title12": "Parcheggio e servizi",
     "title13": "Servizi",
-    "title14": "Non incluso",
-    "button": "Mostra tutte le 43 dotazioni",
+    "title14": "Non inclusi",
+    "button": "Mostra tutti i 43 servizi",
     "card": {
       "title": [
         "Asciugacapelli",
         "Acqua calda",
         "Lavatrice",
         "Asciugatrice",
-        "Essenziali",
-        "Appendini",
-        "Lenzuola",
-        "Cuscini e coperte aggiuntivi",
+        "Dotazioni base",
+        "Appendiabiti",
+        "Biancheria",
+        "Cuscini e coperte extra",
         "Tende oscuranti",
         "Ferro da stiro",
-        "TV con cavo standard",
-        "Lettino",
-        "Libri e giocattoli per bambini",
+        "TV con canali standard via cavo",
+        "Lettino per bambini",
+        "Libri e giochi per bambini",
         "Seggiolone",
-        "Protezioni per il camino",
-        "Protezioni per le finestre",
-        "Copriprese",
-        "Cancelletti di sicurezza per bambini",
-        "Protezioni per gli spigoli del tavolo",
+        "Paraspifferi per camino",
+        "Paraspifferi per finestre",
+        "Copri prese",
+        "Barriere di sicurezza per bambini",
+        "Paraspigoli per tavoli",
         "Aria condizionata",
         "Camino interno",
         "Riscaldamento",
         "Estintore",
-        "Kit di pronto soccorso",
+        "Kit primo soccorso",
         "Wifi",
         "Cucina",
         "Frigorifero",
-        "Forno a microonde",
-        "Principi di cucina",
+        "Microonde",
+        "Attrezzatura base da cucina",
         "Piatti e posate",
         "Lavastoviglie",
-        "Fornello",
+        "Piano cottura",
         "Forno",
-        "Macchina per il caffè",
-        "Piastra da forno",
-        "Utensili da barbecue",
-        "Giardino",
+        "Macchina per caffè",
+        "Tappetino antiscivolo",
+        "Set barbecue",
+        "Cortile posteriore",
         "Parcheggio gratuito in loco",
         "Piscina",
-        "Consentito il deposito bagagli",
-        "Consentito fumare",
-        "Soggiorni a lungo termine consentiti",
-        "Accoglienza da parte dell'host",
-        "Allarme antincendio",
-        "Allarme di monossido di carbonio"
+        "Deposito bagagli consentito",
+        "Vietato fumare",
+        "Soggiorno a lungo termine consentito",
+        "Accoglienza dall'host",
+        "Rilevatore di fumo",
+        "Rilevatore di monossido di carbonio"
       ],
       "des": [
         "",
         "",
         "",
         "",
-        "Asciugamani, lenzuola, sapone e carta igienica",
+        "Asciugamani, biancheria, sapone e carta igienica",
         "",
         "",
         "",
@@ -234,42 +218,43 @@
         "",
         "",
         "",
-        "Spazio dove gli ospiti possono cucinare i propri pasti",
+        "",
+        "Spazio per preparare pasti in autonomia",
         "",
         "",
-        "Pentole e padelle, olio, sale e pepe",
+        "Pentole, padelle, olio, sale e pepe",
         "Ciotole, bacchette, piatti, tazze, ecc.",
         "",
         "",
         "",
         "",
         "",
-        "Griglia, carbonella, spiedi in bambù/ferrro, ecc.",
-        "Uno spazio aperto nella proprietà solitamente coperto d'erba",
+        "Barbecue, carbone, bacchette in bambù/ferro, ecc.",
+        "Spazio esterno in genere coperto da prato",
         "",
         "",
-        "Per comodità degli ospiti con arrivo anticipato o partenza tardiva",
+        "Comodità per arrivi anticipati o partenze ritardate",
         "",
-        "Consentito soggiornare per 28 giorni o più",
+        "Soggiorno di 28 giorni o più consentito",
         "",
-        "Non c'è allarme antincendio nella proprietà.",
-        "Non c'è rilevatore di monossido di carbonio nella proprietà"
+        "Nessun rilevatore di fumo in loco",
+        "Nessun rilevatore di monossido di carbonio in loco"
       ]
     }
   },
   "Pricelist": {
-    "title": "Listino prezzi",
-    "subtitle": "*Il prezzo si riferisce al periodo di 1 notti in Euro"
+    "title": "Listino Prezzi",
+    "subtitle": "*Il prezzo si riferisce a 1 notte in euro"
   },
   "Payment_conditions": {
-    "subtitle": "TERMINI E CONDIZIONI",
+    "subtitle": "CONDIZIONI DI PAGAMENTO E PRENOTAZIONE",
     "title": "Condizioni di pagamento e prenotazione",
     "des": "La tassa di soggiorno non è inclusa nel prezzo!",
-    "des2": "Per garantire la prenotazione è obbligatorio pagare il 30% del prezzo totale in anticipo direttamente al proprietario dell'alloggio e il 70% all'arrivo presso l'unità abitativa.",
-    "des3": "Deposito rimborsabile in caso di tutto a posto: 500 euro.",
-    "des4": "Possibilità di cancellazione gratuita una settimana dopo la prenotazione (ESCLUSO NELLE PRENOTAZIONI LAST MINUTE, IN QUESTO CASO IL TERMINE È DI 48 ORE). Last minute - Prenotazione due settimane prima.",
-    "des5": "L'ultimo giorno del soggiorno, l'ospite è tenuto a lasciare l'alloggio entro le 10:00, in modo che gli altri ospiti possano fare il check-in dalle ore 16:00.",
-    "des6": "Si prega di notare che gli animali domestici non sono ammessi nelle strutture.",
+    "des2": "Per confermare la prenotazione è obbligatorio pagare il 30% dell'importo totale in anticipo direttamente al proprietario, il restante 70% all'arrivo presso la struttura.",
+    "des3": "Il deposito è rimborsabile se tutto è in ordine: 500 euro.",
+    "des4": "Possibilità di cancellazione gratuita entro una settimana dalla prenotazione (ECCETTO PER PRENOTAZIONI LAST MINUTE, in tal caso il termine è di 48 ore). Prenotazioni last minute: minimo due settimane prima.",
+    "des5": "L’ultimo giorno di soggiorno, l’ospite deve lasciare la struttura entro le ore 10, per consentire il check-in ai nuovi ospiti dalle ore 16.",
+    "des6": "Nota: Gli animali domestici non sono ammessi nella struttura.",
     "title2": "Metodi di pagamento:"
   },
   "Map_Location": {
@@ -279,54 +264,53 @@
     "title": "Calendario disponibilità"
   },
   "Villa_BookStay": {
-    "des": "a partire da",
+    "des": "da",
     "des2": "a notte",
     "button": "Prenota il tuo soggiorno"
   },
   "How_Reserve": {
     "subtitle": "PRENOTAZIONE SICURA",
-    "title": "Come posso prenotare",
+    "title": "Come prenotare",
     "steps": {
-      "title": "Invia una richiesta",
-      "des": "Si prega di inviare una richiesta tramite modulo di contatto, e-mail o telefono con tutte le informazioni richieste e il periodo in cui si desidera trascorrere una vacanza nella casa vacanze Villa Relax e aspettarsi una risposta via e-mail rapida e la nostra migliore offerta",
-      "title2": "Garantire la prenotazione (pagamento)",
-      "des2": "Per garantire la prenotazione è obbligatorio pagare il 30% dell'importo totale in anticipo e il resto dell'importo il giorno dell'arrivo. Dopo aver effettuato il pagamento, si prega di inviare una notifica e vi invieremo la conferma del pagamento e della prenotazione. Ci sono 2 opzioni per effettuare il pagamento anticipato: bonifico bancario e tramite PayPal (carte di debito e di credito).",
+      "title": "Invia richiesta",
+      "des": "Si prega di inviarci una richiesta tramite modulo di contatto, email o telefono con tutte le informazioni necessarie e il periodo in cui desiderate soggiornare nella villa Villa Bergi. Riceverete una risposta rapida via email con la nostra migliore offerta.",
+      "title2": "Conferma prenotazione (pagamento)",
+      "des2": "Per confermare la prenotazione è obbligatorio pagare il 30% dell'importo totale in anticipo, il restante alla data di arrivo. Dopo il pagamento, inviateci la conferma e riceverete la ricevuta di pagamento e conferma della prenotazione. Sono disponibili 2 modalità di pagamento anticipato: bonifico bancario o PayPal (carte di credito e debito).",
       "subtitle": "Bonifico bancario",
-      "span": "Proprietario dell'account",
+      "span": "Titolare del conto",
       "span2": "Indirizzo",
       "span3": "Banca",
-      "title3": "Conferma del pagamento",
-      "des3": "Quando il pagamento è effettuato, confermeremo il vostro pagamento e la prenotazione. Rilassatevi e attendete pacificamente le vostre vacanze in estate e godetevi le vostre vacanze nella casa vacanze Villa Panorama, Istria - Croazia!"
+      "title3": "Conferma pagamento",
+      "des3": "Al completamento del pagamento, confermeremo la vostra prenotazione. Rilassatevi e godetevi la vostra vacanza nella Villa Bergi, Istria - Croazia!"
     }
   },
   "Environs": {
-    "title": "Gajana & Istria",
-    "des": "Gajana è un luogo perfetto per vivere una vacanza rilassante, ma è anche abbastanza vicino a tutti i tipi di attività se cambiate idea. Gajana è circondata da vigneti, uliveti, boschi e molti bei panorami. Potete visitare il Parco Kazun - un parco con tradizionali case istriane fatte di pietra, ed è un luogo con il maggior numero di kazun situati in un unico luogo nell'area mediterranea. Il Parco Nazionale Brijuni (che è visibile dalla villa) e il Limski Zaljev (Canale di Lim) si trovano anche in questa regione. Poiché Gajana è un luogo circondato da vigneti e uliveti, il modo migliore per viverlo è prendere alcuni percorsi escursionistici o ciclistici attraverso l'area. Poiché la costa dista solo 5 km, potete provare attività di pesca, vela o immersioni. Spiaggia, bar, ristoranti e negozi di alimentari si trovano nel raggio di 5 km.",
-    "button": "Mostra mappa",
-    "title2": "Come spostarsi",
-    "des2": "Potete raggiungere la villa in auto o in taxi. Il parcheggio è gratuito e disponibile in loco.",
+    "title": "Žminj & Istria",
+    "des": "Žminj è un pittoresco borgo istriano situato nel centro della penisola, famoso per la sua architettura tradizionale e l’atmosfera autentica e tranquilla. Circondato da colline, vigneti e uliveti, è il luogo ideale per rilassarsi e scoprire la cultura istriana.",
+    "button": "Mostra Mappa",
+    "title2": "Come arrivare",
+    "des2": "La villa è raggiungibile in auto o taxi. Il parcheggio è gratuito e disponibile in loco.",
     "subtitle": "Attrazioni nelle vicinanze"
   },
-
   "PriceTable": {
     "title": "Periodo",
     "title2": "Prezzo*",
-    "title3": "Persone",
-    "title4": "Soggiorno minimo"
+    "title3": "Ospiti",
+    "title4": "Soggiorno Minimo"
   },
   "Contact": {
     "title": "Contattaci",
     "Contact_Form": {
-      "name": "Nome",
+      "name": "Nome e Cognome",
       "email": "Email",
-      "phone": "Telefono",
-      "home": "Casa vacanza",
+      "phone": "Telefono/Cellulare",
+      "home": "Villa",
       "adults": "Adulti",
       "children": "Bambini",
       "arrival": "Arrivo",
       "departure": "Partenza",
       "message": "Richiesta",
-      "des": "Il contenuto di questo modulo verrà inviato direttamente all'indirizzo e-mail del proprietario dell'alloggio ed è utilizzato esclusivamente per inviare richieste di prenotazione della proprietà elencata.",
+      "des": "Il contenuto di questo modulo sarà inviato direttamente all’email del proprietario della villa e sarà utilizzato esclusivamente per richieste relative alla prenotazione.",
       "button": "Invia richiesta",
       "sent": "Inviato con successo"
     },
@@ -335,8 +319,7 @@
       "mobile": "Cellulare",
       "email": "Email",
       "address": "Indirizzo",
-      "we_speak": "Parliamo",
-      "sent": "Inviato con successo"
+      "we_speak": "Lingue parlate"
     }
   },
   "Calendar": {
@@ -353,9 +336,9 @@
     "eleven": "Novembre",
     "twelve": "Dicembre",
     "booked": "Prenotato",
-    "checkIn": "Check-in",
-    "checkOut": "Check-out",
-    "reset": "Ripristina",
+    "checkIn": "Arrivo",
+    "checkOut": "Partenza",
+    "reset": "Resetta",
     "back": "Indietro",
     "next": "Avanti"
   }
