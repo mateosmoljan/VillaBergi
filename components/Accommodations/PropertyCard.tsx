@@ -38,13 +38,15 @@ function PropertyCard() {
         <SwiperNavButtonsAcommodation />
       </Swiper>
       <div className="p-3">
-        <h2 className="font-black text-xl font-arbutus">
+        <h2 className="font-black text-xl font-arbutus text-primary">
           {AccommodationsData.data[0].card_title}
         </h2>
-        <p className="text-sm">{AccommodationsData.data[0].card_des}</p>
-        <p className="text-sm">
+        <p className="text-sm text-secondary">
+          {AccommodationsData.data[0].card_des}
+        </p>
+        <p className="text-sm text-secondary">
           {AccommodationsData.data[0].card_des2}{" "}
-          <span className="font-bold text-yellow text-xl">140 €</span>{" "}
+          <span className="font-bold accent-primary text-xl">140 €</span>{" "}
           {AccommodationsData.data[0].card_des3}
         </p>
       </div>

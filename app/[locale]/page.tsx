@@ -12,7 +12,7 @@ function Home() {
   return (
     <div>
       <HeadSwiper />
-      <main>
+      <main className="primary-bg">
         <NavPath homePage={true} />
         <About />
         {/* <Distances /> */}

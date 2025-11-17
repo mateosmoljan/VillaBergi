@@ -8,13 +8,13 @@ function TouristGuide() {
   const PhotogalleriesData = getTouristGuideData(localeActive);
   return (
     <>
-      <section className="py-10 bg-gray-100 Tourist">
+      <section className="py-10 secondary-bg Tourist">
         <div className="container">
           <div className="w-6xl flex flex-col gap-3 pb-10">
-            <h2 className="text-pink font-semibold uppercase tracking-widest">
+            <h2 className="accent-primary font-semibold uppercase tracking-widest">
               {PhotogalleriesData.data[0].subtitle}
             </h2>
-            <h1 className="font-bold text-4xl sm:text-3xl text-dark_blue_black">
+            <h1 className="font-bold text-4xl sm:text-3xl text-primary">
               {PhotogalleriesData.data[0].title}
             </h1>
           </div>

@@ -37,28 +37,31 @@ export default function PriceTable() {
   const localeActive = useLocale();
   const PriceTableData = getPriceTableData(localeActive);
   return (
-    <TableContainer component={Paper}>
-      <Table aria-label="Pricing Table ">
-        <TableHead className="">
-          <TableRow className="bg-grey2 !font-titleBold ">
-            <TableCell className="!font-titleBold !py-2 px-0 w-[160px] text-center">
+    <TableContainer
+      component={Paper}
+      className=" secondary-bg text-primary p-2"
+    >
+      <Table aria-label="Pricing Table " className="secondary-bg text-primary">
+        <TableHead className="secondary-bg">
+          <TableRow className=" !font-titleBold border-b-2 border-b-text_secondary/50">
+            <TableCell className="text-primary !font-titleBold !py-2 px-0 w-[160px] text-center">
               {PriceTableData.data[0].title}
             </TableCell>
             <TableCell
               align="right"
-              className="!font-titleBold !py-2 px-0 w-[112px] text-center"
+              className="text-primary !font-titleBold !py-2 px-0 w-[112px] text-center"
             >
               {PriceTableData.data[0].title2}
             </TableCell>
             <TableCell
               align="right"
-              className="!font-titleBold !py-2 px-0 w-[112px] text-center"
+              className="text-primary !font-titleBold !py-2 px-0 w-[112px] text-center"
             >
               {PriceTableData.data[0].title3}
             </TableCell>
             <TableCell
               align="right"
-              className="!font-titleBold py-2 px-0 w-[112px] text-center"
+              className="text-primary !font-titleBold py-2 px-0 w-[112px] text-center"
             >
               {PriceTableData.data[0].title4}
             </TableCell>
@@ -69,29 +72,30 @@ export default function PriceTable() {
             <TableRow
               key={row.period}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+              className="border-b-2 border-b-text_secondary/20"
             >
               <TableCell
                 component="th"
                 scope="row"
-                className="px-0 !font-Bold !py-2 text-center"
+                className="text-secondary px-0 !font-Bold !py-2 text-center"
               >
                 {row.period}
               </TableCell>
               <TableCell
                 align="right"
-                className="px-0 !font-ExtraBold !py-2 text-center"
+                className="text-secondary px-0 !font-ExtraBold !py-2 text-center"
               >
                 {row.price} €
               </TableCell>
               <TableCell
                 align="right"
-                className="px-0 !font-Bold !py-2 text-center"
+                className="text-secondary px-0 !font-Bold !py-2 text-center"
               >
                 {row.persons}
               </TableCell>
               <TableCell
                 align="right"
-                className="px-0 !font-Bold !py-2 text-center"
+                className="text-secondary px-0 !font-Bold !py-2 text-center"
               >
                 {row.stay}
               </TableCell>

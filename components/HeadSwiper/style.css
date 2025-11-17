@@ -1,0 +1,16 @@
+.head_swiper .swiper-pagination-bullet {
+  width: 30px !important;
+  height: 3px !important;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  border-radius: 0 !important;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.head_swiper .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #000 !important;
+}

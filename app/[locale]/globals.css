@@ -22,14 +22,8 @@ html {
   box-sizing: border-box;
 }
 
-
 ul {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-  @apply text-yellow
 }
 
 input,
@@ -37,63 +31,8 @@ textarea,
 button,
 select,
 a {
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
-
-
-/* Button */
-
-.btn {
-  @apply flex items-center p-2 bg-yellow rounded-md font-poppins   text-white uppercase text-sm	 px-4 hover:bg-dark_yellow tracking-widest;
-}
-
-
-.btn-2 {
-  @apply flex items-center p-2 bg-dark_blue_black rounded-md font-poppins text-white tracking-widest px-4 uppercase text-sm  hover:bg-neutral-800;
-}
-
-.btn:focus {
-  box-shadow: 0 0 0 0.2rem rgba(178,
-    150,
-    0, 0.5);
-}
-
-.btn-2:focus {
-      box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
-}
-
-
-/* Shadow */
-
-.shadow-a {
-  box-shadow: 50px 0px 30px 0px rgba(0, 0, 0, 0.233) inset, -50px 0px 30px 0px rgba(0, 0, 0, 0.233) inset;
-}
-
-.custom_border {
-      border: 1px solid rgba(0, 0, 0, 0.125);
-      border-radius: 0.4rem;
-}
-
-
-
-.head_swiper .swiper-pagination-bullet {
-  width: 30px !important;
-  height: 3px !important;
-  text-align: center;
-  line-height: 20px;
-  font-size: 12px;
-  color: #000;
-  border-radius: 0 !important;
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.head_swiper .swiper-pagination-bullet-active {
-  color: #fff;
-  background: #000 !important;
-}
-
-
 
 /* Distances */
 @media (max-width: 640px) {
@@ -102,29 +41,73 @@ a {
   }
 }
 
-/* Translate Nav */
-.transitionMap {
-  transition: background 0.3s ease-in;
-}
-
-.transitionMap {
-  animation: translateMap 0.3s ease-in;
-}
-
-@keyframes translateMap {
-  0% {
-    transform: translateY(-10%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 100;
-  }
-}
-
 /* Calendar */
 
 .rdrDayDisabled .rdrDayNumber {
   @apply bg-red-400;
+}
+
+/* Global Background */
+
+body {
+  @apply bg-background text-white;
+}
+
+.primary-bg {
+  @apply bg-background text-white;
+}
+
+.secondary-bg {
+  @apply bg-secondary_background text-white;
+}
+
+/* text colors  */
+.text-primary {
+  @apply text-text_primary;
+}
+
+.text-secondary {
+  @apply text-text_secondary;
+}
+
+/* Accents */
+
+.accent-primary {
+  @apply text-accent_primary;
+}
+.accent-secondary {
+  @apply text-accent_secondary;
+}
+
+/* Shadow */
+
+.shadow-a {
+  @apply shadow-[50px_0px_30px_0px_rgba(255,255,255,0.233)_inset,-50px_0px_30px_0px_rgba(255,255,255,0.233)_inset];
+}
+
+.custom_border {
+  @apply border border-[rgba(255,255,255,0.125)] rounded-[0.4rem];
+}
+
+a {
+  text-decoration: none;
+  @apply text-accent_primary; /* links color */
+}
+
+/* Button - colors in tailwind*/
+
+.btn {
+  @apply flex items-center p-2 bg-accent_primary rounded-md font-poppins   text-white uppercase text-sm	 px-4 hover:bg-accent_secondary tracking-widest;
+}
+
+.btn-2 {
+  @apply flex items-center p-2 bg-accent_primary rounded-md font-poppins text-white tracking-widest px-4 uppercase text-sm  hover:bg-accent_secondary;
+}
+
+.btn:focus {
+  @apply focus:ring focus:ring-accent_secondary/50;
+}
+
+.btn-2:focus {
+  @apply focus:ring focus:ring-accent_secondary/50;
 }

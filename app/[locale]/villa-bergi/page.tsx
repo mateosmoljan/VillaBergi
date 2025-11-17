@@ -47,10 +47,10 @@ function VillaPanorama() {
   }, [showFeatures]);
 
   return (
-    <section className="pt-16 md:pt-14">
+    <section className="pt-16 md:pt-14 text-secondary">
       <NavPath />
       <div className="container">
-        <h1 className="my-12 text-center flex justify-center text-3xl sm:text-4xl font-ExtraBold text-dark_blue_black tracking-wider">
+        <h1 className="text-primary my-12 text-center flex justify-center text-3xl sm:text-4xl font-ExtraBold  tracking-wider">
           {TitleData.data[0].title}
         </h1>
         <div className="flex gap-8 flex-col lg:flex-row">
@@ -58,13 +58,13 @@ function VillaPanorama() {
             <PropertyGallery />
             <div className="flex flex-col gap-4">
               <hr />
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-primary font-Bold">
                 {CategorizationData.data.map((item, index) => (
                   <button
                     key={index}
-                    className="py-2 rounded-md border-[1px] border-black flex items-center lg:flex-row justify-center gap-2"
+                    className=" py-2 rounded-md border-[1px] custom_border flex items-center lg:flex-row justify-center gap-2"
                   >
-                    <span className="tracking-widest uppercase text-xs xl:text-sm ">
+                    <span className=" tracking-widest uppercase text-xs xl:text-sm ">
                       {item.title}:
                     </span>
                     <span className="font-Bold text-xs xl:text-sm uppercase tracking-widest">
@@ -76,9 +76,7 @@ function VillaPanorama() {
               <hr />
             </div>
             <div className="py-10">
-              <h2 className="font-bold text-2xl text-dark_blue_black mb-4">
-                {}
-              </h2>
+              <h2 className="font-bold text-2xl text-primary mb-4">{}</h2>
               <p>
                 <Markdown>{Villa_DescriptionData.data[0].des}</Markdown>
               </p>
@@ -98,7 +96,7 @@ function VillaPanorama() {
             </div>
             <hr />
             <div className="py-10">
-              <h2 className="font-bold text-2xl text-dark_blue_black">
+              <h2 className="font-bold text-2xl text-primary">
                 {FeaturesTitleData.data[0].title}
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2">
@@ -130,24 +128,22 @@ function VillaPanorama() {
             </div>
             <hr />
             <div className="py-10">
-              <h2 className="font-bold text-2xl text-dark_blue_black mb-4">
+              <h2 className="font-bold text-2xl text-primary mb-4">
                 {PricelistData.data[0].title}
               </h2>
               <PriceTable />
-              <p className="text-grey1 text-sm mt-4">
-                {PricelistData.data[0].subtitle}
-              </p>
+              <p className=" text-sm mt-4">{PricelistData.data[0].subtitle}</p>
             </div>
             <hr />
             <div className="py-10">
-              <h2 className="font-bold text-2xl text-dark_blue_black mb-4">
+              <h2 className="font-bold text-2xl text-primary mb-4">
                 {PaymentConditionsData.data[0].title}
               </h2>
               <PaymentConditions />
             </div>
             <hr />
             <div className="py-10">
-              <h2 className="font-bold text-2xl text-dark_blue_black mb-4">
+              <h2 className="font-bold text-2xl text-primary mb-4">
                 {TitleData.data[0].title2}
               </h2>
               <div className="h-[400px] rounded-md overflow-hidden lg:mb-[40px]">
@@ -162,7 +158,7 @@ function VillaPanorama() {
           </div>
         </div>
         {/* <div className="container py-10 mb-24">
-          <h2 className="block text-center font-bold text-2xl text-dark_blue_black mb-6">
+          <h2 className="block text-center font-bold text-2xl text-primary mb-6">
             {TitleData.data[0].title3}
           </h2>
           <AvailabilityCalendar />

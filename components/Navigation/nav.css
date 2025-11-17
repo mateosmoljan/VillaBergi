@@ -1,68 +1,68 @@
 .nav_list {
-    @apply text-grey hover:text-dark_blue_black font-semibold text-sm relative block;
-  }
-  .nav_list.after::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 100%;
-    height: 2px;
-    border-radius: 10px;
-    background-color: #343a40;
-  }
+  @apply text-text_secondary hover:text-text_primary font-semibold text-sm relative block;
+}
+.nav_list.after::after {
+  @apply bg-text_primary;
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  height: 2px;
+  border-radius: 10px;
+  /* background-color: #343a40; */
+}
 
-  .transleteNav {
-    @apply -translate-y-full transition-transform;
-  }
-  
-  .transleteNavUp {
-    @apply  transform-none transition-transform;
-  }
-  
-  .active_nav {
-    @apply !text-black relative;
-  }
+.transleteNav {
+  @apply -translate-y-full transition-transform;
+}
 
+.transleteNavUp {
+  @apply transform-none transition-transform;
+}
 
-  .hover_nav {
-    position: relative;
-  }
+.active_nav {
+  @apply !text-text_primary relative;
+}
 
+.hover_nav {
+  position: relative;
+}
 
-  .hover_nav:after {
-    content: "";
-    display: block;
-    width: 0%;
-    height: 2px;
-    background: #000;
-    position: absolute;
-    opacity: 0;
-    left: 0;
-    bottom: -5px;
-    transition: all 300ms ; 
-  }
+.hover_nav:after {
+  @apply bg-text_primary;
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  /* background: #000; */
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  bottom: -5px;
+  transition: all 300ms;
+}
 
-  .hover_nav:hover:after {
-    width: 100%;
-    opacity: 1;
-  }
+.hover_nav:hover:after {
+  width: 100%;
+  opacity: 1;
+}
 
-
-  .active_nav:after {
-    content: "";
-    display: block !important;
-    width: 100%;
-    height: 2px;
-    background: #000;
-    margin:0;
-    bottom: -5px;
-    position: absolute;
-    transition: width 200 ms ease-in-out;
-  }
+.active_nav:after {
+  @apply bg-text_primary;
+  content: "";
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  /* background: #000; */
+  margin: 0;
+  bottom: -5px;
+  position: absolute;
+  transition: width 200 ms ease-in-out;
+}
 
 .Mui-focusVisible {
-  outline: none!important;
+  outline: none !important;
 }
 
 .nav_switch .MuiSelect-select {
@@ -75,4 +75,25 @@
 
 .drawer_custom {
   --Drawer-verticalSize: "300px" !important;
+}
+
+/* Translate Nav */
+.transitionMap {
+  transition: background 0.3s ease-in;
+}
+
+.transitionMap {
+  animation: translateMap 0.3s ease-in;
+}
+
+@keyframes translateMap {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 100;
+  }
 }

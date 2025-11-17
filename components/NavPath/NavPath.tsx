@@ -9,12 +9,12 @@ type Props = {
 function NavPath({ homePage = false }: Props) {
   const pathname = usePathname();
   return (
-    <div className="b bg-gray-100 py-3 px-4 sm:px-8">
+    <div className="b secondary-bg py-3 px-4 sm:px-8">
       <div className="flex items-center gap-2 container">
-        <Link href="/" className="text-dark_blue_black">
+        <Link href="/" className="text-secondary">
           <FaHome />
         </Link>
-        <Link href={pathname} className="text-dark_blue_black">
+        <Link href={pathname} className="text-secondary">
           {!homePage && (
             <div className="flex items-center gap-2">
               <span className="text-xl"> {">"} </span>

@@ -8,7 +8,7 @@ function ContactInfo() {
     <section className="sticky top-14 sm:px-3">
       <div className=" rounded-md custom_border shadow-md px-4 pt-8 pb-5 hover:shadow-xl">
         <div className="ml-4 mb-4">
-          <h2 className="mb-4 font-titleBold text-xl"></h2>
+          <h2 className="mb-4 font-titleBold text-xl">Valter Brgić</h2>
           <span className="text-sm">
             ( {/* {ContactData.data[0].contact_person} */}
             contact person )

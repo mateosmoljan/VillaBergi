@@ -11,11 +11,11 @@ function Environs() {
   const LocationsData = getLocationsData(localeActive);
   const EnvironsData = getEnvironsData(localeActive);
   return (
-    <section className="pt-16 md:pt-14">
+    <section className="pt-16 md:pt-14 text-secondary">
       <NavPath />
       <div className="container">
         <div>
-          <h1 className="mt-12 flex justify-center text-3xl sm:text-4xl font-ExtraBold text-dark_blue_black tracking-wider">
+          <h1 className="mt-12 flex justify-center text-3xl sm:text-4xl font-ExtraBold text-primary tracking-wider">
             {EnvironsData.data[0].title}
           </h1>
         </div>

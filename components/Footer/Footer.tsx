@@ -56,7 +56,7 @@ function Footer() {
             {t("Contact_Us.title")}
           </h2>
           <ul className="space-y-4">
-            <li></li>
+            <li>Valter Brgić</li>
             <li>Istria, Žminj, Damijanići 6, 52341, Žminj</li>
             {/* <li>+(385) 98 263 136</li> */}
             <li>villa.bergi.wb@gmail.com</li>

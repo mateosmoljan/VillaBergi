@@ -7,10 +7,10 @@ import { useTranslations } from "next-intl";
 function Photogallery() {
   const t = useTranslations("Titles");
   return (
-    <section className="pt-16 md:pt-14">
+    <section className="pt-16 md:pt-14 text-secondary">
       <NavPath />
       <div className="">
-        <h2 className="mt-12 font-ExtraBold text-center text-4xl text-dark_blue_black tracking-wider">
+        <h2 className="mt-12 font-ExtraBold text-center text-4xl text-primary tracking-wider">
           {t("Photogallery")}
         </h2>
         <div>

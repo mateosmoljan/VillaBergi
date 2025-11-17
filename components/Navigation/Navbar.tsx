@@ -54,7 +54,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`bg-white flex place-content-between sm:px-8 px-4 w-full py-2 fixed z-40 ${
+        className={`secondary-bg flex place-content-between sm:px-8 px-4 w-full py-2 fixed z-40 ${
           open ? "shadow-none" : "shadow-md"
         } ${visible ? "transleteNavUp" : "transleteNav"}`}
       >
@@ -66,8 +66,8 @@ const Navbar = () => {
             height={40}
             className="object-contain"
           />
-          <p className="font-arbutus font-black text-2xl text-yellow">
-            <span className="text-dark_blue_black">Villa</span>
+          <p className="font-arbutus font-black text-2xl accent-primary">
+            <span className="text-primary">Villa</span>
             Bergi
           </p>
         </Link>
@@ -112,7 +112,7 @@ const Navbar = () => {
               toggle={setOpen}
               label="Show menu"
               size={24}
-              color="#343a40"
+              color="#ffffff"
               rounded
             />
           </button>
@@ -124,7 +124,7 @@ const Navbar = () => {
         onClose={toggleDrawer(false)}
         className=" drawer_custom translate-y-[64px] !z-30"
       >
-        <div className={`bg-white w-full px-3  py-3 shadow-md`}>
+        <div className={`secondary-bg w-full px-3  py-3 shadow-md`}>
           <ul className="flex flex-col gap-4">
             {navigationLinks.NavData.map((item, index) => (
               <li key={index} className={`flex `}>

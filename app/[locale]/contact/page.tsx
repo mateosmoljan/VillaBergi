@@ -10,7 +10,7 @@ function Contact() {
     <section className="pt-16 md:pt-14">
       <NavPath />
       <div className="container">
-        <h1 className="mt-12 font-ExtraBold text-center text-4xl text-dark_blue_black mb-12 tracking-wider">
+        <h1 className="mt-12 font-ExtraBold text-center text-4xl text-primary mb-12 tracking-wider">
           {c("title")}
         </h1>
         <div className="flex flex-col sm:flex-row gap-3">

@@ -11,10 +11,10 @@ function About() {
   return (
     <section className="pt-20 Visit" id="about">
       <div className="container">
-        <h1 className="flex justify-center font-arbutus text-3xl sm:text-4xl font-bold text-dark_blue_black">
+        <h1 className="flex justify-center font-arbutus text-3xl sm:text-4xl font-bold text-primary">
           {t("homepage_title")}
         </h1>
-        <div className="pt-10">
+        <div className="pt-10 text-secondary">
           <Markdown>{a("des")}</Markdown>
           <br />
           {/* <h2 className="font-ExtraBold text-lg">
@@ -27,9 +27,9 @@ function About() {
           <h2 className="font-ExtraBold text-lg">{a("guest_access.title")}</h2>
           <p>{a("guest_access.des")}</p>
         </div>
-        <div className="pt-5">
+        <div className="pt-5 text-secondary">
           <h2 className="font-ExtraBold">{a("locations.title")}</h2>
-          <ul className="list-disc	p-3 pl-8">
+          <ul className="list-disc	p-3 pl-8 ">
             {LocationsData.locations.map((item, index) => (
               <li key={index} className="mb-2 Visit">
                 {item.placeToVisit} {item.des}

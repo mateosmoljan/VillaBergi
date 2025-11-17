@@ -14,6 +14,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { SwiperNavButtons } from "./SwiperNavButton";
 import { getHeadSwiperLib } from "@/lib/HeadSwiperLib";
 import { useLocale } from "next-intl";
+import "./style.css";
 
 export default function HeadSwiper() {
   const localeActive = useLocale();
