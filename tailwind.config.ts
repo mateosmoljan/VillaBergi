@@ -41,7 +41,8 @@ const config: Config = {
         arbutus: ["var(--font-arbutus)"],
       },
       colors: {
-        background: "#001f3f",
+        // background: "#001f3f",
+        background: "#654321",
         secondary_background: "#0a192f",
         surface: "#1e293b",
         text_primary: "#ffffff",
