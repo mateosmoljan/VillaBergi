@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 function Footer() {
   const t = useTranslations("Footer");
   return (
-    <section className="flex relative justify-center bg-dark_blue_black xl:px-20 pb-10 xl:pb-20 ">
+    <section className="flex relative justify-center bg-dark_blue_black xl:px-20 pb-10 xl:pb-20 mt-20">
       <FooterSvg />
       <div className="pt-8 max-w-screen-2xl grid w-full text-white sm:grid-cols-2 gap-y-8 lg:grid-cols-4 place-items-center">
         <div className="h-full relative pl-5 sm:pl-0 w-full sm:w-3/5 lg:w-auto">
@@ -56,7 +56,6 @@ function Footer() {
             {t("Contact_Us.title")}
           </h2>
           <ul className="space-y-4">
-            <li>Valter Brgić</li>
             <li>Istria, Žminj, Damijanići 6, 52341, Žminj</li>
             {/* <li>+(385) 98 263 136</li> */}
             <li>villa.bergi.wb@gmail.com</li>
