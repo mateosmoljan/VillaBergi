@@ -1,4 +1,3 @@
-"use client";
 import { getPriceTableData } from "@/lib/priceTable";
 import { useLocale } from "next-intl";
 
