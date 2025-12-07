@@ -38,6 +38,7 @@ export default function PriceTable() {
   const PriceTableData = getPriceTableData(localeActive);
   return (
     <TableContainer
+      color="white"
       component={Paper}
       className=" bg-secondary_background text-primary p-2 !border-none"
     >
