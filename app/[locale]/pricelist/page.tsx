@@ -24,7 +24,9 @@ function Pricelist() {
           <h2 className="font-ExtraBold text-center text-4xl text-primary mb-12 tracking-wider">
             {TitleData.data[0].title4}
           </h2>
+
           <PriceTable />
+
           <p className="text-secondary text-sm mt-4">
             {PricelistData.data[0].subtitle}
           </p>

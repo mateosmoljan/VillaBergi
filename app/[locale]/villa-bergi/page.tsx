@@ -133,7 +133,9 @@ function VillaPanorama() {
               <h2 className="font-bold text-2xl text-primary mb-4">
                 {PricelistData.data[0].title}
               </h2>
+
               <PriceTable />
+
               <p className=" text-sm mt-4">{PricelistData.data[0].subtitle}</p>
             </div>
             <hr />

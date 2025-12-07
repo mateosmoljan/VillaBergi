@@ -1,3 +1,4 @@
+"use client";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -7,6 +8,10 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { getPriceTableData } from "@/lib/priceTable";
 import { useLocale } from "next-intl";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "@/lib/theme";
+import { use } from "react";
 
 function createData(
   period: string,
@@ -37,76 +42,72 @@ export default function PriceTable() {
   const localeActive = useLocale();
   const PriceTableData = getPriceTableData(localeActive);
   return (
-    <TableContainer
-      color="white"
-      component={Paper}
-      className=" bg-secondary_background text-primary p-2 !border-none"
-    >
-      <Table
-        aria-label="Pricing Table "
-        className="bg-secondary_background text-primary !border-none"
-      >
-        <TableHead className="bg-secondary_background">
-          <TableRow className=" !font-titleBold border-b-2">
-            <TableCell className="text-primary !font-titleBold !py-2 px-0 w-[160px] text-center">
-              {PriceTableData.data[0].title}
-            </TableCell>
-            <TableCell
-              align="right"
-              className="text-primary !font-titleBold !py-2 px-0 w-[112px] text-center"
-            >
-              {PriceTableData.data[0].title2}
-            </TableCell>
-            <TableCell
-              align="right"
-              className="text-primary !font-titleBold !py-2 px-0 w-[112px] text-center"
-            >
-              {PriceTableData.data[0].title3}
-            </TableCell>
-            <TableCell
-              align="right"
-              className="text-primary !font-titleBold py-2 px-0 w-[112px] text-center"
-            >
-              {PriceTableData.data[0].title4}
-            </TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow
-              key={row.period}
-              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
-              className="border-b-2 border-b-text_secondary/20"
-            >
-              <TableCell
-                component="th"
-                scope="row"
-                className="text-secondary px-0 !font-Bold !py-2 text-center"
-              >
-                {row.period}
-              </TableCell>
-              <TableCell
-                align="right"
-                className="text-secondary px-0 !font-ExtraBold !py-2 text-center"
-              >
-                {row.price} €
-              </TableCell>
-              <TableCell
-                align="right"
-                className="text-secondary px-0 !font-Bold !py-2 text-center"
-              >
-                {row.persons}
-              </TableCell>
-              <TableCell
-                align="right"
-                className="text-secondary px-0 !font-Bold !py-2 text-center"
-              >
-                {row.stay}
-              </TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <AppRouterCacheProvider>
+      <ThemeProvider theme={theme}>
+        <TableContainer component={Paper} className=" text-primary p-2">
+          <Table aria-label="Pricing Table " className="text-primary">
+            <TableHead className="primary-bg secondary-bg">
+              <TableRow className=" !font-titleBold border-b-2 p2 ">
+                <TableCell className=" !font-titleBold !py-2 px-0 w-[160px] text-center">
+                  {PriceTableData.data[0].title}
+                </TableCell>
+                <TableCell
+                  align="right"
+                  className="text-primary !font-titleBold !py-2 px-0 w-[112px] text-center"
+                >
+                  {PriceTableData.data[0].title2}
+                </TableCell>
+                <TableCell
+                  align="right"
+                  className="text-primary !font-titleBold !py-2 px-0 w-[112px] text-center"
+                >
+                  {PriceTableData.data[0].title3}
+                </TableCell>
+                <TableCell
+                  align="right"
+                  className="text-primary !font-titleBold py-2 px-0 w-[112px] text-center"
+                >
+                  {PriceTableData.data[0].title4}
+                </TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody className="secondary-bg">
+              {rows.map((row) => (
+                <TableRow
+                  key={row.period}
+                  className="border-b-2 border-b-text_secondary/20"
+                >
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    className="text-secondary px-0 !font-Bold !py-2 text-center"
+                  >
+                    {row.period}
+                  </TableCell>
+                  <TableCell
+                    align="right"
+                    className="text-secondary px-0 !font-ExtraBold !py-2 text-center"
+                  >
+                    {row.price} €
+                  </TableCell>
+                  <TableCell
+                    align="right"
+                    className="text-secondary px-0 !font-Bold !py-2 text-center"
+                  >
+                    {row.persons}
+                  </TableCell>
+                  <TableCell
+                    align="right"
+                    className="text-secondary px-0 !font-Bold !py-2 text-center"
+                  >
+                    {row.stay}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </ThemeProvider>
+    </AppRouterCacheProvider>
   );
 }

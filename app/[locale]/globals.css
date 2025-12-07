@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer theme, base, mui, components, utilities;
+@layer base {
+  :root {
+    --titleBold: 700;
+    --Bold: 600;
+    --ExtraBold: 800;
+    --font-poppins: "Poppins", sans-serif;
+  }
+}
 :root {
   --titleBold: 700;
   --PRegular: 400;

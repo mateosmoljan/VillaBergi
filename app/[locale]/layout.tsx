@@ -1,4 +1,4 @@
-import React from "react";
+import React, { use } from "react";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Arbutus_Slab, Poppins } from "next/font/google";
