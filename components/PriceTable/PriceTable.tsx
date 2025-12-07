@@ -39,11 +39,14 @@ export default function PriceTable() {
   return (
     <TableContainer
       component={Paper}
-      className=" secondary-bg text-primary p-2"
+      className=" bg-secondary_background text-primary p-2 !border-none"
     >
-      <Table aria-label="Pricing Table " className="secondary-bg text-primary">
-        <TableHead className="secondary-bg">
-          <TableRow className=" !font-titleBold border-b-2 border-b-text_secondary/50">
+      <Table
+        aria-label="Pricing Table "
+        className="bg-secondary_background text-primary"
+      >
+        <TableHead className="bg-secondary_background">
+          <TableRow className=" !font-titleBold border-b-2">
             <TableCell className="text-primary !font-titleBold !py-2 px-0 w-[160px] text-center">
               {PriceTableData.data[0].title}
             </TableCell>
