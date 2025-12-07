@@ -43,7 +43,7 @@ export default function PriceTable() {
     >
       <Table
         aria-label="Pricing Table "
-        className="bg-secondary_background text-primary"
+        className="bg-secondary_background text-primary !border-none"
       >
         <TableHead className="bg-secondary_background">
           <TableRow className=" !font-titleBold border-b-2">
