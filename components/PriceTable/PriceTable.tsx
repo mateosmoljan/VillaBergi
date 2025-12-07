@@ -13,8 +13,8 @@ function createData(
 const rows = [
   createData("03.01. - 31.01.", 300, 10, 5),
   createData("01.02. - 28.02.", 300, 10, 5),
-  createData("01.03. - 31.03.", 350, 10, 5),
-  createData("01.04. - 30.04.", 300, 10, 5),
+  createData("01.03. - 31.03.", 300, 10, 5),
+  createData("01.04. - 30.04.", 350, 10, 5),
   createData("01.05. - 31.05.", 350, 10, 5),
   createData("01.06. - 30.06.", 450, 10, 5),
   createData("01.07. - 31.07.", 800, 10, 5),
