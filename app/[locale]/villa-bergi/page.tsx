@@ -109,11 +109,13 @@ function VillaPanorama() {
                         : ""
                     }`}
                   >
-                    <Image src={item.icon} alt={item.icon_alt} />
+                    <div className="rounded-full p-2 bg-white">
+                      <Image src={item.icon} alt={item.icon_alt} />
+                    </div>
                     <li className={`py-4 flex flex-col justify-center`}>
                       {item.titles}
 
-                      <span className="text-sm text-grey">{item.des}</span>
+                      <span className="text-sm text-secondary">{item.des}</span>
                     </li>
                   </div>
                 ))}

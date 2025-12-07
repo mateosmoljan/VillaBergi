@@ -7,13 +7,13 @@ function ContactInfo() {
   return (
     <section className="sticky top-14 sm:px-3">
       <div className=" rounded-md custom_border shadow-md px-4 pt-8 pb-5 hover:shadow-xl">
-        {/* <div className="ml-4 mb-4">
-           <h2 className="mb-4 font-titleBold text-xl">Valter Brgić</h2>
-           <span className="text-sm">
+        <div className="ml-4 mb-4">
+          <h2 className="mb-4 font-titleBold text-xl">Valter</h2>
+          <span className="text-sm">
             ( {ContactData.data[0].contact_person}
             contact person )
           </span>
-        </div> */}
+        </div>
         <div>
           <ul className="flex flex-col gap-3">
             <li>
@@ -23,13 +23,15 @@ function ContactInfo() {
                 Istria, Žminj, Damijanići 6, 52341, Žminj
               </span>
             </li>
-            {/* <li> */}
-            {/* {ContactData.data[0].mobile} */}
-            {/* Mobile:{" "}
-              <span className="text-yellow font-Bold">+(385) 98 263 136</span>
-            </li> */}
             <li>
-              {/* {ContactData.data[0].email_info} */}
+              {/* {ContactData.data[0].mobile} */}
+              Mobile:{" "}
+              <span className="text-accent_primary font-Bold">
+                +(385) 99 371 7777
+              </span>
+            </li>
+            <li>
+              {/* {ContactData.data[0].email_info}
               Email:{" "}
               <span className="font-Bold text-yellow">
                 villa.bergi.wb@gmail.com
