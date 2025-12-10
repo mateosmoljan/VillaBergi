@@ -46,7 +46,7 @@ function PropertyCard() {
         </p>
         <p className="text-sm text-secondary">
           {AccommodationsData.data[0].card_des2}{" "}
-          <span className="font-bold accent-primary text-xl">140 €</span>{" "}
+          <span className="font-bold accent-primary text-xl">300 €</span>{" "}
           {AccommodationsData.data[0].card_des3}
         </p>
       </div>

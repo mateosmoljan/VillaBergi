@@ -152,7 +152,7 @@
     "title11": "Outdoor Area",
     "title12": "Parking and Facilities",
     "title13": "Services",
-    "title14": "Not Included",
+    "title14": "Safety",
     "button": "Show all 43 amenities",
     "card": {
       "title": [
@@ -246,9 +246,7 @@
         "For guest comfort on early arrival or late checkout",
         "",
         "Stay of 28 days or longer allowed",
-        "",
-        "No smoke detector on the property.",
-        "No carbon monoxide detector on the property."
+        ""
       ]
     }
   },

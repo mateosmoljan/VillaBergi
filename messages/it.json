@@ -142,7 +142,7 @@
     "title11": "Spazio esterno",
     "title12": "Parcheggio e servizi",
     "title13": "Servizi",
-    "title14": "Non inclusi",
+    "title14": "Sicurezza",
     "button": "Mostra tutti i 43 servizi",
     "card": {
       "title": [
@@ -236,9 +236,7 @@
         "Comodità per arrivi anticipati o partenze ritardate",
         "",
         "Soggiorno di 28 giorni o più consentito",
-        "",
-        "Nessun rilevatore di fumo in loco",
-        "Nessun rilevatore di monossido di carbonio in loco"
+        ""
       ]
     }
   },

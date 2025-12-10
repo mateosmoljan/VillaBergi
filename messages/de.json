@@ -147,7 +147,7 @@
     "title11": "Außenbereich",
     "title12": "Parken & Einrichtungen",
     "title13": "Serviceleistungen",
-    "title14": "Nicht inbegriffen",
+    "title14": "Sicherheit",
     "button": "Alle 43 Annehmlichkeiten anzeigen",
     "card": {
       "title": [
@@ -241,9 +241,7 @@
         "Für Gäste, die früh anreisen oder spät abreisen",
         "",
         "Aufenthalt von 28 Tagen oder länger erlaubt",
-        "",
-        "Auf dem Grundstück sind keine Rauchmelder installiert.",
-        "Auf dem Grundstück sind keine Kohlenmonoxidmelder installiert."
+        ""
       ]
     }
   },

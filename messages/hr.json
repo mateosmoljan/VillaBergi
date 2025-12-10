@@ -146,7 +146,7 @@
     "title11": "Vanjski prostor",
     "title12": "Parkiranje i sadržaji",
     "title13": "Usluge",
-    "title14": "Nisu uključeni",
+    "title14": "Sigurnost",
     "button": "Prikaži sve 43 pogodnosti",
     "card": {
       "title": [
@@ -240,9 +240,7 @@
         "Za udobnost gostiju kada imaju ran dolazak ili kasni odlazak",
         "",
         "Dopušten boravak od 28 dana ili duže",
-        "",
-        "Na imanju nema detektora dima.",
-        "Na imanju nema detektora ugljikovog monoksida."
+        ""
       ]
     }
   },
