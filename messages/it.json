@@ -288,7 +288,30 @@
     "button": "Mostra Mappa",
     "title2": "Come arrivare",
     "des2": "La villa è raggiungibile in auto o taxi. Il parcheggio è gratuito e disponibile in loco.",
-    "subtitle": "Attrazioni nelle vicinanze"
+    "subtitle": "Attrazioni nelle vicinanze",
+    "rovinj_title": "Rovigno",
+    "rovinj": {
+      "title1": "1. La Città Vecchia era un'isola",
+      "des1": "Fino al XVIII secolo Rovigno era una vera isola. Nel 1763 gli Austriaci riempirono il canale e la collegarono alla terraferma. Per questo le strade sono così strette e tortuose – progettate per la difesa, non per il comfort.",
+
+      "title2": "2. Il campanile di Sant'Eufemia",
+      "des2": "La chiesa di Sant’Eufemia ha il campanile più alto dell’Istria – 62 metri – e la statua di Sant’Eufemia in cima ruota a seconda della direzione del vento.",
+
+      "title3": "3. Case direttamente sul mare",
+      "des3": "Nel centro storico molte case hanno porte e finestre direttamente sul mare, tipiche dei vecchi borghi di pescatori veneziani e una delle attrazioni più iconiche di Rovigno.",
+
+      "title4": "4. Batana – imbarcazione tradizionale",
+      "des4": "La batana è una piccola imbarcazione di legno con il fondo piatto, simbolo della tradizione peschereccia di Rovigno. Ha un suo Ecomuseo inserito nella lista UNESCO del patrimonio immateriale.",
+
+      "title5": "5. Arco dei Balbi",
+      "des5": "L’Arco dei Balbi del XVII secolo segna l’ingresso alla città vecchia. Presenta teste scolpite di un Turco e di un Veneziano, memoria del dominio veneziano.",
+
+      "title6": "6. Punta Corrente – parco forestale",
+      "des6": "Punta Corrente (Golden Cape) è uno dei luoghi più belli per passeggiare e andare in bicicletta in Istria, famoso per la pineta, le calette e il mare cristallino.",
+
+      "title7": "7. Tramonti romantici",
+      "des7": "Rovigno è considerata una delle città più romantiche d’Europa grazie alle viste sul mare, alle pittoresche viuzze e agli spettacolari tramonti."
+    }
   },
   "PriceTable": {
     "title": "Periodo",

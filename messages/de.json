@@ -293,7 +293,30 @@
     "button": "Karte anzeigen",
     "title2": "Anreise",
     "des2": "Die Villa ist mit dem Auto oder Taxi erreichbar. Parkplätze sind kostenlos und vor Ort verfügbar.",
-    "subtitle": "Sehenswürdigkeiten in der Nähe"
+    "subtitle": "Sehenswürdigkeiten in der Nähe",
+    "rovinj_title": "Rovinj",
+    "rovinj": {
+      "title1": "1. Die Altstadt war eine Insel",
+      "des1": "Bis zum 18. Jahrhundert war Rovinj tatsächlich eine Insel. Im Jahr 1763 füllten die Österreicher den Kanal auf und verbanden sie mit dem Festland. Deshalb sind die Gassen so eng und verwinkelt – sie wurden zur Verteidigung gebaut, nicht für Komfort.",
+
+      "title2": "2. Der Glockenturm der Hl. Euphemia",
+      "des2": "Die Kirche der Hl. Euphemia besitzt den höchsten Glockenturm in Istrien – 62 Meter – und die Statue der Hl. Euphemia an der Spitze dreht sich je nach Windrichtung.",
+
+      "title3": "3. Häuser direkt am Meer",
+      "des3": "In der Altstadt haben viele Häuser Türen und Fenster direkt zum Meer hin, typisch für alte venezianische Fischerstädtchen und eines der bekanntesten Wahrzeichen Rovinjs.",
+
+      "title4": "4. Batana – traditionelles Boot",
+      "des4": "Die Batana ist ein kleines Holzboot mit flachem Boden, ein Symbol der rovinjer Fischereitradition. Sie hat ihr eigenes Ökomuseum, das auf der UNESCO-Liste des immateriellen Kulturerbes steht.",
+
+      "title5": "5. Balbi-Bogen",
+      "des5": "Der Balbi-Bogen aus dem 17. Jahrhundert markiert den Eingang zur Altstadt. Er trägt eingemeißelte Köpfe eines Türken und eines Venezianers – eine Erinnerung an die venezianische Herrschaft.",
+
+      "title6": "6. Goldenes Kap – Parkwald",
+      "des6": "Das Goldene Kap (Punta Corrente) ist einer der schönsten Orte zum Spazieren und Radfahren in Istrien, bekannt für seinen Pinienwald, Buchten und das kristallklare Meer.",
+
+      "title7": "7. Romantische Sonnenuntergänge",
+      "des7": "Rovinj gilt als eine der romantischsten Städte Europas – dank seiner Meeresblicke, malerischen engen Gassen und spektakulären Sonnenuntergänge."
+    }
   },
   "PriceTable": {
     "title": "Zeitraum",

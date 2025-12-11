@@ -292,7 +292,30 @@
     "button": "Prikaži Kartu",
     "title2": "Kretanje",
     "des2": "Vilu možete doseći automobilom ili taksijem. Parkiranje je besplatno i dostupno na licu mjesta.",
-    "subtitle": "Zanimljivosti u blizini"
+    "subtitle": "Zanimljivosti u blizini",
+    "rovinj_title": "Rovinj",
+    "rovinj": {
+      "title1": "1. Stari grad je bio otok",
+      "des1": "Rovinj je sve do 18. stoljeća bio pravi otok. Tek 1763. Austrijanci su zatrpali kanal i spojili ga s kopnom. Zato su ulice tako uske i zavojite – pravljene su za obranu, ne za udobnost.",
+
+      "title2": "2. Zvonik sv. Eufemije",
+      "des2": "Crkva sv. Eufemije ima najviši zvonik u Istri – 62 metra – a kip sv. Eufemije na vrhu okreće se ovisno o smjeru vjetra.",
+
+      "title3": "3. Kuće na samom moru",
+      "des3": "U starom gradu mnoge kuće imaju vrata i prozore direktno na more, što je tipično za stare venecijanske ribarske gradove i jedna od najpoznatijih rovinjskih atrakcija.",
+
+      "title4": "4. Batana – tradicionalni brod",
+      "des4": "Batana je mali drveni brod ravan na dnu, simbol rovinjske ribarske tradicije. Ima svoj Ekomuzej koji je upisan na UNESCO listu nematerijalne baštine.",
+
+      "title5": "5. Balbijev luk",
+      "des5": "Balbijev luk iz 17. stoljeća označava ulaz u stari grad. Na sebi ima uklesane glave Turčina i Mlečana, podsjetnik na mletačku vladavinu.",
+
+      "title6": "6. Zlatni rt – park-šuma",
+      "des6": "Zlatni rt (Punta Corrente) jedno je od najljepših mjesta za šetnju i vožnju biciklom u Istri, poznat po borovoj šumi, uvalama i kristalno čistom moru.",
+
+      "title7": "7. Romantični zalasci",
+      "des7": "Rovinj se svrstava među najromantičnije gradove Europe zahvaljujući pogledima na more, fotogeničnim uličicama i spektakularnim zalascima sunca."
+    }
   },
   "PriceTable": {
     "title": "Razdoblje",

@@ -298,7 +298,30 @@
     "button": "Show Map",
     "title2": "Getting Around",
     "des2": "The villa can be reached by car or taxi. Free parking is available on-site.",
-    "subtitle": "Nearby Attractions"
+    "subtitle": "Nearby Attractions",
+    "rovinj_title": "Rovinj",
+    "rovinj": {
+      "title1": "1. The Old Town Was an Island",
+      "des1": "Until the 18th century, Rovinj was a real island. In 1763 the Austrians filled in the channel and connected it to the mainland. That's why the streets are so narrow and winding – designed for defense, not comfort.",
+
+      "title2": "2. St. Euphemia’s Bell Tower",
+      "des2": "The Church of St. Euphemia has the tallest bell tower in Istria – 62 meters – and the statue of St. Euphemia on top rotates depending on the wind direction.",
+
+      "title3": "3. Houses Directly on the Sea",
+      "des3": "In the Old Town, many houses have doors and windows directly on the sea, typical of old Venetian fishing towns and one of Rovinj’s most iconic sights.",
+
+      "title4": "4. Batana – Traditional Boat",
+      "des4": "The batana is a small flat-bottomed wooden boat, a symbol of Rovinj’s fishing tradition. It has its own Ecomuseum listed on the UNESCO Intangible Heritage list.",
+
+      "title5": "5. Balbi’s Arch",
+      "des5": "Balbi’s Arch from the 17th century marks the entrance to the Old Town. It features carved heads of a Turk and a Venetian, a reminder of Venetian rule.",
+
+      "title6": "6. Golden Cape – Park Forest",
+      "des6": "Golden Cape (Punta Corrente) is one of the most beautiful places for walking and cycling in Istria, known for its pine forest, coves, and crystal-clear sea.",
+
+      "title7": "7. Romantic Sunsets",
+      "des7": "Rovinj is considered one of the most romantic towns in Europe thanks to its sea views, picturesque narrow streets, and spectacular sunsets."
+    }
   },
   "PriceTable": {
     "title": "Period",
