@@ -300,6 +300,7 @@
     "des2": "The villa can be reached by car or taxi. Free parking is available on-site.",
     "subtitle": "Nearby Attractions",
     "rovinj_title": "Rovinj",
+    "bale_title": "Bale",
     "rovinj": {
       "title1": "1. The Old Town Was an Island",
       "des1": "Until the 18th century, Rovinj was a real island. In 1763 the Austrians filled in the channel and connected it to the mainland. That's why the streets are so narrow and winding – designed for defense, not comfort.",
@@ -321,6 +322,28 @@
 
       "title7": "7. Romantic Sunsets",
       "des7": "Rovinj is considered one of the most romantic towns in Europe thanks to its sea views, picturesque narrow streets, and spectacular sunsets."
+    },
+    "bale": {
+      "title1": "1. A Stone Town with a Rich History",
+      "des1": "Bale is a small medieval stone town with a history dating back to Roman times. Its narrow streets and stone houses preserve the authentic spirit of Istria.",
+
+      "title2": "2. Castrum Vallis",
+      "des2": "The town was once known as Castrum Vallis, meaning fortress in the valley. Bale used to be an important defensive and strategic center.",
+
+      "title3": "3. Dinosaur Fossils",
+      "des3": "Numerous dinosaur fossils have been found in the Bale area, including remains of brachiosaurus, making it a unique place in Europe.",
+
+      "title4": "4. Artistic and Cultural Center",
+      "des4": "Bale is known as a town of artists, with many galleries, studios, and cultural events held throughout the year.",
+
+      "title5": "5. Church of the Blessed Virgin Mary",
+      "des5": "The Parish Church of the Blessed Virgin Mary dominates the old town and is an important historical and cultural landmark.",
+
+      "title6": "6. Untouched Nature Nearby",
+      "des6": "The surroundings of Bale are filled with olive groves, vineyards, and natural landscapes ideal for walking, cycling, and exploring Istria.",
+
+      "title7": "7. Peace and Authenticity",
+      "des7": "Bale is a perfect destination for those seeking peace, authentic Istrian atmosphere, and an escape from mass tourism."
     }
   },
   "PriceTable": {

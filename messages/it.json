@@ -290,6 +290,7 @@
     "des2": "La villa è raggiungibile in auto o taxi. Il parcheggio è gratuito e disponibile in loco.",
     "subtitle": "Attrazioni nelle vicinanze",
     "rovinj_title": "Rovigno",
+    "bale_title": "Valle",
     "rovinj": {
       "title1": "1. La Città Vecchia era un'isola",
       "des1": "Fino al XVIII secolo Rovigno era una vera isola. Nel 1763 gli Austriaci riempirono il canale e la collegarono alla terraferma. Per questo le strade sono così strette e tortuose – progettate per la difesa, non per il comfort.",
@@ -311,6 +312,28 @@
 
       "title7": "7. Tramonti romantici",
       "des7": "Rovigno è considerata una delle città più romantiche d’Europa grazie alle viste sul mare, alle pittoresche viuzze e agli spettacolari tramonti."
+    },
+    "bale": {
+      "title1": "1. Borgo in pietra dalla ricca storia",
+      "des1": "Valle è un piccolo borgo medievale in pietra con una storia che risale all’epoca romana. Le sue strette vie e le case in pietra conservano l’autentico spirito dell’Istria.",
+
+      "title2": "2. Castrum Vallis",
+      "des2": "L’antico nome del borgo era Castrum Vallis, che significa fortezza nella valle. Valle era un importante centro difensivo e strategico.",
+
+      "title3": "3. Fossili di dinosauri",
+      "des3": "Nell’area di Valle sono stati ritrovati numerosi fossili di dinosauri, inclusi resti di brachiosauro, rendendo il luogo unico in Europa.",
+
+      "title4": "4. Centro artistico e culturale",
+      "des4": "Valle è conosciuta come città degli artisti, con numerose gallerie, atelier ed eventi culturali durante tutto l’anno.",
+
+      "title5": "5. Chiesa della Beata Vergine Maria",
+      "des5": "La Chiesa Parrocchiale della Beata Vergine Maria domina il centro storico ed è un importante simbolo storico e culturale.",
+
+      "title6": "6. Natura incontaminata nei dintorni",
+      "des6": "Nei dintorni di Valle si trovano uliveti, vigneti e paesaggi naturali ideali per passeggiate, ciclismo ed esplorazioni dell’Istria.",
+
+      "title7": "7. Pace e autenticità",
+      "des7": "Valle è la destinazione ideale per chi cerca tranquillità, autenticità istriana e una fuga dal turismo di massa."
     }
   },
   "PriceTable": {

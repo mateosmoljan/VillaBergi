@@ -294,6 +294,7 @@
     "des2": "Vilu možete doseći automobilom ili taksijem. Parkiranje je besplatno i dostupno na licu mjesta.",
     "subtitle": "Zanimljivosti u blizini",
     "rovinj_title": "Rovinj",
+    "bale_title": "Bale",
     "rovinj": {
       "title1": "1. Stari grad je bio otok",
       "des1": "Rovinj je sve do 18. stoljeća bio pravi otok. Tek 1763. Austrijanci su zatrpali kanal i spojili ga s kopnom. Zato su ulice tako uske i zavojite – pravljene su za obranu, ne za udobnost.",
@@ -315,6 +316,28 @@
 
       "title7": "7. Romantični zalasci",
       "des7": "Rovinj se svrstava među najromantičnije gradove Europe zahvaljujući pogledima na more, fotogeničnim uličicama i spektakularnim zalascima sunca."
+    },
+    "bale": {
+      "title1": "1. Kameni gradić s bogatom poviješću",
+      "des1": "Bale su mali srednjovjekovni gradić izgrađen od kamena, s poviješću koja seže u rimsko doba. Uske ulice i kamene kuće čuvaju autentični duh Istre.",
+
+      "title2": "2. Castrum Vallis",
+      "des2": "Stari naziv mjesta bio je Castrum Vallis, što znači utvrda u dolini. Bale su nekada bile važno obrambeno i strateško središte.",
+
+      "title3": "3. Dino Park i nalazi fosila",
+      "des3": "Na području Bala pronađeni su brojni fosili dinosaura, uključujući kosti brahiosaura, što Bale čini jedinstvenim mjestom u Europi.",
+
+      "title4": "4. Umjetnički i kulturni centar",
+      "des4": "Bale su poznate kao grad umjetnika, s brojnim galerijama, ateljeima i kulturnim događanjima tijekom cijele godine.",
+
+      "title5": "5. Crkva Blažene Djevice Marije",
+      "des5": "Župna crkva Blažene Djevice Marije dominira starom jezgrom mjesta i važan je povijesni i kulturni simbol Bala.",
+
+      "title6": "6. Blizina netaknute prirode",
+      "des6": "U okolici Bala nalaze se maslinici, vinogradi i prirodna područja idealna za šetnje, biciklizam i istraživanje Istre.",
+
+      "title7": "7. Mir i autentičnost",
+      "des7": "Bale su savršena destinacija za one koji traže mir, autentičan istarski ambijent i bijeg od masovnog turizma."
     }
   },
   "PriceTable": {

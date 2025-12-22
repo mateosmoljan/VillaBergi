@@ -295,6 +295,7 @@
     "des2": "Die Villa ist mit dem Auto oder Taxi erreichbar. Parkplätze sind kostenlos und vor Ort verfügbar.",
     "subtitle": "Sehenswürdigkeiten in der Nähe",
     "rovinj_title": "Rovinj",
+    "bale_title": "Bale",
     "rovinj": {
       "title1": "1. Die Altstadt war eine Insel",
       "des1": "Bis zum 18. Jahrhundert war Rovinj tatsächlich eine Insel. Im Jahr 1763 füllten die Österreicher den Kanal auf und verbanden sie mit dem Festland. Deshalb sind die Gassen so eng und verwinkelt – sie wurden zur Verteidigung gebaut, nicht für Komfort.",
@@ -316,6 +317,28 @@
 
       "title7": "7. Romantische Sonnenuntergänge",
       "des7": "Rovinj gilt als eine der romantischsten Städte Europas – dank seiner Meeresblicke, malerischen engen Gassen und spektakulären Sonnenuntergänge."
+    },
+    "bale": {
+      "title1": "1. Steinerne Stadt mit reicher Geschichte",
+      "des1": "Bale ist eine kleine mittelalterliche Stadt aus Stein mit einer Geschichte, die bis in die Römerzeit zurückreicht. Enge Gassen und Steinhäuser bewahren den authentischen Geist Istriens.",
+
+      "title2": "2. Castrum Vallis",
+      "des2": "Der alte Name der Stadt war Castrum Vallis, was Festung im Tal bedeutet. Bale war einst ein wichtiges Verteidigungs- und strategisches Zentrum.",
+
+      "title3": "3. Dinosaurierfossilien",
+      "des3": "In der Umgebung von Bale wurden zahlreiche Dinosaurierfossilien gefunden, darunter Überreste von Brachiosauriern, was den Ort in Europa einzigartig macht.",
+
+      "title4": "4. Künstlerisches und kulturelles Zentrum",
+      "des4": "Bale ist als Künstlerstadt bekannt, mit vielen Galerien, Ateliers und kulturellen Veranstaltungen das ganze Jahr über.",
+
+      "title5": "5. Kirche der Seligen Jungfrau Maria",
+      "des5": "Die Pfarrkirche der Seligen Jungfrau Maria dominiert die Altstadt und ist ein wichtiges historisches und kulturelles Wahrzeichen.",
+
+      "title6": "6. Unberührte Natur in der Umgebung",
+      "des6": "Die Umgebung von Bale ist geprägt von Olivenhainen, Weinbergen und Naturlandschaften – ideal zum Spazierengehen, Radfahren und Erkunden Istriens.",
+
+      "title7": "7. Ruhe und Authentizität",
+      "des7": "Bale ist ein ideales Reiseziel für alle, die Ruhe, authentisches istrisches Ambiente und Abstand vom Massentourismus suchen."
     }
   },
   "PriceTable": {

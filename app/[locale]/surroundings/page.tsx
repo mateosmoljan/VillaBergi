@@ -6,6 +6,7 @@ import { getEnvironsData } from "@/lib/environs";
 import { getLocationsData } from "@/lib/LocationToVisit";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import SurroundingsSection from "@/components/SurroundingsSection/index";
 
 export default function Environs() {
   const localeActive = useLocale();
@@ -13,16 +14,6 @@ export default function Environs() {
 
   const LocationsData = getLocationsData(localeActive);
   const EnvironsData = getEnvironsData(localeActive);
-
-  // Build dynamic Rovinj items (1–7)
-  const items = Array.from({ length: 7 }, (_, idx) => {
-    const n = idx + 1;
-    return {
-      id: n,
-      title: t(`rovinj.title${n}`),
-      description: t(`rovinj.des${n}`),
-    };
-  });
 
   return (
     <section className="pt-16 md:pt-14 text-secondary">
@@ -50,10 +41,10 @@ export default function Environs() {
             {EnvironsData.data[0].des}
           </p>
 
-          {/* ROVINJ SECTION */}
-          <div className="mt-8">
+          {/* ROVINJ, BALE SECTION */}
+          {/* <div className="mt-8">
             <h1 className="mt-12 flex justify-center text-3xl sm:text-4xl font-ExtraBold text-primary tracking-wider mb-6">
-              {t("rovinj_title")}
+              if rovinj then {t("rovinj_title")}, if bale then {t("bale_title")}
             </h1>
 
             <div className="grid gap-4">
@@ -69,7 +60,8 @@ export default function Environs() {
                 </article>
               ))}
             </div>
-          </div>
+          </div> */}
+          <SurroundingsSection />
         </div>
 
         {/* SECOND GALLERY */}
