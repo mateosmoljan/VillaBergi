@@ -1,9 +1,9 @@
 import { StaticImageData } from "next/image";
 
-import one from "@/public/assets/images/i/28.jpg";
-import two from "@/public/assets/images/i/32.jpg";
-import three from "@/public/assets/images/i/38.jpg";
-import four from "@/public/assets/images/i/44.png";
+import one from "@/public/assets/images/optimized-hero/28.webp";
+import two from "@/public/assets/images/optimized-hero/32.webp";
+import three from "@/public/assets/images/optimized-hero/38.webp";
+import four from "@/public/assets/images/optimized-hero/44.webp";
 
 type LocationData = {
   src: StaticImageData;
