@@ -23,10 +23,10 @@ import hrData from "@/messages/hr.json";
 import itData from "@/messages/it.json";
 
 const imageData: LocationData[] = [
-  { src: one, alt: "Villa Bergi swimming pool in Žminj, Istria" },
-  { src: two, alt: "Villa Bergi outdoor lounge area in Žminj, Istria" },
-  { src: three, alt: "Villa Bergi jacuzzi terrace in Žminj, Istria" },
-  { src: four, alt: "Villa Bergi outdoor dining area in Žminj, Istria" },
+  { src: one, alt: "Villa Bergi swimming pool with waterfall in Žminj, Istria" },
+  { src: two, alt: "Villa Bergi outdoor terrace and garden in central Istria" },
+  { src: three, alt: "Villa Bergi jacuzzi and wellness area in Žminj" },
+  { src: four, alt: "Villa Bergi outdoor dining area with traditional Istrian kazun" },
 ];
 
 const replaceTitlesAndDescriptions = (

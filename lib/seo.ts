@@ -150,20 +150,42 @@ export function buildMetadata(locale: Locale, page: SeoPage, pathname: string): 
   };
 }
 
-export function getLodgingJsonLd(locale: Locale) {
+export function getLodgingJsonLd(_locale: Locale) {
   return {
     "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    name: siteName,
-    url: `${baseUrl}/${locale}`,
-    image: `${baseUrl}${defaultOgImage}`,
-    description: seoDictionary[locale].home.description,
+    "@type": "VacationRental",
+    name: "Villa Bergi",
+    description: "Modern holiday villa in Žminj, central Istria with 7 bedrooms, pool, jacuzzi, sauna. Sleeps 16.",
+    url: "https://villabergi.com",
+    image: "https://villabergi.com/assets/images/optimized-hero/28.webp",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Žminj",
       addressRegion: "Istria",
       addressCountry: "HR",
     },
-    sameAs: ["https://villabergi.com"],
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 45.1292,
+      longitude: 13.8986,
+    },
+    numberOfRooms: 7,
+    occupancy: {
+      "@type": "QuantitativeValue",
+      maxValue: 16,
+    },
+    amenityFeature: [
+      { "@type": "LocationFeatureSpecification", name: "Swimming Pool", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Jacuzzi", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Sauna", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Fitness Room", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Free Parking", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Wi-Fi", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Barbecue", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Air Conditioning", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Bicycles", value: true },
+    ],
+    petsAllowed: false,
+    smokingAllowed: false,
   };
 }
