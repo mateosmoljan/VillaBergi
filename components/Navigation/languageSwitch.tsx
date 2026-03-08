@@ -1,8 +1,8 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
-import React, { useMemo, useRef, useState, useTransition, useEffect } from "react";
+import React, { useTransition, useState, useRef, useEffect } from "react";
 import en_src from "@/public/assets/icons/flags/en.png";
 import de_src from "@/public/assets/icons/flags/de.png";
 import hr_src from "@/public/assets/icons/flags/hr.png";
@@ -14,84 +14,97 @@ interface LanguageLabel {
   src: StaticImageData;
 }
 
+const languageLabels: LanguageLabel[] = [
+  { code: "en", src: en_src },
+  { code: "de", src: de_src },
+  { code: "hr", src: hr_src },
+  { code: "it", src: it_src },
+];
+
 function LanguageSwitch() {
   const [isPending, startTransition] = useTransition();
+  const [open, setOpen] = useState(false);
   const router = useRouter();
   const localeActive = useLocale();
-  const [open, setOpen] = useState(false);
-  const wrapperRef = useRef<HTMLDivElement>(null);
-
-  const languageLabels: LanguageLabel[] = useMemo(
-    () => [
-      { code: "en", src: en_src },
-      { code: "de", src: de_src },
-      { code: "hr", src: hr_src },
-      { code: "it", src: it_src },
-    ],
-    []
-  );
-
-  const activeLanguage =
-    languageLabels.find((language) => language.code === localeActive) ||
-    languageLabels[0];
+  const pathname = usePathname();
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const onDocumentClick = (event: MouseEvent) => {
-      if (
-        wrapperRef.current &&
-        !wrapperRef.current.contains(event.target as Node)
-      ) {
+    function handleClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
         setOpen(false);
       }
-    };
-
-    document.addEventListener("mousedown", onDocumentClick);
-    return () => document.removeEventListener("mousedown", onDocumentClick);
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const handleChange = (nextLocale: string) => {
+  const handleSelect = (nextLocale: string) => {
     setOpen(false);
+    const segments = pathname.split("/").filter(Boolean);
+    const rest = segments.slice(1).join("/");
+    const nextPath = `/${nextLocale}${rest ? `/${rest}` : ""}`;
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      router.replace(nextPath);
     });
   };
 
+  const activeLabel = languageLabels.find((l) => l.code === localeActive) || languageLabels[0];
+
   return (
-    <div className="nav_switch relative" ref={wrapperRef}>
+    <div ref={ref} className="relative inline-block">
       <button
         type="button"
-        aria-haspopup="menu"
-        aria-expanded={open}
-        disabled={isPending}
         onClick={() => setOpen((prev) => !prev)}
-        className="flex items-center justify-center rounded-md border border-transparent p-1 hover:border-gray-300"
+        disabled={isPending}
+        className="flex items-center gap-1.5 rounded-md border border-gray-300 bg-white px-2.5 py-1.5 text-sm hover:bg-gray-50 transition-colors"
+        aria-label="Select language"
+        aria-expanded={open}
+        aria-haspopup="listbox"
       >
         <Image
-          src={activeLanguage.src}
-          alt={`${activeLanguage.code} flag`}
+          src={activeLabel.src}
+          alt={`${activeLabel.code} flag`}
           width={24}
           height={24}
+          className="rounded-full object-cover"
         />
+        <span className="uppercase font-medium text-gray-700">{activeLabel.code}</span>
+        <svg
+          className={`w-3 h-3 text-gray-500 transition-transform ${open ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
       </button>
 
       {open && (
-        <div className="absolute right-0 mt-2 w-16 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50 py-1">
+        <ul
+          role="listbox"
+          className="absolute right-0 z-50 mt-1 min-w-[80px] overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg"
+        >
           {languageLabels.map((label) => (
-            <button
-              key={label.code}
-              type="button"
-              onClick={() => handleChange(label.code)}
-              className="w-full flex justify-center py-2 hover:bg-gray-100"
-            >
-              <Image
-                src={label.src}
-                alt={`${label.code} flag`}
-                width={24}
-                height={24}
-              />
-            </button>
+            <li key={label.code} role="option" aria-selected={label.code === localeActive}>
+              <button
+                type="button"
+                onClick={() => handleSelect(label.code)}
+                className={`flex w-full items-center justify-center gap-2 px-3 py-2 transition-colors hover:bg-blue-50 ${
+                  label.code === localeActive ? "bg-blue-100" : ""
+                }`}
+              >
+                <Image
+                  src={label.src}
+                  alt={`${label.code} flag`}
+                  width={24}
+                  height={24}
+                  className="rounded-full object-cover"
+                />
+              </button>
+            </li>
           ))}
-        </div>
+        </ul>
       )}
     </div>
   );
