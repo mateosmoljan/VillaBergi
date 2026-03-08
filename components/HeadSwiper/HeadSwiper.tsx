@@ -38,7 +38,7 @@ export default function HeadSwiper() {
                   alt={image.alt}
                   fill
                   priority={index === 0}
-                  quality={78}
+                  quality={86}
                   sizes="100vw"
                   className="object-cover"
                 />
