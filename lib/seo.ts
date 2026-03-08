@@ -12,8 +12,8 @@ type SeoPage = "home" | "villa" | "pricelist" | "photogallery" | "surroundings" 
 const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description: string }>> = {
   en: {
     home: {
-      title: "Villa Bergi in Istria | Luxury Holiday Villa",
-      description: "Stay at Villa Bergi in Žminj, Istria. Luxury accommodation with pool, wellness area and premium amenities for your perfect Croatia holiday.",
+      title: "Villa Bergi | Holiday Villa in Žminj, Istria",
+      description: "Villa Bergi is a holiday villa in Žminj, Istria with a private pool, jacuzzi, garden, barbecue area, free parking and Wi‑Fi. Pets are not allowed.",
     },
     villa: {
       title: "Villa Bergi Details | Amenities, Gallery & Booking",
