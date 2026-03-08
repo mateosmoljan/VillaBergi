@@ -22,16 +22,13 @@ import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
 import itData from "@/messages/it.json";
 
-// Define image data
 const imageData: LocationData[] = [
-  { src: one, alt: "Swimming Pool" },
-  { src: two, alt: "Relax and Enjoy" },
-  { src: three, alt: "Jacuzzi" },
-  { src: four, alt: "Outdoor Dining" },
-  // Define other image data similarly
+  { src: one, alt: "Villa Bergi swimming pool in Žminj, Istria" },
+  { src: two, alt: "Villa Bergi outdoor lounge area in Žminj, Istria" },
+  { src: three, alt: "Villa Bergi jacuzzi terrace in Žminj, Istria" },
+  { src: four, alt: "Villa Bergi outdoor dining area in Žminj, Istria" },
 ];
 
-// Function to replace titles and descriptions with translations from JSON files
 const replaceTitlesAndDescriptions = (
   data: LocationData[],
   titles: string[],
@@ -46,7 +43,6 @@ const replaceTitlesAndDescriptions = (
   }));
 };
 
-// Define the data object
 export const HeadSwiperLibEN: DataObject = {
   images: replaceTitlesAndDescriptions(
     imageData,
@@ -56,7 +52,6 @@ export const HeadSwiperLibEN: DataObject = {
   ),
 };
 
-// You can also define a separate object for German translations if needed
 export const HeadSwiperLibDE: DataObject = {
   images: replaceTitlesAndDescriptions(
     imageData,
@@ -95,6 +90,6 @@ export const getHeadSwiperLib = (language: string): DataObject => {
     case "it":
       return HeadSwiperLibIT;
     default:
-      return HeadSwiperLibEN; // Default to English
+      return HeadSwiperLibEN;
   }
 };

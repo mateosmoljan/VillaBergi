@@ -23,26 +23,24 @@
     ],
     "navLinksButton": "Book Now"
   },
-
   "HeaderSwiper": {
     "titles": [
-      "Welcome to Villa Bergi - Istria",
-      "Relax and Enjoy",
-      "The Shine of the Jacuzzi",
-      "Outdoor Dining"
+      "Villa Bergi — Holiday Villa in the Heart of Istria",
+      "68m² Pool with Waterfall & Air Massage",
+      "7 Bedrooms · Sleeps 16 · Perfect for Groups",
+      "Traditional Istrian Kazun & Outdoor Dining"
     ],
     "descriptions": [
-      "Relax by the pool in complete comfort.",
-      "Enjoy the pool with a touch of elegance.",
-      "Experience luxury in a perfect atmosphere.",
-      "Gather, grill, and enjoy moments in style."
+      "A modern holiday villa in Žminj, central Istria — explore Rovinj, Pula, and the coast.",
+      "The largest private pool in Žminj with waterfall and air massage jets.",
+      "Bring your friends or family — split the cost across 2500m² of private space.",
+      "Authentic stone kazun with grill — the true Istrian dining experience."
     ],
     "button": "Read More"
   },
-
   "About": {
-    "title": "Overview",
-    "des": "Villa Bergi is a modern holiday villa in Žminj, Istria, ideal for families and groups. Guests have access to free parking, Wi‑Fi, a private outdoor pool, jacuzzi, garden, and barbecue area. The villa is non-smoking and pets are not allowed on the property.",
+    "title": "Overview of Villa Bergi",
+    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool with waterfall, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
     "the_space": {
       "title": "The Space",
       "des": "In front of the villa, there is a spacious summer kitchen with a wood-burning fireplace used for dining and entertainment (table football, darts, and billiards). There is also a workroom and a bathroom. Next to the summer kitchen, there is a **68 m² swimming pool with air massage and a waterfall**. A traditional Istrian ‘kazun’ made of stone adds a rustic touch, featuring a grill and baking area. A large terrace stretches along one side of the villa, offering sea and garden views — an ideal place for dining and relaxation.",
@@ -63,7 +61,6 @@
       ]
     }
   },
-
   "Distances": {
     "title": "Distances from Villa Bergi",
     "button": "Show Map",
@@ -82,7 +79,6 @@
       "Airport"
     ]
   },
-
   "Acommodation": {
     "subtitle": "Accommodation",
     "title": "We offer 1 Villa",
@@ -91,15 +87,14 @@
     "card_des2": "Price from",
     "card_des3": "per night"
   },
-
   "Photogalleries": {
     "subtitle": "Photo Galleries",
-    "title": "Choose photos from Villa Bergi",
+    "title": "Photo Galleries — Villa Bergi in Žminj",
     "button": "Show Photo Gallery"
   },
   "Tourist_Guide": {
     "subtitle": "TOURIST GUIDE",
-    "title": "What to visit, see and do?",
+    "title": "Tourist Guide — Explore Istria from Villa Bergi",
     "image_des": [
       "Largest in Croatia",
       "National Park",
@@ -110,11 +105,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Please **Send us** a message if you wish to stay at Villa Bergi in Istria and secure your reservation.",
+    "des": "Send us a message to book your stay at Villa Bergi in Žminj, Istria.",
     "button": "Send Message"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi - Istria",
+    "year": "©2024 . Villa Bergi — Holiday Villa in Žminj, Istria",
     "rights": "All rights reserved",
     "created_by": "Website by BoostWeb",
     "Discover": {
@@ -129,10 +124,15 @@
     }
   },
   "Categorization": {
-    "title": ["Categorization", "Capacity", "Size", "Garden"]
+    "title": [
+      "Categorization",
+      "Capacity",
+      "Size",
+      "Garden"
+    ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi is a modern holiday villa in Žminj, Istria, ideal for families and groups. Guests have access to free parking, Wi‑Fi, a private outdoor pool, jacuzzi, garden, and barbecue area. The villa is non-smoking and pets are not allowed on the property.",
+    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool with waterfall, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
     "subtitle": "The Space",
     "des2": "In front of the villa, there is an outdoor pool (68 m²) with air massage and a waterfall. The spacious lawn offers a children’s playground with a trampoline and football goals. Next to the pool is a replica of an old Istrian house called a \"kazun\" with barbecue facilities. A beautiful terrace is perfect for enjoying meals. Another dining area is the summer kitchen within the game room (darts, billiards, table football). The beauty room next to the villa offers a sauna, jacuzzi, and fitness equipment. The villa has a surveillance system for security. It can accommodate 16 people and features 7 bedrooms: 3 with king-size beds (2 people each), and 4 with twin beds. Additional sleeping space is available on the sofas in the living room.",
     "subtitle2": "Guest Access",
@@ -304,44 +304,32 @@
     "rovinj": {
       "title1": "1. The Old Town Was an Island",
       "des1": "Until the 18th century, Rovinj was a real island. In 1763 the Austrians filled in the channel and connected it to the mainland. That's why the streets are so narrow and winding – designed for defense, not comfort.",
-
       "title2": "2. St. Euphemia’s Bell Tower",
       "des2": "The Church of St. Euphemia has the tallest bell tower in Istria – 62 meters – and the statue of St. Euphemia on top rotates depending on the wind direction.",
-
       "title3": "3. Houses Directly on the Sea",
       "des3": "In the Old Town, many houses have doors and windows directly on the sea, typical of old Venetian fishing towns and one of Rovinj’s most iconic sights.",
-
       "title4": "4. Batana – Traditional Boat",
       "des4": "The batana is a small flat-bottomed wooden boat, a symbol of Rovinj’s fishing tradition. It has its own Ecomuseum listed on the UNESCO Intangible Heritage list.",
-
       "title5": "5. Balbi’s Arch",
       "des5": "Balbi’s Arch from the 17th century marks the entrance to the Old Town. It features carved heads of a Turk and a Venetian, a reminder of Venetian rule.",
-
       "title6": "6. Golden Cape – Park Forest",
       "des6": "Golden Cape (Punta Corrente) is one of the most beautiful places for walking and cycling in Istria, known for its pine forest, coves, and crystal-clear sea.",
-
       "title7": "7. Romantic Sunsets",
       "des7": "Rovinj is considered one of the most romantic towns in Europe thanks to its sea views, picturesque narrow streets, and spectacular sunsets."
     },
     "bale": {
       "title1": "1. A Stone Town with a Rich History",
       "des1": "Bale is a small medieval stone town with a history dating back to Roman times. Its narrow streets and stone houses preserve the authentic spirit of Istria.",
-
       "title2": "2. Castrum Vallis",
       "des2": "The town was once known as Castrum Vallis, meaning fortress in the valley. Bale used to be an important defensive and strategic center.",
-
       "title3": "3. Dinosaur Fossils",
       "des3": "Numerous dinosaur fossils have been found in the Bale area, including remains of brachiosaurus, making it a unique place in Europe.",
-
       "title4": "4. Artistic and Cultural Center",
       "des4": "Bale is known as a town of artists, with many galleries, studios, and cultural events held throughout the year.",
-
       "title5": "5. Church of the Blessed Virgin Mary",
       "des5": "The Parish Church of the Blessed Virgin Mary dominates the old town and is an important historical and cultural landmark.",
-
       "title6": "6. Untouched Nature Nearby",
       "des6": "The surroundings of Bale are filled with olive groves, vineyards, and natural landscapes ideal for walking, cycling, and exploring Istria.",
-
       "title7": "7. Peace and Authenticity",
       "des7": "Bale is a perfect destination for those seeking peace, authentic Istrian atmosphere, and an escape from mass tourism."
     }

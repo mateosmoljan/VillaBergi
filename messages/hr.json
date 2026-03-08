@@ -14,29 +14,33 @@
     "Show_Gallery": "Prikaži galeriju"
   },
   "Navigation": {
-    "navlinks": ["Villa Bergi", "Cjenik", "Fotogalerija", "Okolica", "Kontakt"],
+    "navlinks": [
+      "Villa Bergi",
+      "Cjenik",
+      "Fotogalerija",
+      "Okolica",
+      "Kontakt"
+    ],
     "navLinksButton": "Rezerviraj"
   },
-
   "HeaderSwiper": {
     "titles": [
-      "Dobrodošli u Villa Bergi - Istra",
-      "Opustite se i uživajte",
-      "Sjaj jacuzzija",
-      "Obroci na otvorenom"
+      "Villa Bergi — Kuća za odmor u srcu Istre",
+      "Bazen od 68m² s vodopadom i zračnom masažom",
+      "7 spavaćih soba · Za 16 gostiju · Idealno za grupe",
+      "Tradicionalni istarski kazun i vanjski obrok"
     ],
     "descriptions": [
-      "Opustite se uz bazen u potpunom komforu",
-      "Uživanje uz bazen s daškom elegancije.",
-      "Uživajte u luksuzu pod savršenim ambijentom.",
-      "Okupljanje, roštiljanje i uživanje u trenucima sa stilom."
+      "Moderna kuća za odmor u Žminju, srednja Istra — istražite Rovinj, Pulu i obalu.",
+      "Najveći privatni bazen u Žminju sa slapom i mlaznicama za zračnu masažu.",
+      "Povedite prijatelje ili obitelj — podijelite troškove na 2500m² privatnog prostora.",
+      "Autentični kameni kazun s roštiljem — pravo istarsko iskustvo objedovanja."
     ],
     "button": "Pročitaj više"
   },
-
   "About": {
-    "title": "Pregled",
-    "des": "Villa Bergi je moderna vila za odmor u Žminju, Istra, idealna za obitelji i grupe. Gostima su na raspolaganju besplatan parking, Wi‑Fi, privatni vanjski bazen, jacuzzi, vrt i prostor za roštilj. Vila je nepušačka, a kućni ljubimci nisu dopušteni na objektu.",
+    "title": "Pregled Ville Bergi",
+    "des": "Villa Bergi je moderna vila za odmor u Žminju, u srcu centralne Istre — savršena baza za istraživanje cijelog poluotoka. Sa 7 spavaćih soba za do 16 gostiju, bazenom od 68m² s vodopadom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kamenim 'kazunom' s roštiljem, idealna je za grupe prijatelja i obitelji. Uživajte u biljaru, pikadu, stolnom nogometu, 8 bicikala i 2500m² privatnog vanjskog prostora. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
     "the_space": {
       "title": "The space",
       "des": "In front of the Villa there is a spacious summer kitchen with a wood-burning fireplace that serves for dining and entertainment (table football, piccado and billiards). Also there is a working room and a bathroom. In addition to the summer kitchen there is a **68 m square swimming pool with air massage facilities, a waterfall** . Traditional speciality is occupied by an Istrian cape built in stone style. It consists of a fire pit for setting a grill or baking for dining. It is especially attractive large terrace that spreads on one side of the villa overlooking the sea and surrounding green areas, which also makes it an ideal place for dining and resting.",
@@ -57,7 +61,6 @@
       ]
     }
   },
-
   "Distances": {
     "title": "Udaljenosti od Ville Bergi",
     "button": "Prikaži Mapu",
@@ -76,7 +79,6 @@
       "Zračna luka"
     ]
   },
-
   "Acommodation": {
     "subtitle": "Smještaj",
     "title": "Nudimo vam 1 Vilu",
@@ -85,15 +87,14 @@
     "card_des2": "Cijena od",
     "card_des3": "po noći"
   },
-
   "Photogalleries": {
     "subtitle": "Fotogalerije",
-    "title": "Odaberite fotografije iz Ville Bergi",
+    "title": "Foto galerije — Villa Bergi u Žminju",
     "button": "Prikaži fotogaleriju"
   },
   "Tourist_Guide": {
     "subtitle": "VODIČ ZA TURISTE",
-    "title": "Što posjetiti, vidjeti i raditi?",
+    "title": "Turistički vodič — Istra iz Ville Bergi",
     "image_des": [
       "Najveći u Hrvatskoj",
       "Nacionalni park",
@@ -104,11 +105,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Molimo vas **Pošaljite nam** odgovor ako želite pripadati Vili Bergi u Istri i osigurati svoju rezervaciju?",
+    "des": "Pošaljite nam poruku za rezervaciju boravka u Villi Bergi u Žminju, Istra.",
     "button": "Pošalji poruku"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi - Istra",
+    "year": "©2024 . Villa Bergi — Kuća za odmor u Žminju, Istra",
     "rights": "Sva prava pridržana",
     "created_by": "Web stranica od BoostWeb",
     "Discover": {
@@ -123,10 +124,15 @@
     }
   },
   "Categorization": {
-    "title": ["Kategorizacija", "Kapacitet", "Veličina", "Vrt"]
+    "title": [
+      "Kategorizacija",
+      "Kapacitet",
+      "Veličina",
+      "Vrt"
+    ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi je moderna vila za odmor u Žminju, Istra, idealna za obitelji i grupe. Gostima su na raspolaganju besplatan parking, Wi‑Fi, privatni vanjski bazen, jacuzzi, vrt i prostor za roštilj. Vila je nepušačka, a kućni ljubimci nisu dopušteni na objektu.",
+    "des": "Villa Bergi je moderna vila za odmor u Žminju, u srcu centralne Istre — savršena baza za istraživanje cijelog poluotoka. Sa 7 spavaćih soba za do 16 gostiju, bazenom od 68m² s vodopadom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kamenim 'kazunom' s roštiljem, idealna je za grupe prijatelja i obitelji. Uživajte u biljaru, pikadu, stolnom nogometu, 8 bicikala i 2500m² privatnog vanjskog prostora. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
     "subtitle": "Prostor",
     "des2": "Ispred vile nalazi se vanjski bazen (68 m2) s mogućnošću zračne masaže i vodopada sa strane bazena. Prostrana trava nudi dječje igralište s trampolinom i nogometnim golovima. Pokraj bazena nalazi se replika stare istarske kuće nazvane \"kazun\", koja nudi sadržaje za roštiljanje. Prekrasna terasa savršeno je mjesto za uživanje u obroku. Još jedno mjesto za objedovanje je ljetna kuhinja, koja se nalazi unutar prostorije za igre s pikadom, biljarom i stolnim nogometom. Soba za ljepotu pored vile nudi saunu, jacuzzi i opremu za vježbanje. Vila ima sustav nadzora koji snima okolicu vile i pruža sigurnost svojim gostima. Vila može primiti 16 osoba. U vili se nalazi 7 spavaćih soba. U 3 spavaće sobe nalaze se bračni kreveti veličine king size, i u svakoj od njih može se smjestiti 2 osobe. U preostalim sobama (njih 4) nalaze se 2 odvojena kreveta. Netko može spavati i na kaučima u dnevnom boravku, ako to želi.",
     "subtitle2": "Pristup gostiju",
@@ -298,44 +304,32 @@
     "rovinj": {
       "title1": "1. Stari grad je bio otok",
       "des1": "Rovinj je sve do 18. stoljeća bio pravi otok. Tek 1763. Austrijanci su zatrpali kanal i spojili ga s kopnom. Zato su ulice tako uske i zavojite – pravljene su za obranu, ne za udobnost.",
-
       "title2": "2. Zvonik sv. Eufemije",
       "des2": "Crkva sv. Eufemije ima najviši zvonik u Istri – 62 metra – a kip sv. Eufemije na vrhu okreće se ovisno o smjeru vjetra.",
-
       "title3": "3. Kuće na samom moru",
       "des3": "U starom gradu mnoge kuće imaju vrata i prozore direktno na more, što je tipično za stare venecijanske ribarske gradove i jedna od najpoznatijih rovinjskih atrakcija.",
-
       "title4": "4. Batana – tradicionalni brod",
       "des4": "Batana je mali drveni brod ravan na dnu, simbol rovinjske ribarske tradicije. Ima svoj Ekomuzej koji je upisan na UNESCO listu nematerijalne baštine.",
-
       "title5": "5. Balbijev luk",
       "des5": "Balbijev luk iz 17. stoljeća označava ulaz u stari grad. Na sebi ima uklesane glave Turčina i Mlečana, podsjetnik na mletačku vladavinu.",
-
       "title6": "6. Zlatni rt – park-šuma",
       "des6": "Zlatni rt (Punta Corrente) jedno je od najljepših mjesta za šetnju i vožnju biciklom u Istri, poznat po borovoj šumi, uvalama i kristalno čistom moru.",
-
       "title7": "7. Romantični zalasci",
       "des7": "Rovinj se svrstava među najromantičnije gradove Europe zahvaljujući pogledima na more, fotogeničnim uličicama i spektakularnim zalascima sunca."
     },
     "bale": {
       "title1": "1. Kameni gradić s bogatom poviješću",
       "des1": "Bale su mali srednjovjekovni gradić izgrađen od kamena, s poviješću koja seže u rimsko doba. Uske ulice i kamene kuće čuvaju autentični duh Istre.",
-
       "title2": "2. Castrum Vallis",
       "des2": "Stari naziv mjesta bio je Castrum Vallis, što znači utvrda u dolini. Bale su nekada bile važno obrambeno i strateško središte.",
-
       "title3": "3. Dino Park i nalazi fosila",
       "des3": "Na području Bala pronađeni su brojni fosili dinosaura, uključujući kosti brahiosaura, što Bale čini jedinstvenim mjestom u Europi.",
-
       "title4": "4. Umjetnički i kulturni centar",
       "des4": "Bale su poznate kao grad umjetnika, s brojnim galerijama, ateljeima i kulturnim događanjima tijekom cijele godine.",
-
       "title5": "5. Crkva Blažene Djevice Marije",
       "des5": "Župna crkva Blažene Djevice Marije dominira starom jezgrom mjesta i važan je povijesni i kulturni simbol Bala.",
-
       "title6": "6. Blizina netaknute prirode",
       "des6": "U okolici Bala nalaze se maslinici, vinogradi i prirodna područja idealna za šetnje, biciklizam i istraživanje Istre.",
-
       "title7": "7. Mir i autentičnost",
       "des7": "Bale su savršena destinacija za one koji traže mir, autentičan istarski ambijent i bijeg od masovnog turizma."
     }

@@ -12,53 +12,107 @@ type SeoPage = "home" | "villa" | "pricelist" | "photogallery" | "surroundings" 
 const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description: string }>> = {
   en: {
     home: {
-      title: "Villa Bergi | Holiday Villa in Žminj, Istria",
-      description: "Villa Bergi is a holiday villa in Žminj, Istria with a private pool, jacuzzi, garden, barbecue area, free parking and Wi‑Fi. Pets are not allowed.",
+      title: "Villa Bergi | Holiday Villa in Žminj, Central Istria — Near Rovinj & Pula",
+      description: "Holiday villa in Žminj, central Istria. Pool, jacuzzi, 7 bedrooms, sleeps 16. Near Rovinj, Pula and Pazin. For groups and families.",
     },
     villa: {
-      title: "Villa Bergi — 7 Bedroom Villa in Žminj with Pool & Jacuzzi",
-      description: "Explore Villa Bergi: 7 bedrooms, pool, jacuzzi, sauna, fitness, games room. Perfect for groups up to 16 in central Istria.",
+      title: "Villa Bergi — 7 Bedroom Villa in Žminj, Istria with Pool & Jacuzzi",
+      description: "7 bedroom villa in Žminj, Istria with pool, jacuzzi, sauna and games. Sleeps 16 and suits groups and families in central Istria.",
     },
     pricelist: {
-      title: "Villa Bergi Prices — Holiday Villa Rental in Žminj",
-      description: "View seasonal prices and booking conditions for Villa Bergi in Žminj, Istria. Direct booking, no agency fees.",
+      title: "Villa Bergi Prices — Villa Rental Prices in Žminj, Istria",
+      description: "See villa rental prices in Žminj and Istria villa rates for Villa Bergi. Direct booking for groups and families, no agency fees.",
     },
     photogallery: {
-      title: "Villa Bergi Photos — Holiday Villa in Žminj, Istria",
-      description: "Browse photos of Villa Bergi: pool, jacuzzi, bedrooms, outdoor areas and surroundings in Žminj.",
+      title: "Villa Bergi Photos — Villa Photos in Žminj, Istria",
+      description: "View Villa Bergi photos from Žminj, Istria: pool, jacuzzi, 7 bedrooms and outdoor spaces for groups and families.",
     },
     surroundings: {
-      title: "Things to Do Near Žminj — Around Villa Bergi",
-      description: "Discover beaches, historic towns, water parks and experiences near Villa Bergi in central Istria.",
+      title: "Things to Do Near Žminj — Central Istria Around Villa Bergi",
+      description: "Explore Žminj, Svetvinčenat, Barban, Pazin, Kanfanar, Rovinj and Pula from this villa in Istria, ideal for groups and families.",
     },
     contact: {
-      title: "Book Villa Bergi — Holiday Villa in Žminj, Istria",
-      description: "Send a booking inquiry for Villa Bergi in Žminj. Direct contact, fast response, no commission.",
+      title: "Book Villa Bergi — Villa in Žminj, Istria",
+      description: "Book a villa in Žminj with direct contact. Villa rental Istria for groups and families, near Rovinj, Pula and central Istria sights.",
     },
   },
   de: {
-    home: { title: "Villa Bergi in Istrien | Luxus-Ferienvilla", description: "Übernachten Sie in der Villa Bergi in Žminj, Istrien. Luxuriöse Unterkunft mit Pool, Wellnessbereich und hochwertiger Ausstattung." },
-    villa: { title: "Villa Bergi Details | Ausstattung, Galerie & Buchung", description: "Entdecken Sie Ausstattung, Fotos, Preise und Buchungsbedingungen der Villa Bergi in Zentralistrien." },
-    pricelist: { title: "Villa Bergi Preisliste & Buchungsbedingungen", description: "Sehen Sie saisonale Preise, Zahlungsbedingungen und den Reservierungsprozess der Villa Bergi." },
-    photogallery: { title: "Villa Bergi Fotogalerie", description: "Durchstöbern Sie hochwertige Fotos der Villa Bergi, des Pools, der Zimmer und der Außenbereiche." },
-    surroundings: { title: "Žminj & Istrien Guide | Rund um Villa Bergi", description: "Entdecken Sie Sehenswürdigkeiten, Strände und Erlebnisse in der Umgebung der Villa Bergi." },
-    contact: { title: "Kontakt Villa Bergi | Buchungsanfrage senden", description: "Kontaktieren Sie Villa Bergi direkt für Buchungsanfragen und Verfügbarkeit in Istrien, Kroatien." },
+    home: {
+      title: "Villa Bergi | Ferienvilla in Žminj, Zentralistrien — nahe Rovinj & Pula",
+      description: "Ferienvilla in Žminj, Zentralistrien. Pool, Jacuzzi, 7 Schlafzimmer, für 16 Gäste. Nahe Rovinj, Pula und Pazin. Für Gruppen und Familien.",
+    },
+    villa: {
+      title: "Villa Bergi — 7-Schlafzimmer-Villa in Žminj, Istrien mit Pool & Jacuzzi",
+      description: "7-Schlafzimmer-Villa in Žminj, Istrien mit Pool, Jacuzzi, Sauna und Spielbereich. Für 16 Gäste, ideal für Gruppen und Familien.",
+    },
+    pricelist: {
+      title: "Villa Bergi Preise — Villa-Mietpreise in Žminj, Istrien",
+      description: "Sehen Sie Villa-Mietpreise in Žminj und Istrien-Raten für Villa Bergi. Direkt buchen, ideal für Gruppen und Familien.",
+    },
+    photogallery: {
+      title: "Villa Bergi Fotos — Villafotos aus Žminj, Istrien",
+      description: "Entdecken Sie Villafotos aus Žminj, Istrien: Pool, Jacuzzi, 7 Schlafzimmer und Außenbereiche für Gruppen und Familien.",
+    },
+    surroundings: {
+      title: "Ausflüge nahe Žminj — Zentralistrien rund um Villa Bergi",
+      description: "Entdecken Sie Žminj, Svetvinčenat, Barban, Pazin, Kanfanar, Rovinj und Pula rund um diese Villa in Istrien.",
+    },
+    contact: {
+      title: "Villa Bergi buchen — Villa in Žminj, Istrien",
+      description: "Buchen Sie eine Villa in Žminj direkt. Villa-Miete in Istrien für Gruppen und Familien, nahe Rovinj, Pula und Zentralistrien.",
+    },
   },
   hr: {
-    home: { title: "Villa Bergi u Istri | Luksuzna kuća za odmor", description: "Odsjednite u Villi Bergi u Žminju. Luksuzan smještaj s bazenom, wellnessom i vrhunskim sadržajima." },
-    villa: { title: "Villa Bergi detalji | Sadržaji, galerija i rezervacija", description: "Istražite sadržaje, fotografije, cijene i uvjete rezervacije Ville Bergi u središnjoj Istri." },
-    pricelist: { title: "Villa Bergi cjenik i uvjeti rezervacije", description: "Pogledajte sezonske cijene, uvjete plaćanja i proces rezervacije za Villu Bergi." },
-    photogallery: { title: "Villa Bergi foto galerija", description: "Pregledajte kvalitetne fotografije Ville Bergi, bazena, soba i okućnice u Istri." },
-    surroundings: { title: "Žminj i Istra vodič | Oko Ville Bergi", description: "Otkrijte atrakcije, plaže i iskustva u okolici Ville Bergi u Istri." },
-    contact: { title: "Kontakt Villa Bergi | Pošaljite upit", description: "Kontaktirajte Villu Bergi za upite o rezervaciji, dostupnosti i detaljima boravka." },
+    home: {
+      title: "Villa Bergi | Vila za odmor u Žminju, središnja Istra — blizu Rovinja i Pule",
+      description: "Vila za odmor u Žminju, središnja Istra. Bazen, jacuzzi, 7 soba, za 16 gostiju. Blizu Rovinja, Pule i Pazina. Za grupe i obitelji.",
+    },
+    villa: {
+      title: "Villa Bergi — Vila sa 7 soba u Žminju, Istra s bazenom i jacuzzijem",
+      description: "Vila sa 7 soba u Žminju, Istra s bazenom, jacuzzijem, saunom i igrama. Za 16 gostiju, idealna za grupe i obitelji.",
+    },
+    pricelist: {
+      title: "Villa Bergi Cjenik — Cijene najma vile u Žminju, Istra",
+      description: "Pogledajte cijene najma vile u Žminju i cijene vila u Istri za Villu Bergi. Izravna rezervacija za grupe i obitelji.",
+    },
+    photogallery: {
+      title: "Villa Bergi Fotografije — Fotografije vile u Žminju, Istra",
+      description: "Pogledajte fotografije Ville Bergi u Žminju, Istra: bazen, jacuzzi, 7 soba i vanjske prostore za grupe i obitelji.",
+    },
+    surroundings: {
+      title: "Što posjetiti blizu Žminja — Središnja Istra oko Ville Bergi",
+      description: "Istražite Žminj, Svetvinčenat, Barban, Pazin, Kanfanar, Rovinj i Pulu oko ove vile u Istri za grupe i obitelji.",
+    },
+    contact: {
+      title: "Rezerviraj Villa Bergi — Vila u Žminju, Istra",
+      description: "Rezervirajte vilu u Žminju izravno. Najam vile u Istri za grupe i obitelji, blizu Rovinja, Pule i znamenitosti središnje Istre.",
+    },
   },
   it: {
-    home: { title: "Villa Bergi in Istria | Villa di lusso", description: "Soggiorna a Villa Bergi a Žminj, Istria. Alloggio di lusso con piscina, wellness e servizi premium." },
-    villa: { title: "Dettagli Villa Bergi | Servizi, galleria e prenotazione", description: "Scopri servizi, foto, prezzi e condizioni di prenotazione di Villa Bergi nell'Istria centrale." },
-    pricelist: { title: "Listino prezzi Villa Bergi e condizioni", description: "Consulta i prezzi stagionali, le condizioni di pagamento e il processo di prenotazione." },
-    photogallery: { title: "Galleria fotografica Villa Bergi", description: "Sfoglia foto di alta qualità di Villa Bergi, piscina, camere e spazi esterni." },
-    surroundings: { title: "Guida Žminj e Istria | Intorno a Villa Bergi", description: "Scopri attrazioni, spiagge e attività nei dintorni di Villa Bergi in Istria." },
-    contact: { title: "Contatta Villa Bergi | Invia richiesta", description: "Contatta direttamente Villa Bergi per richieste di prenotazione e disponibilità in Istria." },
+    home: {
+      title: "Villa Bergi | Villa vacanze a Žminj, Istria centrale — vicino a Rovigno e Pola",
+      description: "Villa vacanze a Žminj, Istria centrale. Piscina, jacuzzi, 7 camere, 16 ospiti. Vicino a Rovigno, Pola e Pisino. Per gruppi e famiglie.",
+    },
+    villa: {
+      title: "Villa Bergi — Villa con 7 camere a Žminj, Istria con piscina e jacuzzi",
+      description: "Villa con 7 camere a Žminj, Istria con piscina, jacuzzi, sauna e giochi. Per 16 ospiti, ideale per gruppi e famiglie.",
+    },
+    pricelist: {
+      title: "Villa Bergi Prezzi — Prezzi villa in affitto a Žminj, Istria",
+      description: "Scopri i prezzi villa a Žminj e le tariffe delle ville in Istria per Villa Bergi. Prenotazione diretta per gruppi e famiglie.",
+    },
+    photogallery: {
+      title: "Villa Bergi Foto — Foto villa a Žminj, Istria",
+      description: "Guarda le foto di Villa Bergi a Žminj, Istria: piscina, jacuzzi, 7 camere e spazi esterni per gruppi e famiglie.",
+    },
+    surroundings: {
+      title: "Cosa fare vicino a Žminj — Istria centrale intorno a Villa Bergi",
+      description: "Scopri Žminj, Sanvincenti, Barbana, Pisino, Canfanaro, Rovigno e Pola vicino a questa villa in Istria.",
+    },
+    contact: {
+      title: "Prenota Villa Bergi — Villa a Žminj, Istria",
+      description: "Prenota una villa a Žminj con contatto diretto. Villa in affitto in Istria per gruppi e famiglie, vicino a Rovigno e Pola.",
+    },
   },
 };
 

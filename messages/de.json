@@ -25,22 +25,22 @@
   },
   "HeaderSwiper": {
     "titles": [
-      "Willkommen in der Villa Bergi - Istrien",
-      "Entspannen und genießen",
-      "Der Glanz des Whirlpools",
-      "Speisen im Freien"
+      "Villa Bergi — Ferienhaus im Herzen Istriens",
+      "68m²-Pool mit Wasserfall & Luftmassage",
+      "7 Schlafzimmer · Für 16 Gäste · Perfekt für Gruppen",
+      "Traditioneller istrischer Kazun & Essen im Freien"
     ],
     "descriptions": [
-      "Entspannen Sie sich am Pool in absolutem Komfort.",
-      "Genießen Sie den Hauch von Eleganz am Pool.",
-      "Erleben Sie Luxus in perfekter Atmosphäre.",
-      "Gemeinsame Momente beim Grillen und Entspannen mit Stil."
+      "Eine moderne Ferienvilla in Žminj, Zentralistrien — erkunden Sie Rovinj, Pula und die Küste.",
+      "Der größte private Pool in Žminj mit Wasserfall und Luftmassagedüsen.",
+      "Bringen Sie Freunde oder Familie mit — teilen Sie die Kosten auf 2500m² privatem Außenbereich.",
+      "Authentischer steinerner Kazun mit Grill — das echte istrische Genusserlebnis."
     ],
     "button": "Mehr lesen"
   },
   "About": {
-    "title": "Überblick",
-    "des": "Villa Bergi ist eine moderne Ferienvilla in Žminj, Istrien, ideal für Familien und Gruppen. Den Gästen stehen kostenloses Parken, WLAN, ein privater Außenpool, Whirlpool, Garten und Grillbereich zur Verfügung. Die Villa ist rauchfrei und Haustiere sind auf dem Grundstück nicht erlaubt.",
+    "title": "Überblick über Villa Bergi",
+    "des": "Villa Bergi ist eine moderne Ferienvilla in Žminj, im Herzen Zentralistriens — die perfekte Basis zur Erkundung der gesamten Halbinsel. Mit 7 Schlafzimmern für bis zu 16 Gäste, einem 68m²-Pool mit Wasserfall, Whirlpool, Sauna, Fitnessraum und einem traditionellen istrischen Stein-'Kazun' mit Grill ist sie ideal für Freundesgruppen und Familien. Genießen Sie Billard, Darts, Tischfußball, 8 Fahrräder und 2500m² privaten Außenbereich. Nichtraucher-Villa. Keine Haustiere.",
     "the_space": {
       "title": "Der Raum",
       "des": "Vor der Villa befindet sich eine großzügige Sommerküche mit einem Holzofen, die zum Essen und zur Unterhaltung dient (Tischfußball, Darts und Billard). Außerdem gibt es ein Arbeitszimmer und ein Badezimmer. Neben der Sommerküche befindet sich ein **68 m² großer Swimmingpool mit Luftmassagedüsen und Wasserfall**. Ein traditionelles Highlight ist der istrische Steinkazun mit Feuerstelle zum Grillen und Backen. Besonders attraktiv ist die große Terrasse, die sich an einer Seite der Villa mit Blick auf das Meer und die umliegenden Grünflächen erstreckt – ein idealer Ort zum Essen und Entspannen.",
@@ -89,12 +89,12 @@
   },
   "Photogalleries": {
     "subtitle": "Fotogalerien",
-    "title": "Wählen Sie Fotos aus der Villa Bergi",
+    "title": "Fotogalerien — Villa Bergi in Žminj",
     "button": "Fotogalerie anzeigen"
   },
   "Tourist_Guide": {
     "subtitle": "TOURISTENFÜHRER",
-    "title": "Was kann man besuchen, sehen und unternehmen?",
+    "title": "Reiseführer — Istrien von Villa Bergi aus entdecken",
     "image_des": [
       "Der größte in Kroatien",
       "Nationalpark",
@@ -105,11 +105,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Bitte **senden Sie uns** eine Nachricht, wenn Sie in der Villa Bergi in Istrien wohnen und Ihre Reservierung sichern möchten.",
+    "des": "Senden Sie uns eine Nachricht, um Ihren Aufenthalt in der Villa Bergi in Žminj, Istrien, zu buchen.",
     "button": "Nachricht senden"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi - Istrien",
+    "year": "©2024 . Villa Bergi — Ferienvilla in Žminj, Istrien",
     "rights": "Alle Rechte vorbehalten",
     "created_by": "Webseite von BoostWeb",
     "Discover": {
@@ -124,10 +124,15 @@
     }
   },
   "Categorization": {
-    "title": ["Kategorisierung", "Kapazität", "Größe", "Garten"]
+    "title": [
+      "Kategorisierung",
+      "Kapazität",
+      "Größe",
+      "Garten"
+    ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi ist eine moderne Ferienvilla in Žminj, Istrien, ideal für Familien und Gruppen. Den Gästen stehen kostenloses Parken, WLAN, ein privater Außenpool, Whirlpool, Garten und Grillbereich zur Verfügung. Die Villa ist rauchfrei und Haustiere sind auf dem Grundstück nicht erlaubt.",
+    "des": "Villa Bergi ist eine moderne Ferienvilla in Žminj, im Herzen Zentralistriens — die perfekte Basis zur Erkundung der gesamten Halbinsel. Mit 7 Schlafzimmern für bis zu 16 Gäste, einem 68m²-Pool mit Wasserfall, Whirlpool, Sauna, Fitnessraum und einem traditionellen istrischen Stein-'Kazun' mit Grill ist sie ideal für Freundesgruppen und Familien. Genießen Sie Billard, Darts, Tischfußball, 8 Fahrräder und 2500m² privaten Außenbereich. Nichtraucher-Villa. Keine Haustiere.",
     "subtitle": "Räumlichkeiten",
     "des2": "Vor der Villa befindet sich ein Außenpool (68 m²) mit Luftmassagefunktion und Wasserfall. Die weitläufige Rasenfläche bietet einen Spielplatz mit Trampolin und Fußballtoren. Neben dem Pool befindet sich eine Nachbildung eines alten istrischen Hauses namens \"Kazun\", das Grillmöglichkeiten bietet. Die schöne Terrasse ist ein perfekter Ort zum Genießen von Mahlzeiten. Ein weiterer Essbereich befindet sich in der Sommerküche, die mit Tischfußball, Darts und Billard ausgestattet ist. Der Beautybereich neben der Villa bietet Sauna, Jacuzzi und Trainingsgeräte. Die Villa verfügt über ein Überwachungssystem, das die Umgebung überwacht und für die Sicherheit der Gäste sorgt. Die Villa bietet Platz für 16 Personen. Es gibt 7 Schlafzimmer, davon 3 mit Kingsize-Betten, jeweils für 2 Personen. Die restlichen 4 Zimmer haben je 2 Einzelbetten. Optional kann auf Schlafsofas im Wohnzimmer geschlafen werden.",
     "subtitle2": "Zugang für Gäste",
@@ -299,44 +304,32 @@
     "rovinj": {
       "title1": "1. Die Altstadt war eine Insel",
       "des1": "Bis zum 18. Jahrhundert war Rovinj tatsächlich eine Insel. Im Jahr 1763 füllten die Österreicher den Kanal auf und verbanden sie mit dem Festland. Deshalb sind die Gassen so eng und verwinkelt – sie wurden zur Verteidigung gebaut, nicht für Komfort.",
-
       "title2": "2. Der Glockenturm der Hl. Euphemia",
       "des2": "Die Kirche der Hl. Euphemia besitzt den höchsten Glockenturm in Istrien – 62 Meter – und die Statue der Hl. Euphemia an der Spitze dreht sich je nach Windrichtung.",
-
       "title3": "3. Häuser direkt am Meer",
       "des3": "In der Altstadt haben viele Häuser Türen und Fenster direkt zum Meer hin, typisch für alte venezianische Fischerstädtchen und eines der bekanntesten Wahrzeichen Rovinjs.",
-
       "title4": "4. Batana – traditionelles Boot",
       "des4": "Die Batana ist ein kleines Holzboot mit flachem Boden, ein Symbol der rovinjer Fischereitradition. Sie hat ihr eigenes Ökomuseum, das auf der UNESCO-Liste des immateriellen Kulturerbes steht.",
-
       "title5": "5. Balbi-Bogen",
       "des5": "Der Balbi-Bogen aus dem 17. Jahrhundert markiert den Eingang zur Altstadt. Er trägt eingemeißelte Köpfe eines Türken und eines Venezianers – eine Erinnerung an die venezianische Herrschaft.",
-
       "title6": "6. Goldenes Kap – Parkwald",
       "des6": "Das Goldene Kap (Punta Corrente) ist einer der schönsten Orte zum Spazieren und Radfahren in Istrien, bekannt für seinen Pinienwald, Buchten und das kristallklare Meer.",
-
       "title7": "7. Romantische Sonnenuntergänge",
       "des7": "Rovinj gilt als eine der romantischsten Städte Europas – dank seiner Meeresblicke, malerischen engen Gassen und spektakulären Sonnenuntergänge."
     },
     "bale": {
       "title1": "1. Steinerne Stadt mit reicher Geschichte",
       "des1": "Bale ist eine kleine mittelalterliche Stadt aus Stein mit einer Geschichte, die bis in die Römerzeit zurückreicht. Enge Gassen und Steinhäuser bewahren den authentischen Geist Istriens.",
-
       "title2": "2. Castrum Vallis",
       "des2": "Der alte Name der Stadt war Castrum Vallis, was Festung im Tal bedeutet. Bale war einst ein wichtiges Verteidigungs- und strategisches Zentrum.",
-
       "title3": "3. Dinosaurierfossilien",
       "des3": "In der Umgebung von Bale wurden zahlreiche Dinosaurierfossilien gefunden, darunter Überreste von Brachiosauriern, was den Ort in Europa einzigartig macht.",
-
       "title4": "4. Künstlerisches und kulturelles Zentrum",
       "des4": "Bale ist als Künstlerstadt bekannt, mit vielen Galerien, Ateliers und kulturellen Veranstaltungen das ganze Jahr über.",
-
       "title5": "5. Kirche der Seligen Jungfrau Maria",
       "des5": "Die Pfarrkirche der Seligen Jungfrau Maria dominiert die Altstadt und ist ein wichtiges historisches und kulturelles Wahrzeichen.",
-
       "title6": "6. Unberührte Natur in der Umgebung",
       "des6": "Die Umgebung von Bale ist geprägt von Olivenhainen, Weinbergen und Naturlandschaften – ideal zum Spazierengehen, Radfahren und Erkunden Istriens.",
-
       "title7": "7. Ruhe und Authentizität",
       "des7": "Bale ist ein ideales Reiseziel für alle, die Ruhe, authentisches istrisches Ambiente und Abstand vom Massentourismus suchen."
     }

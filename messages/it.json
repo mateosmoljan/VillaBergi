@@ -14,27 +14,33 @@
     "Show_Gallery": "Mostra galleria"
   },
   "Navigation": {
-    "navlinks": ["Villa Bergi", "Listino", "Galleria", "Dintorni", "Contatto"],
+    "navlinks": [
+      "Villa Bergi",
+      "Listino",
+      "Galleria",
+      "Dintorni",
+      "Contatto"
+    ],
     "navLinksButton": "Prenota"
   },
   "HeaderSwiper": {
     "titles": [
-      "Benvenuti a Villa Bergi - Istria",
-      "Rilassati e goditi",
-      "Splendore della Jacuzzi",
-      "Pasti all'aperto"
+      "Villa Bergi — Villa Vacanze nel Cuore dell'Istria",
+      "Piscina di 68m² con Cascata e Idromassaggio",
+      "7 Camere · Fino a 16 Ospiti · Perfetta per Gruppi",
+      "Tradizionale Kazun Istriano e Cena all'Aperto"
     ],
     "descriptions": [
-      "Rilassati a bordo piscina in completo comfort",
-      "Goditi la piscina con un tocco di eleganza.",
-      "Vivi il lusso in un ambiente perfetto.",
-      "Riunioni, barbecue e momenti di piacere con stile."
+      "Una moderna villa vacanze a Žminj, Istria centrale — esplora Rovigno, Pola e la costa.",
+      "La più grande piscina privata di Žminj con cascata e getti di idromassaggio.",
+      "Portate amici o famiglia — dividete i costi su 2500m² di spazio privato.",
+      "Autentico kazun in pietra con grill — la vera esperienza gastronomica istriana."
     ],
     "button": "Leggi di più"
   },
   "About": {
-    "title": "Panoramica",
-    "des": "Villa Bergi è una moderna villa per vacanze a Žminj, in Istria, ideale per famiglie e gruppi. Gli ospiti hanno a disposizione parcheggio gratuito, Wi‑Fi, piscina privata all'aperto, jacuzzi, giardino e area barbecue. La villa è non fumatori e gli animali non sono ammessi nella proprietà.",
+    "title": "Panoramica di Villa Bergi",
+    "des": "Villa Bergi è una moderna villa vacanze a Žminj, nel cuore dell'Istria centrale — la base perfetta per esplorare l'intera penisola. Con 7 camere da letto per un massimo di 16 ospiti, piscina di 68m² con cascata, jacuzzi, sauna, palestra e un tradizionale 'kazun' istriano in pietra con barbecue, è ideale per gruppi di amici e famiglie. Biliardo, freccette, calcio balilla, 8 biciclette e 2500m² di spazio esterno privato. Villa non fumatori. Animali non ammessi.",
     "the_space": {
       "title": "Lo spazio",
       "des": "Di fronte alla Villa c'è una spaziosa cucina estiva con camino a legna, utilizzata per pranzi e intrattenimento (calcio balilla, freccette e biliardo). Inoltre c'è una stanza lavoro e un bagno. Oltre alla cucina estiva, c'è una **piscina di 68 m² con idromassaggio e cascata**. La specialità tradizionale è rappresentata da un 'capanno istriano' costruito in pietra. Comprende un focolare per grigliare o cuocere all'aperto. Particolarmente attraente è la grande terrazza che si estende su un lato della villa con vista sul mare e sulle aree verdi circostanti, rendendola ideale per pranzi e relax.",
@@ -83,12 +89,12 @@
   },
   "Photogalleries": {
     "subtitle": "Gallerie fotografiche",
-    "title": "Scegli le foto di Villa Bergi",
+    "title": "Gallerie fotografiche — Villa Bergi a Gimino",
     "button": "Mostra galleria fotografica"
   },
   "Tourist_Guide": {
     "subtitle": "GUIDA TURISTICA",
-    "title": "Cosa visitare, vedere e fare?",
+    "title": "Guida turistica — Scoprite l’Istria da Villa Bergi",
     "image_des": [
       "Il più grande della Croazia",
       "Parco nazionale",
@@ -99,11 +105,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Si prega di **inviarci** una risposta se desiderate soggiornare a Villa Bergi in Istria e assicurare la vostra prenotazione?",
+    "des": "Inviateci un messaggio per prenotare il vostro soggiorno a Villa Bergi a Gimino, Istria.",
     "button": "Invia messaggio"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi - Istria",
+    "year": "©2024 . Villa Bergi — Villa vacanze a Gimino, Istria",
     "rights": "Tutti i diritti riservati",
     "created_by": "Sito web di BoostWeb",
     "Discover": {
@@ -118,16 +124,20 @@
     }
   },
   "Categorization": {
-    "title": ["Categorizzazione", "Capacità", "Dimensione", "Giardino"]
+    "title": [
+      "Categorizzazione",
+      "Capacità",
+      "Dimensione",
+      "Giardino"
+    ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi è una moderna villa per vacanze a Žminj, in Istria, ideale per famiglie e gruppi. Gli ospiti hanno a disposizione parcheggio gratuito, Wi‑Fi, piscina privata all'aperto, jacuzzi, giardino e area barbecue. La villa è non fumatori e gli animali non sono ammessi nella proprietà.",
+    "des": "Villa Bergi è una moderna villa vacanze a Žminj, nel cuore dell'Istria centrale — la base perfetta per esplorare l'intera penisola. Con 7 camere da letto per un massimo di 16 ospiti, piscina di 68m² con cascata, jacuzzi, sauna, palestra e un tradizionale 'kazun' istriano in pietra con barbecue, è ideale per gruppi di amici e famiglie. Biliardo, freccette, calcio balilla, 8 biciclette e 2500m² di spazio esterno privato. Villa non fumatori. Animali non ammessi.",
     "subtitle": "Spazio",
     "des2": "Di fronte alla villa c'è una piscina esterna (68 m²) con idromassaggio e cascata laterale. Un ampio prato offre un'area giochi per bambini con trampolino e porte da calcio. Accanto alla piscina, una replica della vecchia casa istriana chiamata \"kazun\" offre attrezzature per barbecue. La splendida terrazza è il luogo perfetto per godersi i pasti. Un altro spazio per pranzare è la cucina estiva, situata nella sala giochi con freccette, biliardo e calcio balilla. La sala benessere accanto alla villa offre sauna, jacuzzi e attrezzi per esercizi. La villa dispone di un sistema di sorveglianza per la sicurezza degli ospiti. La villa può ospitare fino a 16 persone. Ci sono 7 camere da letto: 3 camere matrimoniali king size e 4 camere con 2 letti singoli ciascuna. È possibile dormire anche sui divani del soggiorno.",
     "subtitle2": "Accesso ospiti",
     "des3": "Gli ospiti possono accedere a 7 camere da letto, 2 soggiorni, 2 cucine, 9 bagni + WC separato, balconi, terrazza, sala benessere, sala giochi/cucina estiva, \"kazun\" con attrezzature per barbecue, stanza con lavatrice e ferro da stiro, piscina, prato, giardino, area giochi per bambini e tutto lo spazio esterno (2500 m²)."
   },
-
   "Villa_Features": {
     "title": "Caratteristiche",
     "title2": "Cosa offre questa struttura",
@@ -294,44 +304,32 @@
     "rovinj": {
       "title1": "1. La Città Vecchia era un'isola",
       "des1": "Fino al XVIII secolo Rovigno era una vera isola. Nel 1763 gli Austriaci riempirono il canale e la collegarono alla terraferma. Per questo le strade sono così strette e tortuose – progettate per la difesa, non per il comfort.",
-
       "title2": "2. Il campanile di Sant'Eufemia",
       "des2": "La chiesa di Sant’Eufemia ha il campanile più alto dell’Istria – 62 metri – e la statua di Sant’Eufemia in cima ruota a seconda della direzione del vento.",
-
       "title3": "3. Case direttamente sul mare",
       "des3": "Nel centro storico molte case hanno porte e finestre direttamente sul mare, tipiche dei vecchi borghi di pescatori veneziani e una delle attrazioni più iconiche di Rovigno.",
-
       "title4": "4. Batana – imbarcazione tradizionale",
       "des4": "La batana è una piccola imbarcazione di legno con il fondo piatto, simbolo della tradizione peschereccia di Rovigno. Ha un suo Ecomuseo inserito nella lista UNESCO del patrimonio immateriale.",
-
       "title5": "5. Arco dei Balbi",
       "des5": "L’Arco dei Balbi del XVII secolo segna l’ingresso alla città vecchia. Presenta teste scolpite di un Turco e di un Veneziano, memoria del dominio veneziano.",
-
       "title6": "6. Punta Corrente – parco forestale",
       "des6": "Punta Corrente (Golden Cape) è uno dei luoghi più belli per passeggiare e andare in bicicletta in Istria, famoso per la pineta, le calette e il mare cristallino.",
-
       "title7": "7. Tramonti romantici",
       "des7": "Rovigno è considerata una delle città più romantiche d’Europa grazie alle viste sul mare, alle pittoresche viuzze e agli spettacolari tramonti."
     },
     "bale": {
       "title1": "1. Borgo in pietra dalla ricca storia",
       "des1": "Valle è un piccolo borgo medievale in pietra con una storia che risale all’epoca romana. Le sue strette vie e le case in pietra conservano l’autentico spirito dell’Istria.",
-
       "title2": "2. Castrum Vallis",
       "des2": "L’antico nome del borgo era Castrum Vallis, che significa fortezza nella valle. Valle era un importante centro difensivo e strategico.",
-
       "title3": "3. Fossili di dinosauri",
       "des3": "Nell’area di Valle sono stati ritrovati numerosi fossili di dinosauri, inclusi resti di brachiosauro, rendendo il luogo unico in Europa.",
-
       "title4": "4. Centro artistico e culturale",
       "des4": "Valle è conosciuta come città degli artisti, con numerose gallerie, atelier ed eventi culturali durante tutto l’anno.",
-
       "title5": "5. Chiesa della Beata Vergine Maria",
       "des5": "La Chiesa Parrocchiale della Beata Vergine Maria domina il centro storico ed è un importante simbolo storico e culturale.",
-
       "title6": "6. Natura incontaminata nei dintorni",
       "des6": "Nei dintorni di Valle si trovano uliveti, vigneti e paesaggi naturali ideali per passeggiate, ciclismo ed esplorazioni dell’Istria.",
-
       "title7": "7. Pace e autenticità",
       "des7": "Valle è la destinazione ideale per chi cerca tranquillità, autenticità istriana e una fuga dal turismo di massa."
     }
