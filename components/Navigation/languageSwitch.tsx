@@ -1,8 +1,8 @@
 "use client";
 
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef, useState, useTransition, useEffect } from "react";
 import en_src from "@/public/assets/icons/flags/en.png";
 import de_src from "@/public/assets/icons/flags/de.png";
 import hr_src from "@/public/assets/icons/flags/hr.png";
@@ -14,54 +14,85 @@ interface LanguageLabel {
   src: StaticImageData;
 }
 
-const languages: LanguageLabel[] = [
-  { code: "en", src: en_src },
-  { code: "de", src: de_src },
-  { code: "hr", src: hr_src },
-  { code: "it", src: it_src },
-];
-
 function LanguageSwitch() {
+  const [isPending, startTransition] = useTransition();
   const router = useRouter();
-  const pathname = usePathname();
   const localeActive = useLocale();
   const [open, setOpen] = useState(false);
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
-  const active = useMemo(() => languages.find((l) => l.code === localeActive) || languages[0], [localeActive]);
+  const languageLabels: LanguageLabel[] = useMemo(
+    () => [
+      { code: "en", src: en_src },
+      { code: "de", src: de_src },
+      { code: "hr", src: hr_src },
+      { code: "it", src: it_src },
+    ],
+    []
+  );
 
-  const setLocale = (nextLocale: string) => {
-    const segments = pathname.split("/").filter(Boolean);
-    if (segments.length > 0) segments[0] = nextLocale;
-    else segments.push(nextLocale);
-    router.replace(`/${segments.join("/")}`);
+  const activeLanguage =
+    languageLabels.find((language) => language.code === localeActive) ||
+    languageLabels[0];
+
+  useEffect(() => {
+    const onDocumentClick = (event: MouseEvent) => {
+      if (
+        wrapperRef.current &&
+        !wrapperRef.current.contains(event.target as Node)
+      ) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", onDocumentClick);
+    return () => document.removeEventListener("mousedown", onDocumentClick);
+  }, []);
+
+  const handleChange = (nextLocale: string) => {
     setOpen(false);
+    startTransition(() => {
+      router.replace(`/${nextLocale}`);
+    });
   };
 
   return (
-    <div className="relative">
+    <div className="nav_switch relative" ref={wrapperRef}>
       <button
         type="button"
-        className="h-9 w-9 rounded-md border border-white/20 flex items-center justify-center hover:bg-white/10"
-        onClick={() => setOpen((v) => !v)}
-        aria-label="Switch language"
+        aria-haspopup="menu"
+        aria-expanded={open}
+        disabled={isPending}
+        onClick={() => setOpen((prev) => !prev)}
+        className="flex items-center justify-center rounded-md border border-transparent p-1 hover:border-gray-300"
       >
-        <Image src={active.src} alt={`${active.code} flag`} width={22} height={22} />
+        <Image
+          src={activeLanguage.src}
+          alt={`${activeLanguage.code} flag`}
+          width={24}
+          height={24}
+        />
       </button>
-      {open ? (
-        <ul className="absolute right-0 mt-2 rounded-md bg-[#222831] border border-white/10 shadow-lg z-50 p-1">
-          {languages.map((label) => (
-            <li key={label.code}>
-              <button
-                type="button"
-                className="h-9 w-9 rounded flex items-center justify-center hover:bg-white/10"
-                onClick={() => setLocale(label.code)}
-              >
-                <Image src={label.src} alt={`${label.code} flag`} width={22} height={22} />
-              </button>
-            </li>
+
+      {open && (
+        <div className="absolute right-0 mt-2 w-16 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50 py-1">
+          {languageLabels.map((label) => (
+            <button
+              key={label.code}
+              type="button"
+              onClick={() => handleChange(label.code)}
+              className="w-full flex justify-center py-2 hover:bg-gray-100"
+            >
+              <Image
+                src={label.src}
+                alt={`${label.code} flag`}
+                width={24}
+                height={24}
+              />
+            </button>
           ))}
-        </ul>
-      ) : null}
+        </div>
+      )}
     </div>
   );
 }
