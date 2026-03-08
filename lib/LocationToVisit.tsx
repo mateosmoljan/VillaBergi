@@ -21,6 +21,7 @@ export const LocationToVisit: LocationToVisitData[] = [
       <a
         href="https://www.aquacolors.eu"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-yellow"
       >
         www.aquacolors.eu
@@ -32,6 +33,7 @@ export const LocationToVisit: LocationToVisitData[] = [
       <a
         href="https://www.np-brijuni.hr/"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-yellow"
       >
         www.np-brijuni.hr
@@ -43,6 +45,7 @@ export const LocationToVisit: LocationToVisitData[] = [
       <a
         href="https://www.pulainfo.hr/"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-yellow"
       >
         www.pulainfo.hr
@@ -51,7 +54,7 @@ export const LocationToVisit: LocationToVisitData[] = [
   },
   {
     placeToVisit: (
-      <a href="https://aquarium.hr/" target="_blank" className="text-yellow">
+      <a href="https://aquarium.hr/" target="_blank" rel="noopener noreferrer" className="text-yellow">
         aquarium.hr
       </a>
     ),
@@ -61,6 +64,7 @@ export const LocationToVisit: LocationToVisitData[] = [
       <a
         href="https://www.istralandia.hr/"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-yellow"
       >
         www.istralandia.hr
