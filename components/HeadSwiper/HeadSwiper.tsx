@@ -32,7 +32,7 @@ export default function HeadSwiper() {
         >
           {headSwiperLib.images.map((image, index) => (
             <SwiperSlide key={index} className="!h-screen">
-              <div className="relative h-screen w-full">
+              <div className="relative h-screen w-full flex items-center justify-center">
                 <Image
                   src={image.src}
                   alt={image.alt}
