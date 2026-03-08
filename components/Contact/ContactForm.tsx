@@ -43,12 +43,8 @@ function ContactForm() {
         </div>
 
         <div className="flex flex-col sm:flex-row w-full items-end">
-          <div className="w-full sm:w-1/2 mb-4 px-2">
+          <div className="w-full mb-4 px-2">
             <HolidayHome />
-          </div>
-          <div className="w-full sm:w-1/2 mb-4 px-2">
-            <label className="block text-sm font-Bold mb-1 text-grey3">Subject</label>
-            <input name="subject" defaultValue="Villa Bergi Inquiry" className="w-full bg-white rounded-md border border-gray-300 py-2 px-3 text-black" />
           </div>
         </div>
 
