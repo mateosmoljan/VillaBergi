@@ -26,13 +26,13 @@
   "HeaderSwiper": {
     "titles": [
       "Villa Bergi — Holiday Villa in the Heart of Istria",
-      "68m² Pool with Waterfall & Air Massage",
+      "68m² Pool with Air Massage",
       "7 Bedrooms · Sleeps 16 · Perfect for Groups",
       "Traditional Istrian Kazun & Outdoor Dining"
     ],
     "descriptions": [
       "A modern holiday villa in Žminj, central Istria — explore Rovinj, Pula, and the coast.",
-      "The largest private pool in Žminj with waterfall and air massage jets.",
+      "A large private pool in Žminj with air massage jets.",
       "Bring your friends or family — split the cost across 2500m² of private space.",
       "Authentic stone kazun with grill — the true Istrian dining experience."
     ],
@@ -40,10 +40,10 @@
   },
   "About": {
     "title": "Overview of Villa Bergi",
-    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool with waterfall, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
+    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
     "the_space": {
       "title": "The Space",
-      "des": "In front of the villa, there is a spacious summer kitchen with a wood-burning fireplace used for dining and entertainment (table football, darts, and billiards). There is also a workroom and a bathroom. Next to the summer kitchen, there is a **68 m² swimming pool with air massage and a waterfall**. A traditional Istrian ‘kazun’ made of stone adds a rustic touch, featuring a grill and baking area. A large terrace stretches along one side of the villa, offering sea and garden views — an ideal place for dining and relaxation.",
+      "des": "In front of the villa, there is a spacious summer kitchen with a wood-burning fireplace used for dining and entertainment (table football, darts, and billiards). There is also a workroom and a bathroom. Next to the summer kitchen, there is a **68 m² swimming pool with air massage**. A traditional Istrian ‘kazun’ made of stone adds a rustic touch, featuring a grill and baking area. A large terrace stretches along one side of the villa, offering sea and garden views — an ideal place for dining and relaxation.",
       "des2": "It consists of a spacious living room, a fully equipped kitchen, **7 charming bedrooms with bathrooms, air conditioning, and TV**. Each room has heating radiators. All rooms are air-conditioned. There is also a wellness room ( **sauna, jacuzzi, fitness equipment**), a garage with **2 parking spaces**, and **8 bicycles**. The parking area can accommodate over a dozen vehicles."
     },
     "guest_access": {
@@ -132,9 +132,9 @@
     ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool with waterfall, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
+    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
     "subtitle": "The Space",
-    "des2": "In front of the villa, there is an outdoor pool (68 m²) with air massage and a waterfall. The spacious lawn offers a children’s playground with a trampoline and football goals. Next to the pool is a replica of an old Istrian house called a \"kazun\" with barbecue facilities. A beautiful terrace is perfect for enjoying meals. Another dining area is the summer kitchen within the game room (darts, billiards, table football). The beauty room next to the villa offers a sauna, jacuzzi, and fitness equipment. The villa has a surveillance system for security. It can accommodate 16 people and features 7 bedrooms: 3 with king-size beds (2 people each), and 4 with twin beds. Additional sleeping space is available on the sofas in the living room.",
+    "des2": "In front of the villa, there is an outdoor pool (68 m²) with air massage. The spacious lawn offers a children’s playground with a trampoline and football goals. Next to the pool is a replica of an old Istrian house called a \"kazun\" with barbecue facilities. A beautiful terrace is perfect for enjoying meals. Another dining area is the summer kitchen within the game room (darts, billiards, table football). The beauty room next to the villa offers a sauna, jacuzzi, and fitness equipment. The villa has a surveillance system for security. It can accommodate 16 people and features 7 bedrooms: 3 with king-size beds (2 people each), and 4 with twin beds. Additional sleeping space is available on the sofas in the living room.",
     "subtitle2": "Guest Access",
     "des3": "Guests have access to 7 bedrooms, 2 living rooms, 2 kitchens, 9 bathrooms + separate WC, balconies, terrace, beauty room, games/summer kitchen, \"kazun\" with barbecue, laundry room with ironing facilities, pool, lawn, garden, playground, and the entire outdoor area (2500 m²)."
   },

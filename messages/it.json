@@ -26,13 +26,13 @@
   "HeaderSwiper": {
     "titles": [
       "Villa Bergi — Villa Vacanze nel Cuore dell'Istria",
-      "Piscina di 68m² con Cascata e Idromassaggio",
+      "Piscina di 68m² con Idromassaggio",
       "7 Camere · Fino a 16 Ospiti · Perfetta per Gruppi",
       "Tradizionale Kazun Istriano e Cena all'Aperto"
     ],
     "descriptions": [
       "Una moderna villa vacanze a Žminj, Istria centrale — esplora Rovigno, Pola e la costa.",
-      "La più grande piscina privata di Žminj con cascata e getti di idromassaggio.",
+      "Una grande piscina privata a Žminj con getti di idromassaggio.",
       "Portate amici o famiglia — dividete i costi su 2500m² di spazio privato.",
       "Autentico kazun in pietra con grill — la vera esperienza gastronomica istriana."
     ],
@@ -40,10 +40,10 @@
   },
   "About": {
     "title": "Panoramica di Villa Bergi",
-    "des": "Villa Bergi è una moderna villa vacanze a Žminj, nel cuore dell'Istria centrale — la base perfetta per esplorare l'intera penisola. Con 7 camere da letto per un massimo di 16 ospiti, piscina di 68m² con cascata, jacuzzi, sauna, palestra e un tradizionale 'kazun' istriano in pietra con barbecue, è ideale per gruppi di amici e famiglie. Biliardo, freccette, calcio balilla, 8 biciclette e 2500m² di spazio esterno privato. Villa non fumatori. Animali non ammessi.",
+    "des": "Villa Bergi è una moderna villa vacanze a Žminj, nel cuore dell'Istria centrale — la base perfetta per esplorare l'intera penisola. Con 7 camere da letto per un massimo di 16 ospiti, piscina di 68m² con idromassaggio, jacuzzi, sauna, palestra e un tradizionale 'kazun' istriano in pietra con barbecue, è ideale per gruppi di amici e famiglie. Biliardo, freccette, calcio balilla, 8 biciclette e 2500m² di spazio esterno privato. Villa non fumatori. Animali non ammessi.",
     "the_space": {
       "title": "Lo spazio",
-      "des": "Di fronte alla Villa c'è una spaziosa cucina estiva con camino a legna, utilizzata per pranzi e intrattenimento (calcio balilla, freccette e biliardo). Inoltre c'è una stanza lavoro e un bagno. Oltre alla cucina estiva, c'è una **piscina di 68 m² con idromassaggio e cascata**. La specialità tradizionale è rappresentata da un 'capanno istriano' costruito in pietra. Comprende un focolare per grigliare o cuocere all'aperto. Particolarmente attraente è la grande terrazza che si estende su un lato della villa con vista sul mare e sulle aree verdi circostanti, rendendola ideale per pranzi e relax.",
+      "des": "Di fronte alla Villa c'è una spaziosa cucina estiva con camino a legna, utilizzata per pranzi e intrattenimento (calcio balilla, freccette e biliardo). Inoltre c'è una stanza lavoro e un bagno. Oltre alla cucina estiva, c'è una **piscina di 68 m² con idromassaggio**. La specialità tradizionale è rappresentata da un 'capanno istriano' costruito in pietra. Comprende un focolare per grigliare o cuocere all'aperto. Particolarmente attraente è la grande terrazza che si estende su un lato della villa con vista sul mare e sulle aree verdi circostanti, rendendola ideale per pranzi e relax.",
       "des2": "La villa comprende un ampio soggiorno, cucina completamente attrezzata, **7 camere da letto affascinanti con bagno privato, aria condizionata e TV**. Riscaldamento in ogni stanza tramite radiatori. Tutte le camere sono climatizzate. Oltre alla villa, è disponibile una sala benessere (**sauna, jacuzzi, attrezzi per esercizi**). Vi è anche un garage con **2 posti auto** e **8 biciclette**. Il parcheggio offre la possibilità di ospitare più di una dozzina di veicoli."
     },
     "guest_access": {
@@ -132,9 +132,9 @@
     ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi è una moderna villa vacanze a Žminj, nel cuore dell'Istria centrale — la base perfetta per esplorare l'intera penisola. Con 7 camere da letto per un massimo di 16 ospiti, piscina di 68m² con cascata, jacuzzi, sauna, palestra e un tradizionale 'kazun' istriano in pietra con barbecue, è ideale per gruppi di amici e famiglie. Biliardo, freccette, calcio balilla, 8 biciclette e 2500m² di spazio esterno privato. Villa non fumatori. Animali non ammessi.",
+    "des": "Villa Bergi è una moderna villa vacanze a Žminj, nel cuore dell'Istria centrale — la base perfetta per esplorare l'intera penisola. Con 7 camere da letto per un massimo di 16 ospiti, piscina di 68m² con idromassaggio, jacuzzi, sauna, palestra e un tradizionale 'kazun' istriano in pietra con barbecue, è ideale per gruppi di amici e famiglie. Biliardo, freccette, calcio balilla, 8 biciclette e 2500m² di spazio esterno privato. Villa non fumatori. Animali non ammessi.",
     "subtitle": "Spazio",
-    "des2": "Di fronte alla villa c'è una piscina esterna (68 m²) con idromassaggio e cascata laterale. Un ampio prato offre un'area giochi per bambini con trampolino e porte da calcio. Accanto alla piscina, una replica della vecchia casa istriana chiamata \"kazun\" offre attrezzature per barbecue. La splendida terrazza è il luogo perfetto per godersi i pasti. Un altro spazio per pranzare è la cucina estiva, situata nella sala giochi con freccette, biliardo e calcio balilla. La sala benessere accanto alla villa offre sauna, jacuzzi e attrezzi per esercizi. La villa dispone di un sistema di sorveglianza per la sicurezza degli ospiti. La villa può ospitare fino a 16 persone. Ci sono 7 camere da letto: 3 camere matrimoniali king size e 4 camere con 2 letti singoli ciascuna. È possibile dormire anche sui divani del soggiorno.",
+    "des2": "Di fronte alla villa c'è una piscina esterna (68 m²) con idromassaggio laterale. Un ampio prato offre un'area giochi per bambini con trampolino e porte da calcio. Accanto alla piscina, una replica della vecchia casa istriana chiamata \"kazun\" offre attrezzature per barbecue. La splendida terrazza è il luogo perfetto per godersi i pasti. Un altro spazio per pranzare è la cucina estiva, situata nella sala giochi con freccette, biliardo e calcio balilla. La sala benessere accanto alla villa offre sauna, jacuzzi e attrezzi per esercizi. La villa dispone di un sistema di sorveglianza per la sicurezza degli ospiti. La villa può ospitare fino a 16 persone. Ci sono 7 camere da letto: 3 camere matrimoniali king size e 4 camere con 2 letti singoli ciascuna. È possibile dormire anche sui divani del soggiorno.",
     "subtitle2": "Accesso ospiti",
     "des3": "Gli ospiti possono accedere a 7 camere da letto, 2 soggiorni, 2 cucine, 9 bagni + WC separato, balconi, terrazza, sala benessere, sala giochi/cucina estiva, \"kazun\" con attrezzature per barbecue, stanza con lavatrice e ferro da stiro, piscina, prato, giardino, area giochi per bambini e tutto lo spazio esterno (2500 m²)."
   },
