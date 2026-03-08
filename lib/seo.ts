@@ -16,24 +16,24 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
       description: "Villa Bergi is a holiday villa in Žminj, Istria with a private pool, jacuzzi, garden, barbecue area, free parking and Wi‑Fi. Pets are not allowed.",
     },
     villa: {
-      title: "Villa Bergi Details | Amenities, Gallery & Booking",
-      description: "Explore Villa Bergi facilities, photos, features, pricing and booking terms for your stay in central Istria.",
+      title: "Villa Bergi — 7 Bedroom Villa in Žminj with Pool & Jacuzzi",
+      description: "Explore Villa Bergi: 7 bedrooms, pool, jacuzzi, sauna, fitness, games room. Perfect for groups up to 16 in central Istria.",
     },
     pricelist: {
-      title: "Villa Bergi Price List & Booking Terms",
-      description: "View Villa Bergi seasonal pricing, payment conditions and reservation process before your Istria trip.",
+      title: "Villa Bergi Prices — Holiday Villa Rental in Žminj",
+      description: "View seasonal prices and booking conditions for Villa Bergi in Žminj, Istria. Direct booking, no agency fees.",
     },
     photogallery: {
-      title: "Villa Bergi Photo Gallery",
-      description: "Browse high-quality photos of Villa Bergi, pool, rooms, outdoor areas and surroundings in Istria.",
+      title: "Villa Bergi Photos — Holiday Villa in Žminj, Istria",
+      description: "Browse photos of Villa Bergi: pool, jacuzzi, bedrooms, outdoor areas and surroundings in Žminj.",
     },
     surroundings: {
-      title: "Žminj & Istria Guide | Around Villa Bergi",
-      description: "Discover nearby attractions, beaches, historic towns and experiences near Villa Bergi in Istria.",
+      title: "Things to Do Near Žminj — Around Villa Bergi",
+      description: "Discover beaches, historic towns, water parks and experiences near Villa Bergi in central Istria.",
     },
     contact: {
-      title: "Contact Villa Bergi | Send Booking Inquiry",
-      description: "Contact Villa Bergi directly for booking inquiries, availability and stay details in Istria, Croatia.",
+      title: "Book Villa Bergi — Holiday Villa in Žminj, Istria",
+      description: "Send a booking inquiry for Villa Bergi in Žminj. Direct contact, fast response, no commission.",
     },
   },
   de: {
