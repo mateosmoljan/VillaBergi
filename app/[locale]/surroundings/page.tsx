@@ -14,9 +14,9 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 function SectionCard({ title, description }: { title: string; description: string }) {
   return (
-    <article className="rounded-2xl border border-white/10 bg-white/95 p-5 shadow-sm">
-      <h3 className="text-lg font-ExtraBold text-dark_blue_black mb-2">{title}</h3>
-      <p className="text-grey1 leading-7">{description}</p>
+    <article className="rounded-2xl border border-white/10 bg-[#082349] p-5 shadow-sm">
+      <h3 className="text-lg font-ExtraBold text-white mb-2">{title}</h3>
+      <p className="text-white/80 leading-7">{description}</p>
     </article>
   );
 }
@@ -38,8 +38,8 @@ export default function Environs() {
           <FourGallery range={{ start: 0, end: 4 }} mapButton />
         </div>
 
-        <div className="mt-10 rounded-3xl bg-white/95 p-6 md:p-8 shadow-sm border border-white/10">
-          <p className="leading-8 text-base md:text-lg text-grey1">
+        <div className="mt-10 rounded-3xl bg-[#082349] p-6 md:p-8 shadow-sm border border-white/10">
+          <p className="leading-8 text-base md:text-lg text-white/85">
             <Image src="/assets/images/sun.png" alt="Istria coat of arms" width={140} height={140} className="float-left mr-4 mb-2 aspect-square" sizes="140px" />
             {environs.heroIntro}
           </p>
@@ -47,8 +47,8 @@ export default function Environs() {
 
         <div className="mt-12 grid gap-10">
           <section>
-            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.nearby.title}</h2>
-            <p className="mt-3 leading-7 max-w-4xl text-text_secondary">{environs.sections.nearby.intro}</p>
+            <h2 className="text-2xl font-ExtraBold text-white">{environs.sections.nearby.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl text-white/75">{environs.sections.nearby.intro}</p>
             <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
               {environs.sections.nearby.items.map((item) => (
                 <SectionCard key={item.title} {...item} />
@@ -60,8 +60,8 @@ export default function Environs() {
             <div className="overflow-hidden rounded-3xl mb-6">
               <FourGallery range={{ start: 4, end: 8 }} mapButton={false} />
             </div>
-            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.beaches.title}</h2>
-            <p className="mt-3 leading-7 max-w-4xl text-text_secondary">{environs.sections.beaches.intro}</p>
+            <h2 className="text-2xl font-ExtraBold text-white">{environs.sections.beaches.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl text-white/75">{environs.sections.beaches.intro}</p>
             <div className="mt-6 grid gap-5 md:grid-cols-2">
               {environs.sections.beaches.items.map((item) => (
                 <SectionCard key={item.title} {...item} />
@@ -70,8 +70,8 @@ export default function Environs() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.dayTrips.title}</h2>
-            <p className="mt-3 leading-7 max-w-4xl text-text_secondary">{environs.sections.dayTrips.intro}</p>
+            <h2 className="text-2xl font-ExtraBold text-white">{environs.sections.dayTrips.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl text-white/75">{environs.sections.dayTrips.intro}</p>
             <div className="mt-6 grid gap-5 md:grid-cols-2">
               {environs.sections.dayTrips.items.map((item) => (
                 <SectionCard key={item.title} {...item} />
@@ -83,8 +83,8 @@ export default function Environs() {
             <div className="overflow-hidden rounded-3xl mb-6">
               <FourGallery range={{ start: 8, end: 12 }} mapButton={false} />
             </div>
-            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.whyStay.title}</h2>
-            <p className="mt-3 leading-7 max-w-4xl text-text_secondary">{environs.sections.whyStay.intro}</p>
+            <h2 className="text-2xl font-ExtraBold text-white">{environs.sections.whyStay.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl text-white/75">{environs.sections.whyStay.intro}</p>
             <div className="mt-6 grid gap-5 md:grid-cols-3">
               {environs.sections.whyStay.items.map((item) => (
                 <SectionCard key={item.title} {...item} />
@@ -92,12 +92,12 @@ export default function Environs() {
             </div>
           </section>
 
-          <section className="rounded-3xl border border-white/10 bg-white/95 p-6 md:p-8 shadow-sm">
-            <h2 className="text-2xl font-ExtraBold text-dark_blue_black">{environs.linksTitle}</h2>
+          <section className="rounded-3xl border border-white/10 bg-[#082349] p-6 md:p-8 shadow-sm">
+            <h2 className="text-2xl font-ExtraBold text-white">{environs.linksTitle}</h2>
             <ul className="mt-5 space-y-4">
               {links.locations.map((item, index) => (
-                <li key={index} className="leading-7 text-grey1">
-                  <span className="font-Bold text-dark_blue_black">{item.placeToVisit}</span>
+                <li key={index} className="leading-7 text-white/80">
+                  <span className="font-Bold text-white">{item.placeToVisit}</span>
                   {item.des ? <span> — {item.des}</span> : null}
                 </li>
               ))}
