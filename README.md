@@ -39,7 +39,31 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Internal GA4 Dashboard (Server-side)
 
+Route: `/internal/analytics`
+
+This dashboard pulls GA4 data with the Google Analytics Data API on the server only (service account). It does **not** replace or modify existing frontend tracking (`NEXT_PUBLIC_MEASUREMENT_ID`).
+
+### Required env vars
+
+Add to `.env.local`:
+
+```env
+GA4_PROPERTY_ID=123456789
+GA4_CLIENT_EMAIL=ga4-dashboard@your-project.iam.gserviceaccount.com
+GA4_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
+```
+
+### Least-privilege auth setup
+
+1. In Google Cloud, create a dedicated service account for read-only analytics access.
+2. Enable **Google Analytics Data API** in that project.
+3. In GA4 Admin → Property Access Management, add the service account email as **Viewer** (or Analyst if required).
+4. Copy the private key once and store it in server env vars only.
+5. Never expose `GA4_CLIENT_EMAIL` / `GA4_PRIVATE_KEY` to public runtime vars (`NEXT_PUBLIC_*`).
+
+If these vars are missing, `/internal/analytics` shows setup instructions instead of crashing.
 
 <!-- Fonts -->
 -- Arbutus Slab 

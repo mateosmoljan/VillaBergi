@@ -1,4 +1,6 @@
 "use client";
+"use client";
+
 import IFrameMaps from "@/components/About/iFrameMaps";
 import AvailabilityCalendar from "@/components/AvailabilityCalendar/AvailabilityCalendar";
 import BookYourStayCard from "@/components/BookYourStayCard/BookYourStayCard";

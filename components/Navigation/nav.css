@@ -61,21 +61,6 @@
   transition: width 200 ms ease-in-out;
 }
 
-.Mui-focusVisible {
-  outline: none !important;
-}
-
-.nav_switch .MuiSelect-select {
-  border: none !important;
-  @apply pl-0;
-}
-.nav_switch .MuiOutlinedInput-notchedOutline {
-  border: none !important;
-}
-
-.drawer_custom {
-  --Drawer-verticalSize: "300px" !important;
-}
 
 /* Translate Nav */
 .transitionMap {

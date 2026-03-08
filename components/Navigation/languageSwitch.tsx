@@ -1,68 +1,67 @@
-import { useRouter } from "next/navigation";
+"use client";
+
+import { useRouter, usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
-import React, { useTransition } from "react";
+import React, { useMemo, useState } from "react";
 import en_src from "@/public/assets/icons/flags/en.png";
 import de_src from "@/public/assets/icons/flags/de.png";
 import hr_src from "@/public/assets/icons/flags/hr.png";
 import it_src from "@/public/assets/icons/flags/it.png";
 import Image, { StaticImageData } from "next/image";
-import {
-  FormControl,
-  MenuItem,
-  Select,
-  SelectChangeEvent,
-} from "@mui/material";
 
 interface LanguageLabel {
   code: string;
   src: StaticImageData;
 }
 
-function LanguageSwitch() {
-  const [isPanding, startTransition] = useTransition();
-  const router = useRouter();
-  const localeActive = useLocale();
-  const [age, setAge] = React.useState("");
+const languages: LanguageLabel[] = [
+  { code: "en", src: en_src },
+  { code: "de", src: de_src },
+  { code: "hr", src: hr_src },
+  { code: "it", src: it_src },
+];
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value as string);
-    const nextLocale = event.target.value;
-    startTransition(() => {
-      router.replace(`/${nextLocale}`);
-    });
+function LanguageSwitch() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const localeActive = useLocale();
+  const [open, setOpen] = useState(false);
+
+  const active = useMemo(() => languages.find((l) => l.code === localeActive) || languages[0], [localeActive]);
+
+  const setLocale = (nextLocale: string) => {
+    const segments = pathname.split("/").filter(Boolean);
+    if (segments.length > 0) segments[0] = nextLocale;
+    else segments.push(nextLocale);
+    router.replace(`/${segments.join("/")}`);
+    setOpen(false);
   };
 
-  const languageLabels: LanguageLabel[] = [
-    { code: "en", src: en_src },
-    { code: "de", src: de_src },
-    { code: "hr", src: hr_src },
-    { code: "it", src: it_src },
-  ];
-
   return (
-    <div className="nav_switch overflow-y-visible">
-      <FormControl sx={{}}>
-        <Select
-          value={localeActive}
-          defaultValue={localeActive}
-          onChange={handleChange}
-          disabled={isPanding}
-          displayEmpty
-          inputProps={{ "aria-label": "Without label" }}
-          size="small"
-        >
-          {languageLabels.map((label) => (
-            <MenuItem key={label.code} value={label.code}>
-              <Image
-                src={label.src}
-                alt={`${label.code} flag`}
-                width={24}
-                height={24}
-              />
-            </MenuItem>
+    <div className="relative">
+      <button
+        type="button"
+        className="h-9 w-9 rounded-md border border-white/20 flex items-center justify-center hover:bg-white/10"
+        onClick={() => setOpen((v) => !v)}
+        aria-label="Switch language"
+      >
+        <Image src={active.src} alt={`${active.code} flag`} width={22} height={22} />
+      </button>
+      {open ? (
+        <ul className="absolute right-0 mt-2 rounded-md bg-[#222831] border border-white/10 shadow-lg z-50 p-1">
+          {languages.map((label) => (
+            <li key={label.code}>
+              <button
+                type="button"
+                className="h-9 w-9 rounded flex items-center justify-center hover:bg-white/10"
+                onClick={() => setLocale(label.code)}
+              >
+                <Image src={label.src} alt={`${label.code} flag`} width={22} height={22} />
+              </button>
+            </li>
           ))}
-        </Select>
-      </FormControl>
+        </ul>
+      ) : null}
     </div>
   );
 }
