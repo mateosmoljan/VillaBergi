@@ -20,7 +20,7 @@ function Home({ params }: { params: { locale: string } }) {
   return (
     <div>
       <HeadSwiper />
-      <main className="primary-bg">
+      <main className="bg-white">
         <h1 className="sr-only">Villa Bergi</h1>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NavPath homePage={true} />
