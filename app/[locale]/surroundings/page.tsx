@@ -1,11 +1,10 @@
 import FourGallery from "@/components/Gallery/FourGallery";
 import NavPath from "@/components/NavPath/NavPath";
-import SendMessage from "@/components/SendMessage/SendMessage";
+import { Link } from "@/navigation";
 import { getEnvironsData } from "@/lib/environs";
 import { getLocationsData } from "@/lib/LocationToVisit";
 import { useLocale } from "next-intl";
 import Image from "next/image";
-import SurroundingsSection from "@/components/SurroundingsSection/index";
 import { buildMetadata, isLocale } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: { locale: string } }) {
@@ -13,42 +12,107 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   return buildMetadata(locale, "surroundings", "/surroundings");
 }
 
+function SectionCard({ title, description }: { title: string; description: string }) {
+  return (
+    <article className="rounded-2xl border border-secondary/15 bg-white p-5 shadow-sm">
+      <h3 className="text-lg font-ExtraBold text-primary mb-2">{title}</h3>
+      <p className="text-secondary leading-7">{description}</p>
+    </article>
+  );
+}
+
 export default function Environs() {
   const localeActive = useLocale();
-  const LocationsData = getLocationsData(localeActive);
-  const EnvironsData = getEnvironsData(localeActive);
+  const environs = getEnvironsData(localeActive);
+  const links = getLocationsData(localeActive);
 
   return (
     <section className="pt-16 md:pt-14 text-secondary">
       <NavPath />
-      <div className="container">
-        <h1 className="mt-12 flex justify-center text-3xl sm:text-4xl font-ExtraBold text-primary tracking-wider">{EnvironsData.data[0].title}</h1>
-        <FourGallery range={{ start: 0, end: 4 }} mapButton={true} />
-        <div className="flex flex-col mt-8 gap-4">
-          <p>
-            <Image src="/assets/images/sun.png" alt="Grb Istre" width={150} height={150} className="aspect-square float-left" />
-            {EnvironsData.data[0].des}
-          </p>
-          <SurroundingsSection />
+      <div className="container pb-24">
+        <h1 className="mt-12 text-center text-3xl sm:text-4xl font-ExtraBold text-primary tracking-wider">
+          {environs.heroTitle}
+        </h1>
+
+        <div className="mt-8 overflow-hidden rounded-3xl">
+          <FourGallery range={{ start: 0, end: 4 }} mapButton />
         </div>
-        <FourGallery range={{ start: 4, end: 8 }} mapButton={false} />
-        <div>
-          <h2 className="font-titleBold text-xl mb-4">{EnvironsData.data[0].title2}</h2>
-          <p>{EnvironsData.data[0].des2}</p>
-          <div>
-            <h3 className="font-semibold">{EnvironsData.data[0].subtitle}</h3>
-            <ul className="list-disc p-3 pl-8">
-              {LocationsData.locations.map((item, index) => (
-                <li key={index}>
-                  <strong>{item.placeToVisit}</strong> {item.des}
+
+        <div className="mt-10 rounded-3xl bg-white p-6 md:p-8 shadow-sm border border-secondary/10">
+          <p className="leading-8 text-base md:text-lg">
+            <Image src="/assets/images/sun.png" alt="Istria coat of arms" width={140} height={140} className="float-left mr-4 mb-2 aspect-square" sizes="140px" />
+            {environs.heroIntro}
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-10">
+          <section>
+            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.nearby.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl">{environs.sections.nearby.intro}</p>
+            <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+              {environs.sections.nearby.items.map((item) => (
+                <SectionCard key={item.title} {...item} />
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <div className="overflow-hidden rounded-3xl mb-6">
+              <FourGallery range={{ start: 4, end: 8 }} mapButton={false} />
+            </div>
+            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.beaches.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl">{environs.sections.beaches.intro}</p>
+            <div className="mt-6 grid gap-5 md:grid-cols-2">
+              {environs.sections.beaches.items.map((item) => (
+                <SectionCard key={item.title} {...item} />
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.dayTrips.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl">{environs.sections.dayTrips.intro}</p>
+            <div className="mt-6 grid gap-5 md:grid-cols-2">
+              {environs.sections.dayTrips.items.map((item) => (
+                <SectionCard key={item.title} {...item} />
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <div className="overflow-hidden rounded-3xl mb-6">
+              <FourGallery range={{ start: 8, end: 12 }} mapButton={false} />
+            </div>
+            <h2 className="text-2xl font-ExtraBold text-primary">{environs.sections.whyStay.title}</h2>
+            <p className="mt-3 leading-7 max-w-4xl">{environs.sections.whyStay.intro}</p>
+            <div className="mt-6 grid gap-5 md:grid-cols-3">
+              {environs.sections.whyStay.items.map((item) => (
+                <SectionCard key={item.title} {...item} />
+              ))}
+            </div>
+          </section>
+
+          <section className="rounded-3xl border border-secondary/10 bg-white p-6 md:p-8 shadow-sm">
+            <h2 className="text-2xl font-ExtraBold text-primary">{environs.linksTitle}</h2>
+            <ul className="mt-5 space-y-4">
+              {links.locations.map((item, index) => (
+                <li key={index} className="leading-7">
+                  <span className="font-Bold text-primary">{item.placeToVisit}</span>
+                  {item.des ? <span> — {item.des}</span> : null}
                 </li>
               ))}
             </ul>
-          </div>
-          <FourGallery range={{ start: 8, end: 12 }} mapButton={false} />
-          <div className="mb-24">
-            <SendMessage />
-          </div>
+          </section>
+
+          <section className="rounded-3xl bg-primary text-white p-8 md:p-10 shadow-xl">
+            <h2 className="text-2xl md:text-3xl font-ExtraBold">{environs.cta.title}</h2>
+            <p className="mt-4 text-white/90 leading-7 max-w-3xl">{environs.cta.text}</p>
+            <div className="mt-6">
+              <Link href="/contact" className="btn inline-flex">
+                {environs.cta.button}
+              </Link>
+            </div>
+          </section>
         </div>
       </div>
     </section>

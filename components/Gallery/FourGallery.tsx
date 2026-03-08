@@ -84,7 +84,7 @@ function FourGallery({ mapButton, range }: Props) {
                   className=" btn-2 gap-2 mt-4"
                 >
                   <FaMap />
-                  <span>{EnvironsData.data[0].button}</span>
+                  <span>{EnvironsData.data?.[0]?.button ?? "View map"}</span>
                 </button>
                 {showMap && <GoogleMaps onClose={handleMapClose} />}
               </div>
