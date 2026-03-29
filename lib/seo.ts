@@ -13,11 +13,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   en: {
     home: {
       title: "Villa Bergi | Holiday Villa in Žminj, Central Istria — Near Rovinj & Pula",
-      description: "Holiday villa in Žminj, central Istria. Pool, jacuzzi, 7 bedrooms, sleeps 16. Near Rovinj, Pula and Pazin. For groups and families.",
+      description: "Holiday villa in Damijanići near Žminj, central Istria. Pool, jacuzzi, 4 bedrooms, sleeps 12. Near Rovinj, Pula and Pazin. Ideal for families and smaller groups.",
     },
     villa: {
-      title: "Villa Bergi — 7 Bedroom Villa in Žminj, Istria with Pool & Jacuzzi",
-      description: "7 bedroom villa in Žminj, Istria with pool, jacuzzi, sauna and games. Sleeps 16 and suits groups and families in central Istria.",
+      title: "Villa Bergi — 4 Bedroom Villa in Žminj, Istria with Pool & Jacuzzi",
+      description: "4 bedroom villa in Damijanići near Žminj, Istria with pool, jacuzzi and garden. Sleeps 12 and suits families and smaller groups in central Istria.",
     },
     pricelist: {
       title: "Villa Bergi Prices — Villa Rental Prices in Žminj, Istria",
@@ -25,7 +25,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Photos — Villa Photos in Žminj, Istria",
-      description: "View Villa Bergi photos from Žminj, Istria: pool, jacuzzi, 7 bedrooms and outdoor spaces for groups and families.",
+      description: "View Villa Bergi photos from Damijanići near Žminj, Istria: pool, jacuzzi, 4 bedrooms and outdoor spaces for families and smaller groups.",
     },
     surroundings: {
       title: "Things to Do Near Žminj — Central Istria Around Villa Bergi",
@@ -155,7 +155,7 @@ export function getLodgingJsonLd(_locale: Locale) {
     "@context": "https://schema.org",
     "@type": "VacationRental",
     name: "Villa Bergi",
-    description: "Modern holiday villa in Žminj, central Istria with 7 bedrooms, pool, jacuzzi, sauna. Sleeps 16.",
+    description: "Holiday villa in Damijanići near Žminj, central Istria with 4 bedrooms, pool, jacuzzi and garden. Sleeps 12.",
     url: "https://villabergi.com",
     image: "https://villabergi.com/assets/images/optimized-hero/28.webp",
     address: {
@@ -169,10 +169,10 @@ export function getLodgingJsonLd(_locale: Locale) {
       latitude: 45.1292,
       longitude: 13.8986,
     },
-    numberOfRooms: 7,
+    numberOfRooms: 4,
     occupancy: {
       "@type": "QuantitativeValue",
-      maxValue: 16,
+      maxValue: 12,
     },
     amenityFeature: [
       { "@type": "LocationFeatureSpecification", name: "Swimming Pool", value: true },

@@ -26,15 +26,15 @@
   "HeaderSwiper": {
     "titles": [
       "Villa Bergi — Kuća za odmor u srcu Istre",
-      "Bazen od 68m² sa zračnom masažom",
-      "7 spavaćih soba · Za 16 gostiju · Idealno za grupe",
-      "Tradicionalni istarski kazun i vanjski obrok"
+      "Privatni bazen i opuštanje na otvorenom",
+      "4 spavaće sobe · Za 12 gostiju · Idealno za obitelji",
+      "Tradicionalni istarski šarm uz modernu udobnost"
     ],
     "descriptions": [
-      "Moderna kuća za odmor u Žminju, srednja Istra — istražite Rovinj, Pulu i obalu.",
-      "Najveći privatni bazen u Žminju sa slapom i mlaznicama za zračnu masažu.",
-      "Povedite prijatelje ili obitelj — podijelite troškove na 2500m² privatnog prostora.",
-      "Autentični kameni kazun s roštiljem — pravo istarsko iskustvo objedovanja."
+      "Šarmantna kamena vila u Damijanićima kraj Žminja — savršena baza za istraživanje Istre.",
+      "Uživajte u privatnom bazenu, vrtu, jacuzziju i mirnom vanjskom prostoru tijekom dugih ljetnih dana.",
+      "Udoban boravak za obitelji i manje grupe s dovoljno prostora za odmor, objedovanje i zajedničko uživanje.",
+      "Tradicionalna arhitektura, topao interijer i autentični detalji stvaraju pravo istarsko iskustvo boravka."
     ],
     "button": "Pročitaj više"
   },
@@ -42,13 +42,13 @@
     "title": "Pregled Ville Bergi",
     "des": "Villa Bergi je moderna vila za odmor u Žminju, u srcu centralne Istre — savršena baza za istraživanje cijelog poluotoka. Sa 7 spavaćih soba za do 16 gostiju, bazenom od 68m² sa zračnom masažom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kamenim 'kazunom' s roštiljem, idealna je za grupe prijatelja i obitelji. Uživajte u biljaru, pikadu, stolnom nogometu, 8 bicikala i 2500m² privatnog vanjskog prostora. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
     "the_space": {
-      "title": "The space",
-      "des": "In front of the Villa there is a spacious summer kitchen with a wood-burning fireplace that serves for dining and entertainment (table football, piccado and billiards). Also there is a working room and a bathroom. In addition to the summer kitchen there is a **68 m square swimming pool with air massage facilities, a waterfall** . Traditional speciality is occupied by an Istrian cape built in stone style. It consists of a fire pit for setting a grill or baking for dining. It is especially attractive large terrace that spreads on one side of the villa overlooking the sea and surrounding green areas, which also makes it an ideal place for dining and resting.",
-      "des2": "It consists of a spacious living room, fully equipped kitchen , **7 charming bedrooms with bathrooms, air conditioning and TV**. Heating in every room with radiators. All rooms are air conditioned. In addition to the villa, there is a wellness room ( **sauna ,jacuzzi, exercise equipment**).It is also a garage with **2 parking spaces** and there are **8 bikes**. Parking space offers the possibility of more than a dozen parking spaces."
+      "title": "Prostor",
+      "des": "Vila je prikladna za 12 osoba i ima 4 spavaće sobe i 4 kupaonice. Dnevni boravak i kuhinja uređeni su u kombinaciji istarskog i modernog stila. Vila ima kamin, zeleni vrt, bazen i prostor za roštilj gdje možete provesti kvalitetno i opuštajuće vrijeme s prijateljima i obitelji. Na zidu kuće nalazi se portret, iznad kojeg stoji natpis San Giacomo (sv. Jakov). Još uvijek nije poznato tko je postavio kamenu glavu na zid kuće, ali vjeruje se da ju je tijekom gradnje postavio vlasnik kuće.",
+      "des2": "OPĆENITO: klima uređaj, kamin, grijanje, perilica rublja, kauč na razvlačenje, bazen, bežični internet, posteljina uključena, ručnici uključeni. KUHINJA I BLAGOVAONICA: štednjak, aparat za kavu, posuđe i pribor, pećnica. ZABAVA I OSTALE POGODNOSTI: TV, satelitska/kabelska televizija, vanjski roštilj, travnjak/vrt, radio, jacuzzi."
     },
     "guest_access": {
       "title": "Pristup gostima",
-      "des": "Jacuzzi, parkiralište, stolni nogomet, vanjski bazen, roštilj"
+      "des": "ATRAKCIJE I OSTALE AKTIVNOSTI: marina, vinske ceste, ribolov, ronjenje, biciklizam, jedrenje, casino, plaža, aquapark, ski lift Poreč, jahanje, golf, posjeti povijesnim znamenitostima, najam bicikala, ture maslinovog ulja. PARKING JE BESPLATAN I DOSTUPAN U SKLOPU OBJEKTA."
     },
     "locations": {
       "title": "Što posjetiti:",
@@ -83,7 +83,7 @@
     "subtitle": "Smještaj",
     "title": "Nudimo vam 1 Vilu",
     "card_title": "Villa Bergi",
-    "card_des": "Maksimalno 10 osoba",
+    "card_des": "Maksimalno 12 osoba",
     "card_des2": "Cijena od",
     "card_des3": "po noći"
   },

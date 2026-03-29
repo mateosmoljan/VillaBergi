@@ -26,29 +26,29 @@
   "HeaderSwiper": {
     "titles": [
       "Villa Bergi — Holiday Villa in the Heart of Istria",
-      "68m² Pool with Air Massage",
-      "7 Bedrooms · Sleeps 16 · Perfect for Groups",
-      "Traditional Istrian Kazun & Outdoor Dining"
+      "Private Pool & Outdoor Relaxation",
+      "4 Bedrooms · Sleeps 12 · Ideal for Families",
+      "Traditional Istrian Charm with Modern Comfort"
     ],
     "descriptions": [
-      "A modern holiday villa in Žminj, central Istria — explore Rovinj, Pula, and the coast.",
-      "A large private pool in Žminj with air massage jets.",
-      "Bring your friends or family — split the cost across 2500m² of private space.",
-      "Authentic stone kazun with grill — the true Istrian dining experience."
+      "A charming stone villa in Damijanići near Žminj — the perfect base for exploring Istria.",
+      "Enjoy the private pool, garden, jacuzzi, and peaceful outdoor space for long summer days.",
+      "A comfortable stay for families and smaller groups with space to relax, dine, and unwind together.",
+      "Traditional architecture, a warm interior, and authentic details create a true Istrian stay."
     ],
     "button": "Read More"
   },
   "About": {
     "title": "Overview of Villa Bergi",
-    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
+    "des": "The luxurious Villa Bergi is located in the small, charming village of Damijanići, just 2 km from Žminj, an Istrian town with a rich history. Villa Bergi is a 300-year-old stone house that has been owned by the same family for centuries. The villa has been renovated in accordance with the traditional Istrian style and the former way of life of local farming families.",
     "the_space": {
       "title": "The Space",
-      "des": "In front of the villa, there is a spacious summer kitchen with a wood-burning fireplace used for dining and entertainment (table football, darts, and billiards). There is also a workroom and a bathroom. Next to the summer kitchen, there is a **68 m² swimming pool with air massage**. A traditional Istrian ‘kazun’ made of stone adds a rustic touch, featuring a grill and baking area. A large terrace stretches along one side of the villa, offering sea and garden views — an ideal place for dining and relaxation.",
-      "des2": "It consists of a spacious living room, a fully equipped kitchen, **7 charming bedrooms with bathrooms, air conditioning, and TV**. Each room has heating radiators. All rooms are air-conditioned. There is also a wellness room ( **sauna, jacuzzi, fitness equipment**), a garage with **2 parking spaces**, and **8 bicycles**. The parking area can accommodate over a dozen vehicles."
+      "des": "The villa is suitable for 12 people and has 4 bedrooms and 4 bathrooms. The living room and kitchen are decorated in a combination of Istrian and modern style. The villa has a fireplace, a green garden, a swimming pool, and a barbecue area where you can spend quality relaxing time with friends and family. On the wall of the house there is a portrait, above which is the inscription San Giacomo (St. James). It is still unknown who placed the stone head on the wall of the house, but it is believed that it was installed by the owner during the construction of the house.",
+      "des2": "GENERAL: Air conditioning, fireplace, heating, washing machine, sofa bed, swimming pool, wireless internet, linen included, towels included. KITCHEN AND DINING ROOM: Stove, coffee machine, dishes and utensils, oven. ENTERTAINMENT AND OTHER AMENITIES: TV, satellite/cable, outdoor grill, lawn/garden, radio, jacuzzi."
     },
     "guest_access": {
       "title": "Guest Access",
-      "des": "Jacuzzi, parking, table football, outdoor pool, barbecue"
+      "des": "ATTRACTIONS AND OTHER ACTIVITIES: Marina, wine roads, fishing, diving, cycling, sailing, casino, beach, aquapark, ski lift Poreč, horse riding, golf, visits to historical sights, bike rental, olive oil tours. PARKING IS FREE AND ON SITE."
     },
     "locations": {
       "title": "What to visit:",
@@ -83,7 +83,7 @@
     "subtitle": "Accommodation",
     "title": "We offer 1 Villa",
     "card_title": "Villa Bergi",
-    "card_des": "Maximum 10 people",
+    "card_des": "Maximum 12 people", 
     "card_des2": "Price from",
     "card_des3": "per night"
   },
@@ -132,11 +132,11 @@
     ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi is a modern holiday villa in Žminj, the heart of central Istria — your perfect base to explore the entire peninsula. With 7 bedrooms sleeping up to 16 guests, a 68m² pool, jacuzzi, sauna, fitness room, and a traditional Istrian stone 'kazun' with barbecue, it's ideal for groups of friends and families. Enjoy billiards, darts, table football, 8 bicycles, and 2500m² of private outdoor space. Non-smoking. Pets are not allowed.",
+    "des": "The luxurious Villa Bergi is located in the small, charming village of Damijanići. Damijanići is located 2 km (1.2 miles) from Žminj, an Istrian town with a rich history. Villa Bergi is a 300-year-old stone house that has been owned by the same family for centuries. The villa has been renovated in accordance with the way of life of farmers and the Istrian traditional style of construction.",
     "subtitle": "The Space",
-    "des2": "In front of the villa, there is an outdoor pool (68 m²) with air massage. The spacious lawn offers a children’s playground with a trampoline and football goals. Next to the pool is a replica of an old Istrian house called a \"kazun\" with barbecue facilities. A beautiful terrace is perfect for enjoying meals. Another dining area is the summer kitchen within the game room (darts, billiards, table football). The beauty room next to the villa offers a sauna, jacuzzi, and fitness equipment. The villa has a surveillance system for security. It can accommodate 16 people and features 7 bedrooms: 3 with king-size beds (2 people each), and 4 with twin beds. Additional sleeping space is available on the sofas in the living room.",
+    "des2": "The villa is suitable for 12 people, has 4 bedrooms and 4 bathrooms, the living room and kitchen are decorated in a combination of Istrian and modern style. The villa has a fireplace, a green garden, a swimming pool, a barbecue where you can spend quality relaxing time with friends and family. On the wall of the house there is a portrait, above which is the inscription San Giacomo (St. James). It is still unknown who placed the stone head on the wall of the house, but it is believed that it was installed by the owner during the construction of the house. GENERAL: Air conditioning, fireplace, heating, washing machine, sofa bed, swimming pool, wireless internet, linen included, towels included. KITCHEN AND DINING ROOM: Stove, coffee machine, dishes and utensils, oven. ENTERTAINMENT AND OTHER AMENITIES: TV, SATELLITE /CABLE, outdoor grill, lawn /garden, radio, jacuzzi.",
     "subtitle2": "Guest Access",
-    "des3": "Guests have access to 7 bedrooms, 2 living rooms, 2 kitchens, 9 bathrooms + separate WC, balconies, terrace, beauty room, games/summer kitchen, \"kazun\" with barbecue, laundry room with ironing facilities, pool, lawn, garden, playground, and the entire outdoor area (2500 m²)."
+    "des3": "ATTRACTIONS AND OTHER ACTIVITIES: Marina, Wine roads, Fishing, Diving, Cycling, Sailing, Casino, Beach, Aquapark, Sky lift Poreč, Horse riding, Golf, Visits to historical sights, Bike rental, Olive oil tours. PARKING IS FREE AND ON SITE."
   },
   "Villa_Features": {
     "title": "Features",
