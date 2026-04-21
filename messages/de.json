@@ -25,13 +25,13 @@
   },
   "HeaderSwiper": {
     "titles": [
-      "Villa Bergi — Ferienvilla im Herzen Istriens",
-      "Privater Pool & Entspannung im Freien",
-      "4 Schlafzimmer · Für 12 Gäste · Ideal für Familien",
-      "Traditioneller istrischer Charme mit modernem Komfort"
+      "Authentische Villa in Istrien",
+      "Privater Pool und Entspannung im Freien",
+      "5 Schlafzimmer · Für 12 Gäste · Ideal für Familien",
+      "Originaler istrischer Charme mit modernem Komfort"
     ],
     "descriptions": [
-      "Eine charmante Steinvilla in Damijanići bei Žminj — der perfekte Ausgangspunkt, um Istrien zu entdecken.",
+      "Eine charmante Steinvilla in Damijanići bei Žminj, der perfekte Ausgangspunkt, um Istrien zu entdecken.",
       "Genießen Sie den privaten Pool, den Garten, den Whirlpool und den ruhigen Außenbereich an langen Sommertagen.",
       "Ein komfortabler Aufenthalt für Familien und kleinere Gruppen mit viel Platz zum Entspannen, Essen und gemeinsamen Genießen.",
       "Traditionelle Architektur, ein warmes Interieur und authentische Details schaffen ein echtes istrisches Urlaubserlebnis."
@@ -51,13 +51,13 @@
       "des": "ATTRAKTIONEN UND WEITERE AKTIVITÄTEN: Marina, Weinstraßen, Angeln, Tauchen, Radfahren, Segeln, Casino, Strand, Aquapark, Skilift Poreč, Reiten, Golf, Besuche historischer Sehenswürdigkeiten, Fahrradverleih, Olivenöl-Touren. PARKEN IST KOSTENLOS UND DIREKT VOR ORT VERFÜGBAR."
     },
     "locations": {
-      "title": "Sehenswürdigkeiten in der Nähe:",
+      "title": "Was man besuchen sollte:",
       "des": [
         "- Wasserpark Aquacolors.",
         "- Entdecken Sie die wunderschönen Inseln des Nationalparks Brijuni, reich an natürlicher Schönheit und kulturellem Erbe.",
         "- Besichtigen Sie das antike römische Amphitheater in Pula, eines der am besten erhaltenen der Welt.",
-        "- Tauchen Sie in die Unterwasserwelt des Aquariums Pula ein, in der Nähe des Stadtzentrums. Erkunden Sie verschiedene Meereslebensräume und erfahren Sie mehr über den Schutz der Ozeane.",
-        "- Erleben Sie spannende Rutschen, einen Lazy River und entspannende Pools im Wasserpark Istralandia in der Nähe von Novigrad. Ideal für Familien und Wasserliebhaber – ein Spaß für alle Altersgruppen."
+        "- Tauchen Sie in die Unterwasserwelt des Aquariums Pula ein, in der Nähe des Stadtzentrums. Erkunden Sie verschiedene Meereslebensräume, beobachten Sie Meeresarten und erfahren Sie mehr über den Schutz der Ozeane.",
+        "- Erleben Sie spannende Rutschen, einen Lazy River und entspannende Pools im Wasserpark Istralandia nahe Novigrad. Ideal für Familien und Wasserliebhaber, ein Spaß für alle Altersgruppen."
       ]
     }
   },
@@ -81,7 +81,7 @@
   },
   "Acommodation": {
     "subtitle": "Unterkunft",
-    "title": "Wir bieten Ihnen 1 Villa",
+    "title": "Wir bieten 1 Villa an",
     "card_title": "Villa Bergi",
     "card_des": "Maximal 12 Personen",
     "card_des2": "Preis ab",
@@ -89,19 +89,19 @@
   },
   "Photogalleries": {
     "subtitle": "Fotogalerien",
-    "title": "Fotogalerien — Villa Bergi in Žminj",
+    "title": "Fotogalerien, Villa Bergi in Žminj",
     "button": "Fotogalerie anzeigen"
   },
   "Tourist_Guide": {
     "subtitle": "TOURISTENFÜHRER",
-    "title": "Reiseführer — Istrien von Villa Bergi aus entdecken",
+    "title": "Touristenführer, Istrien von Villa Bergi aus entdecken",
     "image_des": [
       "Der größte in Kroatien",
       "Nationalpark",
       "Wasserpark",
       "Veranstaltungen",
       "Wasserpark",
-      "Klippen- und Strandspringen"
+      "Klippen- / Strandspringen"
     ]
   },
   "Send_Message": {
@@ -109,7 +109,7 @@
     "button": "Nachricht senden"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi — Ferienvilla in Žminj, Istrien",
+    "year": "©2024 . Villa Bergi, Ferienvilla in Žminj, Istrien",
     "rights": "Alle Rechte vorbehalten",
     "created_by": "Webseite von BoostWeb",
     "Discover": {
@@ -132,9 +132,9 @@
     ]
   },
   "Villa_Description": {
-    "des": "Die luxuriöse Villa Bergi liegt im kleinen und charmanten Dorf Damijanići. Damijanići liegt 2 km von Žminj entfernt, einer istrischen Stadt mit reicher Geschichte. Villa Bergi ist ein 300 Jahre altes Steinhaus, das seit Jahrhunderten derselben Familie gehört. Die Villa wurde im Einklang mit der früheren Lebensweise der Bauern und der traditionellen istrischen Bauweise renoviert.",
+    "des": "Die luxuriöse Villa Bergi liegt im kleinen und charmanten Dorf Damijanići. Damijanići liegt 2 km von Žminj entfernt, einer istrischen Stadt mit reicher Geschichte. Villa Bergi ist ein 300 Jahre altes Steinhaus, das seit Jahrhunderten derselben Familie gehört. Die Villa wurde im Einklang mit der früheren Lebensweise der Bauernfamilien und der traditionellen istrischen Bauweise renoviert.",
     "subtitle": "Der Raum",
-    "des2": "Die Villa ist für 12 Personen geeignet, verfügt über 4 Schlafzimmer und 4 Badezimmer, und das Wohnzimmer sowie die Küche sind in einer Kombination aus istrischem und modernem Stil eingerichtet. Die Villa verfügt über einen Kamin, einen grünen Garten, einen Swimmingpool und einen Grill, wo Sie entspannte Zeit mit Freunden und Familie verbringen können. An der Hauswand befindet sich ein Porträt, darüber die Inschrift San Giacomo (St. Jakobus). Bis heute ist nicht bekannt, wer den steinernen Kopf an der Hauswand angebracht hat, aber es wird angenommen, dass ihn der Eigentümer beim Bau des Hauses anbringen ließ. ALLGEMEIN: Klimaanlage, Kamin, Heizung, Waschmaschine, Schlafsofa, Swimmingpool, WLAN, Bettwäsche inklusive, Handtücher inklusive. KÜCHE UND ESSZIMMER: Herd, Kaffeemaschine, Geschirr und Besteck, Ofen. UNTERHALTUNG UND WEITERE AUSSTATTUNG: TV, SATELLITEN-/KABEL-TV, Außengrill, Rasen/Garten, Radio, Whirlpool.",
+    "des2": "Die Villa ist für 12 Personen geeignet, verfügt über 4 Schlafzimmer und 4 Badezimmer, und das Wohnzimmer sowie die Küche sind in einer Kombination aus istrischem und modernem Stil eingerichtet. Die Villa verfügt über einen Kamin, einen grünen Garten, einen Swimmingpool und einen Grill, wo Sie entspannte Zeit mit Freunden und Familie verbringen können. An der Hauswand befindet sich ein Porträt, darüber die Inschrift San Giacomo (St. Jakobus). Bis heute ist nicht bekannt, wer den steinernen Kopf an der Hauswand angebracht hat, aber es wird angenommen, dass ihn der Eigentümer beim Bau des Hauses anbringen ließ. ALLGEMEIN: Klimaanlage, Kamin, Heizung, Waschmaschine, Schlafsofa, Swimmingpool, WLAN, Bettwäsche inklusive, Handtücher inklusive. KÜCHE UND ESSZIMMER: Herd, Kaffeemaschine, Geschirr und Besteck, Ofen. UNTERHALTUNG UND WEITERE AUSSTATTUNG: TV, SATELLIT / KABEL, Außengrill, Rasen / Garten, Radio, Whirlpool.",
     "subtitle2": "Zugang für Gäste",
     "des3": "ATTRAKTIONEN UND WEITERE AKTIVITÄTEN: Marina, Weinstraßen, Angeln, Tauchen, Radfahren, Segeln, Casino, Strand, Aquapark, Skilift Poreč, Reiten, Golf, Besuche historischer Sehenswürdigkeiten, Fahrradverleih, Olivenöl-Touren. PARKEN IST KOSTENLOS UND DIREKT VOR ORT VERFÜGBAR."
   },
@@ -142,15 +142,15 @@
     "title": "Ausstattung",
     "title2": "Was dieser Ort bietet",
     "title3": "Badezimmer",
-    "title4": "Schlafzimmer & Wäscherei",
+    "title4": "Schlafzimmer und Wäscherei",
     "title5": "Unterhaltung",
     "title6": "Familie",
-    "title7": "Heizung & Klimatisierung",
+    "title7": "Heizung und Kühlung",
     "title8": "Haussicherheit",
-    "title9": "Internet & Büro",
-    "title10": "Küche & Essbereich",
+    "title9": "Internet und Büro",
+    "title10": "Küche und Essbereich",
     "title11": "Außenbereich",
-    "title12": "Parken & Einrichtungen",
+    "title12": "Parken und Einrichtungen",
     "title13": "Serviceleistungen",
     "title14": "Sicherheit",
     "button": "Alle 43 Annehmlichkeiten anzeigen",
@@ -168,13 +168,13 @@
         "Bügeleisen",
         "TV mit Standard-Kabelprogrammen",
         "Kinderbett",
-        "Kinderbücher & Spielzeug",
+        "Kinderbücher und Spielzeug",
         "Hochstuhl",
         "Kamin-Schutz",
         "Fenster-Schutz",
         "Steckdosenabdeckungen",
         "Kindersicherheitsbarrieren",
-        "Tischkanten-Schutz",
+        "Tischkantenschutz",
         "Klimaanlage",
         "Innenkamin",
         "Heizung",
@@ -185,12 +185,12 @@
         "Kühlschrank",
         "Mikrowelle",
         "Grundausstattung zum Kochen",
-        "Geschirr & Besteck",
+        "Geschirr und Besteck",
         "Geschirrspüler",
         "Herd",
         "Ofen",
         "Kaffeemaschine",
-        "Rutschfester Boden",
+        "Rutschfeste Unterlage",
         "Grillzubehör",
         "Hinterhof",
         "Kostenloser Parkplatz auf dem Grundstück",
@@ -233,40 +233,40 @@
         "",
         "",
         "Töpfe, Pfannen, Öl, Salz und Pfeffer",
-        "Schüsseln, Stäbchen, Teller, Tassen usw.",
+        "Schüsseln, Stäbchen, Teller, Tassen und mehr",
         "",
         "",
         "",
         "",
         "",
-        "Grill, Holzkohle, Bambus-/Eisenstäbe usw.",
-        "Freifläche auf dem Grundstück, meist Rasen",
+        "Grill, Holzkohle, Bambus- oder Eisenstäbe und Ähnliches",
+        "Außenbereich, normalerweise mit Gras bedeckt",
         "",
         "",
-        "Für Gäste, die früh anreisen oder spät abreisen",
+        "Für den Komfort bei früher Anreise oder später Abreise",
         "",
-        "Aufenthalt von 28 Tagen oder länger erlaubt",
+        "Aufenthalte ab 28 Tagen sind erlaubt",
         ""
       ]
     }
   },
   "Pricelist": {
     "title": "Preisliste",
-    "subtitle": "*Preis bezieht sich auf 1 Übernachtung in Euro"
+    "subtitle": "*Preis bezieht sich auf eine Übernachtung in Euro"
   },
   "Payment_conditions": {
     "subtitle": "ZAHLUNGS- UND RESERVIERUNGSBEDINGUNGEN",
     "title": "Zahlungs- und Reservierungsbedingungen",
     "des": "Die Kurtaxe ist nicht im Preis enthalten!",
-    "des2": "Um die Reservierung zu sichern, ist eine Vorauszahlung von 30 % des Gesamtpreises direkt an den Unterkunftseigentümer erforderlich, die restlichen 70 % sind bei Ankunft zu zahlen.",
-    "des3": "Die Kaution ist rückerstattbar, wenn alles in Ordnung ist: 500 Euro.",
-    "des4": "Kostenlose Stornierung innerhalb einer Woche nach der Buchung möglich (AUSSER BEI LAST-MINUTE-RESERVIERUNGEN, HIER GELTEN 48 STUNDEN). Last-Minute-Buchungen – zwei Wochen im Voraus zu reservieren.",
-    "des5": "Am letzten Aufenthaltstag muss der Gast die Unterkunft bis 10 Uhr verlassen, damit andere Gäste ab 16 Uhr einchecken können.",
-    "des6": "Hinweis: Haustiere sind in der Unterkunft nicht erlaubt.",
+    "des2": "Zur Bestätigung der Reservierung müssen 30 % des Gesamtbetrags im Voraus direkt an den Eigentümer der Unterkunft gezahlt werden, die restlichen 70 % bei Ankunft.",
+    "des3": "Rückerstattbare Kaution, wenn alles in Ordnung ist: 500 Euro.",
+    "des4": "Kostenlose Stornierung innerhalb einer Woche nach der Buchung (AUSSER BEI LAST-MINUTE-BUCHUNGEN, DANN 48 STUNDEN). Last-Minute-Buchung bedeutet zwei Wochen vor Anreise.",
+    "des5": "Am letzten Aufenthaltstag müssen Gäste die Unterkunft bis 10 Uhr verlassen, damit andere ab 16 Uhr einchecken können.",
+    "des6": "Hinweis: Haustiere sind auf dem Grundstück nicht erlaubt.",
     "title2": "Zahlungsmethoden:"
   },
   "Map_Location": {
-    "title": "Standort auf der Karte"
+    "title": "Lage auf der Karte"
   },
   "Availability_Calendar": {
     "title": "Verfügbarkeitskalender"
@@ -278,81 +278,81 @@
   },
   "How_Reserve": {
     "subtitle": "SICHERE RESERVIERUNG",
-    "title": "Wie man bucht",
+    "title": "So buchen Sie",
     "steps": {
       "title": "Anfrage senden",
-      "des": "Bitte senden Sie uns Ihre Anfrage über das Kontaktformular, E-Mail oder Telefon mit allen notwendigen Informationen und dem Zeitraum, in dem Sie Ihren Urlaub in der Villa Relax verbringen möchten, und erwarten Sie eine schnelle Antwort per E-Mail sowie unser bestes Angebot.",
-      "title2": "Reservierung sichern (Zahlung)",
-      "des2": "Für die Sicherung der Reservierung ist eine Vorauszahlung von 30 % des Gesamtbetrags erforderlich, der Restbetrag ist am Ankunftstag zu zahlen. Nach der Zahlung senden Sie uns bitte eine Benachrichtigung, und wir senden Ihnen eine Zahlungs- und Reservierungsbestätigung. Es gibt zwei Möglichkeiten für die Vorauszahlung: Banküberweisung oder PayPal (Debit- und Kreditkarten).",
+      "des": "Bitte senden Sie uns Ihre Anfrage über das Kontaktformular, per E-Mail oder telefonisch mit allen erforderlichen Informationen und dem gewünschten Zeitraum für Ihren Aufenthalt in der Villa Bergi. Rechnen Sie mit einer schnellen Antwort per E-Mail und unserem besten Angebot.",
+      "title2": "Bestätigung der Reservierung (Zahlung)",
+      "des2": "Zur Bestätigung Ihrer Reservierung müssen 30 % des Gesamtpreises im Voraus bezahlt werden, der Rest bei Ankunft. Nach der Zahlung senden Sie uns bitte den Nachweis, und wir schicken Ihnen eine Bestätigung für Zahlung und Buchung. Es gibt 2 Zahlungsmöglichkeiten: Banküberweisung oder PayPal (Debit- und Kreditkarten).",
       "subtitle": "Banküberweisung",
       "span": "Kontoinhaber",
       "span2": "Adresse",
       "span3": "Bank",
       "title3": "Zahlungsbestätigung",
-      "des3": "Nach Zahlungseingang bestätigen wir Ihre Zahlung und Reservierung. Entspannen Sie sich und freuen Sie sich auf Ihren Urlaub im Sommer in der Villa Bergi, Istrien – Kroatien!"
+      "des3": "Sobald die Zahlung erfolgt ist, bestätigen wir Ihre Reservierung. Entspannen Sie sich und freuen Sie sich auf Ihren Sommeraufenthalt in der Villa Bergi, Istrien, Kroatien!"
     }
   },
   "Environs": {
     "title": "Žminj & Istrien",
-    "des": "Žminj ist eine malerische Stadt in Istrien, gelegen im Zentrum der Halbinsel, bekannt für seine traditionelle Architektur und ruhige, authentische Atmosphäre. Umgeben von Hügeln, Weinbergen und Olivenhainen ist sie der ideale Ort zum Entspannen und um die istrische Kultur zu entdecken.",
+    "des": "Žminj ist eine malerische istrische Stadt im Zentrum der Halbinsel, bekannt für ihre traditionelle Architektur und ruhige, authentische Atmosphäre. Umgeben von Hügeln, Weinbergen und Olivenhainen ist sie der ideale Ort zum Entspannen und um die istrische Kultur zu entdecken.",
     "button": "Karte anzeigen",
     "title2": "Anreise",
-    "des2": "Die Villa ist mit dem Auto oder Taxi erreichbar. Parkplätze sind kostenlos und vor Ort verfügbar.",
-    "subtitle": "Sehenswürdigkeiten in der Nähe",
+    "des2": "Die Villa ist mit dem Auto oder Taxi erreichbar. Kostenlose Parkplätze stehen vor Ort zur Verfügung.",
+    "subtitle": "Attraktionen in der Nähe",
     "rovinj_title": "Rovinj",
     "bale_title": "Bale",
     "rovinj": {
       "title1": "1. Die Altstadt war eine Insel",
-      "des1": "Bis zum 18. Jahrhundert war Rovinj tatsächlich eine Insel. Im Jahr 1763 füllten die Österreicher den Kanal auf und verbanden sie mit dem Festland. Deshalb sind die Gassen so eng und verwinkelt – sie wurden zur Verteidigung gebaut, nicht für Komfort.",
-      "title2": "2. Der Glockenturm der Hl. Euphemia",
-      "des2": "Die Kirche der Hl. Euphemia besitzt den höchsten Glockenturm in Istrien – 62 Meter – und die Statue der Hl. Euphemia an der Spitze dreht sich je nach Windrichtung.",
+      "des1": "Bis zum 18. Jahrhundert war Rovinj tatsächlich eine Insel. Im Jahr 1763 füllten die Österreicher den Kanal auf und verbanden sie mit dem Festland. Deshalb sind die Gassen so eng und verwinkelt, sie wurden zur Verteidigung gebaut, nicht für Komfort.",
+      "title2": "2. Der Glockenturm der Heiligen Euphemia",
+      "des2": "Die Kirche der Heiligen Euphemia besitzt den höchsten Glockenturm in Istrien, 62 Meter, und die Statue der Heiligen Euphemia an der Spitze dreht sich je nach Windrichtung.",
       "title3": "3. Häuser direkt am Meer",
-      "des3": "In der Altstadt haben viele Häuser Türen und Fenster direkt zum Meer hin, typisch für alte venezianische Fischerstädtchen und eines der bekanntesten Wahrzeichen Rovinjs.",
-      "title4": "4. Batana – traditionelles Boot",
-      "des4": "Die Batana ist ein kleines Holzboot mit flachem Boden, ein Symbol der rovinjer Fischereitradition. Sie hat ihr eigenes Ökomuseum, das auf der UNESCO-Liste des immateriellen Kulturerbes steht.",
+      "des3": "In der Altstadt haben viele Häuser Türen und Fenster direkt zum Meer hin, typisch für alte venezianische Fischerstädte und eine der bekanntesten Ansichten von Rovinj.",
+      "title4": "4. Batana, traditionelles Boot",
+      "des4": "Die Batana ist ein kleines Holzboot mit flachem Boden, ein Symbol der rovinjer Fischereitradition. Sie hat ihr eigenes Ekomuseum und steht auf der UNESCO-Liste des immateriellen Kulturerbes.",
       "title5": "5. Balbi-Bogen",
-      "des5": "Der Balbi-Bogen aus dem 17. Jahrhundert markiert den Eingang zur Altstadt. Er trägt eingemeißelte Köpfe eines Türken und eines Venezianers – eine Erinnerung an die venezianische Herrschaft.",
-      "title6": "6. Goldenes Kap – Parkwald",
-      "des6": "Das Goldene Kap (Punta Corrente) ist einer der schönsten Orte zum Spazieren und Radfahren in Istrien, bekannt für seinen Pinienwald, Buchten und das kristallklare Meer.",
+      "des5": "Der Balbi-Bogen aus dem 17. Jahrhundert markiert den Eingang zur Altstadt. Er zeigt eingemeißelte Köpfe eines Türken und eines Venezianers als Erinnerung an die venezianische Herrschaft.",
+      "title6": "6. Goldenes Kap, Parkwald",
+      "des6": "Das Goldene Kap (Punta Corrente) ist einer der schönsten Orte zum Spazieren und Radfahren in Istrien, bekannt für Pinienwald, Buchten und kristallklares Meer.",
       "title7": "7. Romantische Sonnenuntergänge",
-      "des7": "Rovinj gilt als eine der romantischsten Städte Europas – dank seiner Meeresblicke, malerischen engen Gassen und spektakulären Sonnenuntergänge."
+      "des7": "Rovinj gilt als eine der romantischsten Städte Europas dank seiner Meerblicke, malerischen engen Gassen und spektakulären Sonnenuntergänge."
     },
     "bale": {
-      "title1": "1. Steinerne Stadt mit reicher Geschichte",
-      "des1": "Bale ist eine kleine mittelalterliche Stadt aus Stein mit einer Geschichte, die bis in die Römerzeit zurückreicht. Enge Gassen und Steinhäuser bewahren den authentischen Geist Istriens.",
+      "title1": "1. Eine steinerne Stadt mit reicher Geschichte",
+      "des1": "Bale ist eine kleine mittelalterliche Steinstadt mit einer Geschichte, die bis in die Römerzeit zurückreicht. Enge Gassen und Steinhäuser bewahren den authentischen Geist Istriens.",
       "title2": "2. Castrum Vallis",
-      "des2": "Der alte Name der Stadt war Castrum Vallis, was Festung im Tal bedeutet. Bale war einst ein wichtiges Verteidigungs- und strategisches Zentrum.",
+      "des2": "Die Stadt war einst als Castrum Vallis bekannt, was Festung im Tal bedeutet. Bale war früher ein wichtiges Verteidigungs- und strategisches Zentrum.",
       "title3": "3. Dinosaurierfossilien",
       "des3": "In der Umgebung von Bale wurden zahlreiche Dinosaurierfossilien gefunden, darunter Überreste von Brachiosauriern, was den Ort in Europa einzigartig macht.",
       "title4": "4. Künstlerisches und kulturelles Zentrum",
-      "des4": "Bale ist als Künstlerstadt bekannt, mit vielen Galerien, Ateliers und kulturellen Veranstaltungen das ganze Jahr über.",
+      "des4": "Bale ist als Stadt der Künstler bekannt, mit vielen Galerien, Ateliers und kulturellen Veranstaltungen während des ganzen Jahres.",
       "title5": "5. Kirche der Seligen Jungfrau Maria",
       "des5": "Die Pfarrkirche der Seligen Jungfrau Maria dominiert die Altstadt und ist ein wichtiges historisches und kulturelles Wahrzeichen.",
-      "title6": "6. Unberührte Natur in der Umgebung",
-      "des6": "Die Umgebung von Bale ist geprägt von Olivenhainen, Weinbergen und Naturlandschaften – ideal zum Spazierengehen, Radfahren und Erkunden Istriens.",
+      "title6": "6. Unberührte Natur in der Nähe",
+      "des6": "Die Umgebung von Bale ist voller Olivenhaine, Weinberge und Naturlandschaften, ideal zum Spazierengehen, Radfahren und Erkunden Istriens.",
       "title7": "7. Ruhe und Authentizität",
-      "des7": "Bale ist ein ideales Reiseziel für alle, die Ruhe, authentisches istrisches Ambiente und Abstand vom Massentourismus suchen."
+      "des7": "Bale ist ein perfektes Reiseziel für alle, die Ruhe, authentische istrische Atmosphäre und eine Auszeit vom Massentourismus suchen."
     }
   },
   "PriceTable": {
     "title": "Zeitraum",
     "title2": "Preis*",
     "title3": "Personen",
-    "title4": "Mindestaufenthalt"
+    "title4": "Min. Aufenthalt"
   },
   "Contact": {
     "title": "Kontaktieren Sie uns",
     "Contact_Form": {
-      "name": "Name & Nachname",
+      "name": "Name und Nachname",
       "email": "E-Mail",
-      "phone": "Telefon/Mobil",
+      "phone": "Telefon / Mobil",
       "home": "Ferienhaus",
       "adults": "Erwachsene",
       "children": "Kinder",
       "arrival": "Anreise",
       "departure": "Abreise",
       "message": "Anfrage",
-      "des": "Der Inhalt dieses Formulars wird direkt an die E-Mail-Adresse des Unterkunftseigentümers gesendet und ausschließlich für Anfragen zur Buchung dieser Unterkunft verwendet.",
+      "des": "Der Inhalt dieses Formulars wird direkt an die E-Mail-Adresse des Eigentümers gesendet und ausschließlich für Buchungsanfragen verwendet.",
       "button": "Anfrage senden",
       "sent": "Erfolgreich gesendet"
     },

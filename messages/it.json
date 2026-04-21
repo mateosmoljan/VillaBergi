@@ -5,8 +5,8 @@
     "Villa_Map_Location": "Posizione sulla mappa",
     "Availability_Calendar": "Calendario disponibilità",
     "Availability_Appointments_sub": "DATE DISPONIBILI",
-    "Price_list": "Listino Casa Vacanze Villa Bergi",
-    "Photogallery": "Galleria fotografica Casa Vacanze Villa Bergi, Istria",
+    "Price_list": "Listino prezzi della casa vacanze Villa Bergi",
+    "Photogallery": "Galleria fotografica della casa vacanze Villa Bergi, Istria",
     "Surrondings": "Žminj e dintorni",
     "Surrondings_sub": "Žminj & ISTRIA"
   },
@@ -17,21 +17,21 @@
     "navlinks": [
       "Villa Bergi",
       "Listino",
-      "Galleria",
+      "Galleria fotografica",
       "Dintorni",
       "Contatto"
     ],
-    "navLinksButton": "Prenota"
+    "navLinksButton": "Prenota ora"
   },
   "HeaderSwiper": {
     "titles": [
-      "Villa Bergi — Villa Vacanze nel Cuore dell'Istria",
+      "Villa autentica in Istria",
       "Piscina privata e relax all'aperto",
-      "4 Camere · Fino a 12 Ospiti · Ideale per Famiglie",
-      "Tradizionale fascino istriano con comfort moderni"
+      "5 camere da letto · Fino a 12 ospiti · Ideale per famiglie",
+      "Autentico fascino istriano con comfort moderni"
     ],
     "descriptions": [
-      "Un'affascinante villa in pietra a Damijanići vicino a Gimino — la base perfetta per esplorare l'Istria.",
+      "Un'affascinante villa in pietra a Damijanići vicino a Žminj, la base perfetta per esplorare l'Istria.",
       "Godetevi la piscina privata, il giardino, la jacuzzi e il tranquillo spazio esterno durante le lunghe giornate estive.",
       "Un soggiorno confortevole per famiglie e piccoli gruppi con spazio per rilassarsi, pranzare e stare insieme.",
       "Architettura tradizionale, interni accoglienti e dettagli autentici creano una vera esperienza istriana."
@@ -43,12 +43,12 @@
     "des": "La lussuosa Villa Bergi si trova nel piccolo e affascinante villaggio di Damijanići, a soli 2 km da Žminj, una cittadina istriana ricca di storia. Villa Bergi è una casa in pietra di 300 anni appartenuta alla stessa famiglia per secoli. La villa è stata ristrutturata nel rispetto dello stile tradizionale istriano e dell'antico modo di vivere delle famiglie contadine locali.",
     "the_space": {
       "title": "Lo spazio",
-      "des": "Di fronte alla Villa c'è una spaziosa cucina estiva con camino a legna, utilizzata per pranzi e intrattenimento (calcio balilla, freccette e biliardo). Inoltre c'è una stanza lavoro e un bagno. Oltre alla cucina estiva, c'è una **piscina di 68 m² con idromassaggio**. La specialità tradizionale è rappresentata da un 'capanno istriano' costruito in pietra. Comprende un focolare per grigliare o cuocere all'aperto. Particolarmente attraente è la grande terrazza che si estende su un lato della villa con vista sul mare e sulle aree verdi circostanti, rendendola ideale per pranzi e relax.",
-      "des2": "La villa comprende un ampio soggiorno, cucina completamente attrezzata, **7 camere da letto affascinanti con bagno privato, aria condizionata e TV**. Riscaldamento in ogni stanza tramite radiatori. Tutte le camere sono climatizzate. Oltre alla villa, è disponibile una sala benessere (**sauna, jacuzzi, attrezzi per esercizi**). Vi è anche un garage con **2 posti auto** e **8 biciclette**. Il parcheggio offre la possibilità di ospitare più di una dozzina di veicoli."
+      "des": "La villa è adatta a 12 persone e dispone di 4 camere da letto e 4 bagni. Il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e area barbecue, dove potrete trascorrere momenti di relax con amici e famiglia. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa.",
+      "des2": "GENERALE: aria condizionata, camino, riscaldamento, lavatrice, divano letto, piscina, internet wireless, biancheria inclusa, asciugamani inclusi. CUCINA E SALA DA PRANZO: fornello, macchina da caffè, piatti e utensili, forno. INTRATTENIMENTO E ALTRI SERVIZI: TV, satellite/cavo, grill esterno, prato/giardino, radio, jacuzzi."
     },
     "guest_access": {
       "title": "Accesso ospiti",
-      "des": "Jacuzzi, parcheggio, calcio balilla, piscina esterna, barbecue"
+      "des": "ATTRAZIONI E ALTRE ATTIVITÀ: marina, strade del vino, pesca, immersioni, ciclismo, vela, casinò, spiaggia, aquapark, ski lift Poreč, equitazione, golf, visite a siti storici, noleggio biciclette, tour dell'olio d'oliva. IL PARCHEGGIO È GRATUITO E DISPONIBILE IN LOCO."
     },
     "locations": {
       "title": "Cosa visitare:",
@@ -56,14 +56,14 @@
         "- Parco acquatico Aquacolors.",
         "- Esplora le splendide isole del Parco Nazionale di Brijuni, ricche di bellezze naturali e patrimonio culturale.",
         "- Scopri l'antico anfiteatro romano a Pola, uno dei meglio conservati al mondo.",
-        "- Immergiti nel mondo sottomarino all'Acquario di Pola, vicino al centro città. Esplora diversi habitat marini, osserva specie diverse e comprendi l'importanza della conservazione del mare.",
-        "- Vivi emozionanti scivoli, fiumi pigri e piscine rilassanti all'aquapark Istralandia, vicino a Novigrad. Perfetto per famiglie e appassionati d'acqua, offre divertimento per tutte le età."
+        "- Immergiti nel mondo sottomarino dell'Acquario di Pola, vicino al centro città. Esplora diversi habitat marini, osserva le specie del mare e scopri di più sulla conservazione degli oceani.",
+        "- Vivi emozionanti scivoli, fiumi lenti e piscine rilassanti all'aquapark Istralandia vicino a Novigrad. Perfetto per famiglie e amanti dell'acqua, una giornata divertente per tutte le età."
       ]
     }
   },
   "Distances": {
     "title": "Distanze da Villa Bergi",
-    "button": "Mostra Mappa",
+    "button": "Mostra mappa",
     "place": [
       "Mare",
       "Spiaggia",
@@ -81,7 +81,7 @@
   },
   "Acommodation": {
     "subtitle": "Alloggio",
-    "title": "Offriamo 1 Villa",
+    "title": "Offriamo 1 villa",
     "card_title": "Villa Bergi",
     "card_des": "Massimo 12 persone",
     "card_des2": "Prezzo da",
@@ -89,34 +89,34 @@
   },
   "Photogalleries": {
     "subtitle": "Gallerie fotografiche",
-    "title": "Gallerie fotografiche — Villa Bergi a Gimino",
+    "title": "Gallerie fotografiche, Villa Bergi a Žminj",
     "button": "Mostra galleria fotografica"
   },
   "Tourist_Guide": {
     "subtitle": "GUIDA TURISTICA",
-    "title": "Guida turistica — Scoprite l’Istria da Villa Bergi",
+    "title": "Guida turistica, scoprite l'Istria da Villa Bergi",
     "image_des": [
       "Il più grande della Croazia",
       "Parco nazionale",
       "Parco acquatico",
       "Eventi",
       "Parco acquatico",
-      "tuffi da spiaggia/scogliera"
+      "Tuffi da scogliera / spiaggia"
     ]
   },
   "Send_Message": {
-    "des": "Inviateci un messaggio per prenotare il vostro soggiorno a Villa Bergi a Gimino, Istria.",
+    "des": "Inviateci un messaggio per prenotare il vostro soggiorno a Villa Bergi a Žminj, Istria.",
     "button": "Invia messaggio"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi — Villa vacanze a Gimino, Istria",
+    "year": "©2024 . Villa Bergi, villa vacanze a Žminj, Istria",
     "rights": "Tutti i diritti riservati",
     "created_by": "Sito web di BoostWeb",
     "Discover": {
       "title": "Scopri",
       "list": {
-        "Pula": "Info Pula",
-        "Guide": "Guida turistica Istria"
+        "Pula": "Pula Info",
+        "Guide": "Guida turistica dell'Istria"
       }
     },
     "Contact_Us": {
@@ -134,7 +134,7 @@
   "Villa_Description": {
     "des": "La lussuosa Villa Bergi si trova nel piccolo e affascinante villaggio di Damijanići. Damijanići si trova a 2 km da Žminj, una cittadina istriana ricca di storia. Villa Bergi è una casa in pietra di 300 anni appartenuta alla stessa famiglia per secoli. La villa è stata ristrutturata nel rispetto dell'antico stile di vita contadino e della tradizionale architettura istriana.",
     "subtitle": "Lo spazio",
-    "des2": "La villa è adatta a 12 persone, dispone di 4 camere da letto e 4 bagni, e il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e barbecue, dove è possibile trascorrere momenti di relax con amici e famiglia. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa. GENERALE: aria condizionata, camino, riscaldamento, lavatrice, divano letto, piscina, internet wireless, biancheria inclusa, asciugamani inclusi. CUCINA E SALA DA PRANZO: fornello, macchina da caffè, piatti e utensili, forno. INTRATTENIMENTO E ALTRI SERVIZI: TV, satellite/cavo, grill esterno, prato/giardino, radio, jacuzzi.",
+    "des2": "La villa è adatta a 12 persone, dispone di 4 camere da letto e 4 bagni, e il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e barbecue, dove è possibile trascorrere momenti di relax con amici e famiglia. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa. GENERALE: aria condizionata, camino, riscaldamento, lavatrice, divano letto, piscina, internet wireless, biancheria inclusa, asciugamani inclusi. CUCINA E SALA DA PRANZO: fornello, macchina da caffè, piatti e utensili, forno. INTRATTENIMENTO E ALTRI SERVIZI: TV, SATELLITE / CAVO, grill esterno, prato / giardino, radio, jacuzzi.",
     "subtitle2": "Accesso ospiti",
     "des3": "ATTRAZIONI E ALTRE ATTIVITÀ: marina, strade del vino, pesca, immersioni, ciclismo, vela, casinò, spiaggia, aquapark, ski lift Poreč, equitazione, golf, visite a siti storici, noleggio biciclette, tour dell'olio d'oliva. IL PARCHEGGIO È GRATUITO E DISPONIBILE IN LOCO."
   },
@@ -143,7 +143,7 @@
     "title2": "Cosa offre questa struttura",
     "title3": "Bagno",
     "title4": "Camera da letto e lavanderia",
-    "title5": "Divertimento",
+    "title5": "Intrattenimento",
     "title6": "Famiglia",
     "title7": "Riscaldamento e raffreddamento",
     "title8": "Sicurezza della casa",
@@ -170,16 +170,16 @@
         "Lettino per bambini",
         "Libri e giochi per bambini",
         "Seggiolone",
-        "Paraspifferi per camino",
-        "Paraspifferi per finestre",
-        "Copri prese",
+        "Protezione per camino",
+        "Protezione per finestre",
+        "Copriprese",
         "Barriere di sicurezza per bambini",
         "Paraspigoli per tavoli",
         "Aria condizionata",
         "Camino interno",
         "Riscaldamento",
         "Estintore",
-        "Kit primo soccorso",
+        "Kit di primo soccorso",
         "Wifi",
         "Cucina",
         "Frigorifero",
@@ -192,13 +192,13 @@
         "Macchina per caffè",
         "Tappetino antiscivolo",
         "Set barbecue",
-        "Cortile posteriore",
+        "Cortile",
         "Parcheggio gratuito in loco",
         "Piscina",
         "Deposito bagagli consentito",
         "Vietato fumare",
-        "Soggiorno a lungo termine consentito",
-        "Accoglienza dall'host",
+        "Soggiorni a lungo termine consentiti",
+        "L'host vi accoglie",
         "Rilevatore di fumo",
         "Rilevatore di monossido di carbonio"
       ],
@@ -229,40 +229,40 @@
         "",
         "",
         "",
-        "Spazio per preparare pasti in autonomia",
+        "Spazio dove gli ospiti possono preparare i propri pasti",
         "",
         "",
         "Pentole, padelle, olio, sale e pepe",
-        "Ciotole, bacchette, piatti, tazze, ecc.",
+        "Ciotole, piatti, tazze e altro",
         "",
         "",
         "",
         "",
         "",
-        "Barbecue, carbone, bacchette in bambù/ferro, ecc.",
-        "Spazio esterno in genere coperto da prato",
+        "Barbecue, carbone, spiedi in bambù o ferro e simili",
+        "Spazio esterno solitamente coperto di erba",
         "",
         "",
-        "Comodità per arrivi anticipati o partenze ritardate",
+        "Per il comfort degli ospiti in caso di arrivo anticipato o partenza tardiva",
         "",
-        "Soggiorno di 28 giorni o più consentito",
+        "Soggiorni di 28 giorni o più consentiti",
         ""
       ]
     }
   },
   "Pricelist": {
-    "title": "Listino Prezzi",
-    "subtitle": "*Il prezzo si riferisce a 1 notte in euro"
+    "title": "Listino prezzi",
+    "subtitle": "*Il prezzo si riferisce a una notte in euro"
   },
   "Payment_conditions": {
     "subtitle": "CONDIZIONI DI PAGAMENTO E PRENOTAZIONE",
     "title": "Condizioni di pagamento e prenotazione",
     "des": "La tassa di soggiorno non è inclusa nel prezzo!",
-    "des2": "Per confermare la prenotazione è obbligatorio pagare il 30% dell'importo totale in anticipo direttamente al proprietario, il restante 70% all'arrivo presso la struttura.",
-    "des3": "Il deposito è rimborsabile se tutto è in ordine: 500 euro.",
-    "des4": "Possibilità di cancellazione gratuita entro una settimana dalla prenotazione (ECCETTO PER PRENOTAZIONI LAST MINUTE, in tal caso il termine è di 48 ore). Prenotazioni last minute: minimo due settimane prima.",
-    "des5": "L’ultimo giorno di soggiorno, l’ospite deve lasciare la struttura entro le ore 10, per consentire il check-in ai nuovi ospiti dalle ore 16.",
-    "des6": "Nota: Gli animali domestici non sono ammessi nella struttura.",
+    "des2": "Per confermare la prenotazione è necessario versare il 30% dell'importo totale in anticipo direttamente al proprietario della struttura, mentre il restante 70% sarà pagato all'arrivo.",
+    "des3": "Deposito rimborsabile se tutto è in ordine: 500 euro.",
+    "des4": "Cancellazione gratuita entro una settimana dalla prenotazione (ECCETTO PER LE PRENOTAZIONI LAST MINUTE, IN TAL CASO 48 ORE). Prenotazione last minute significa due settimane prima dell'arrivo.",
+    "des5": "L'ultimo giorno del soggiorno gli ospiti devono lasciare l'alloggio entro le 10:00, affinché altri possano effettuare il check-in dalle 16:00.",
+    "des6": "Nota: gli animali domestici non sono ammessi nella struttura.",
     "title2": "Metodi di pagamento:"
   },
   "Map_Location": {
@@ -281,83 +281,83 @@
     "title": "Come prenotare",
     "steps": {
       "title": "Invia richiesta",
-      "des": "Si prega di inviarci una richiesta tramite modulo di contatto, email o telefono con tutte le informazioni necessarie e il periodo in cui desiderate soggiornare nella villa Villa Bergi. Riceverete una risposta rapida via email con la nostra migliore offerta.",
-      "title2": "Conferma prenotazione (pagamento)",
-      "des2": "Per confermare la prenotazione è obbligatorio pagare il 30% dell'importo totale in anticipo, il restante alla data di arrivo. Dopo il pagamento, inviateci la conferma e riceverete la ricevuta di pagamento e conferma della prenotazione. Sono disponibili 2 modalità di pagamento anticipato: bonifico bancario o PayPal (carte di credito e debito).",
+      "des": "Vi preghiamo di inviarci una richiesta tramite modulo di contatto, email o telefono con tutte le informazioni necessarie e il periodo desiderato per il soggiorno a Villa Bergi. Riceverete una rapida risposta via email con la nostra migliore offerta.",
+      "title2": "Conferma della prenotazione (pagamento)",
+      "des2": "Per confermare la prenotazione è necessario pagare in anticipo il 30% del prezzo totale, mentre il resto sarà pagato all'arrivo. Dopo il pagamento, inviateci la conferma e vi invieremo la conferma di pagamento e prenotazione. Sono disponibili 2 modalità di pagamento: bonifico bancario o PayPal (carte di debito e credito).",
       "subtitle": "Bonifico bancario",
-      "span": "Titolare del conto",
+      "span": "Intestatario del conto",
       "span2": "Indirizzo",
       "span3": "Banca",
-      "title3": "Conferma pagamento",
-      "des3": "Al completamento del pagamento, confermeremo la vostra prenotazione. Rilassatevi e godetevi la vostra vacanza nella Villa Bergi, Istria - Croazia!"
+      "title3": "Conferma del pagamento",
+      "des3": "Una volta completato il pagamento, confermeremo la vostra prenotazione. Rilassatevi e pregustate il vostro soggiorno estivo a Villa Bergi, Istria, Croazia!"
     }
   },
   "Environs": {
     "title": "Žminj & Istria",
-    "des": "Žminj è un pittoresco borgo istriano situato nel centro della penisola, famoso per la sua architettura tradizionale e l’atmosfera autentica e tranquilla. Circondato da colline, vigneti e uliveti, è il luogo ideale per rilassarsi e scoprire la cultura istriana.",
-    "button": "Mostra Mappa",
-    "title2": "Come arrivare",
-    "des2": "La villa è raggiungibile in auto o taxi. Il parcheggio è gratuito e disponibile in loco.",
-    "subtitle": "Attrazioni nelle vicinanze",
+    "des": "Žminj è un pittoresco borgo istriano situato nel centro della penisola, noto per la sua architettura tradizionale e l'atmosfera tranquilla e autentica. Circondato da colline, vigneti e uliveti, è il luogo ideale per rilassarsi e scoprire la cultura istriana.",
+    "button": "Mostra mappa",
+    "title2": "Come muoversi",
+    "des2": "La villa è raggiungibile in auto o taxi. Il parcheggio gratuito è disponibile in loco.",
+    "subtitle": "Attrazioni vicine",
     "rovinj_title": "Rovigno",
     "bale_title": "Valle",
     "rovinj": {
-      "title1": "1. La Città Vecchia era un'isola",
-      "des1": "Fino al XVIII secolo Rovigno era una vera isola. Nel 1763 gli Austriaci riempirono il canale e la collegarono alla terraferma. Per questo le strade sono così strette e tortuose – progettate per la difesa, non per il comfort.",
+      "title1": "1. Il centro storico era un'isola",
+      "des1": "Fino al XVIII secolo Rovigno era una vera isola. Nel 1763 gli Austriaci riempirono il canale e la collegarono alla terraferma. Per questo le strade sono così strette e tortuose, progettate per la difesa e non per la comodità.",
       "title2": "2. Il campanile di Sant'Eufemia",
-      "des2": "La chiesa di Sant’Eufemia ha il campanile più alto dell’Istria – 62 metri – e la statua di Sant’Eufemia in cima ruota a seconda della direzione del vento.",
+      "des2": "La chiesa di Sant'Eufemia ha il campanile più alto dell'Istria, 62 metri, e la statua della santa in cima ruota a seconda della direzione del vento.",
       "title3": "3. Case direttamente sul mare",
-      "des3": "Nel centro storico molte case hanno porte e finestre direttamente sul mare, tipiche dei vecchi borghi di pescatori veneziani e una delle attrazioni più iconiche di Rovigno.",
-      "title4": "4. Batana – imbarcazione tradizionale",
-      "des4": "La batana è una piccola imbarcazione di legno con il fondo piatto, simbolo della tradizione peschereccia di Rovigno. Ha un suo Ecomuseo inserito nella lista UNESCO del patrimonio immateriale.",
+      "des3": "Nel centro storico molte case hanno porte e finestre direttamente sul mare, tipiche dei vecchi borghi di pescatori veneziani e una delle immagini più iconiche di Rovigno.",
+      "title4": "4. Batana, barca tradizionale",
+      "des4": "La batana è una piccola barca di legno a fondo piatto, simbolo della tradizione peschereccia di Rovigno. Ha il suo Ecomuseo ed è inserita nella lista UNESCO del patrimonio immateriale.",
       "title5": "5. Arco dei Balbi",
-      "des5": "L’Arco dei Balbi del XVII secolo segna l’ingresso alla città vecchia. Presenta teste scolpite di un Turco e di un Veneziano, memoria del dominio veneziano.",
-      "title6": "6. Punta Corrente – parco forestale",
-      "des6": "Punta Corrente (Golden Cape) è uno dei luoghi più belli per passeggiare e andare in bicicletta in Istria, famoso per la pineta, le calette e il mare cristallino.",
+      "des5": "L'Arco dei Balbi del XVII secolo segna l'ingresso al centro storico. Presenta teste scolpite di un Turco e di un Veneziano, memoria del dominio veneziano.",
+      "title6": "6. Punta Corrente, parco forestale",
+      "des6": "Punta Corrente è uno dei luoghi più belli per passeggiare e andare in bicicletta in Istria, famosa per la pineta, le calette e il mare cristallino.",
       "title7": "7. Tramonti romantici",
-      "des7": "Rovigno è considerata una delle città più romantiche d’Europa grazie alle viste sul mare, alle pittoresche viuzze e agli spettacolari tramonti."
+      "des7": "Rovigno è considerata una delle città più romantiche d'Europa grazie alle viste sul mare, ai vicoli pittoreschi e agli spettacolari tramonti."
     },
     "bale": {
-      "title1": "1. Borgo in pietra dalla ricca storia",
-      "des1": "Valle è un piccolo borgo medievale in pietra con una storia che risale all’epoca romana. Le sue strette vie e le case in pietra conservano l’autentico spirito dell’Istria.",
+      "title1": "1. Un borgo in pietra dalla ricca storia",
+      "des1": "Valle è un piccolo borgo medievale in pietra con una storia che risale all'epoca romana. Le sue strette vie e le case in pietra conservano l'autentico spirito dell'Istria.",
       "title2": "2. Castrum Vallis",
-      "des2": "L’antico nome del borgo era Castrum Vallis, che significa fortezza nella valle. Valle era un importante centro difensivo e strategico.",
+      "des2": "Il paese era un tempo conosciuto come Castrum Vallis, che significa fortezza nella valle. Valle era un importante centro difensivo e strategico.",
       "title3": "3. Fossili di dinosauri",
-      "des3": "Nell’area di Valle sono stati ritrovati numerosi fossili di dinosauri, inclusi resti di brachiosauro, rendendo il luogo unico in Europa.",
+      "des3": "Nell'area di Valle sono stati trovati numerosi fossili di dinosauri, inclusi resti di brachiosauri, rendendo il luogo unico in Europa.",
       "title4": "4. Centro artistico e culturale",
-      "des4": "Valle è conosciuta come città degli artisti, con numerose gallerie, atelier ed eventi culturali durante tutto l’anno.",
+      "des4": "Valle è conosciuta come città degli artisti, con numerose gallerie, atelier ed eventi culturali durante tutto l'anno.",
       "title5": "5. Chiesa della Beata Vergine Maria",
-      "des5": "La Chiesa Parrocchiale della Beata Vergine Maria domina il centro storico ed è un importante simbolo storico e culturale.",
-      "title6": "6. Natura incontaminata nei dintorni",
-      "des6": "Nei dintorni di Valle si trovano uliveti, vigneti e paesaggi naturali ideali per passeggiate, ciclismo ed esplorazioni dell’Istria.",
+      "des5": "La chiesa parrocchiale della Beata Vergine Maria domina il centro storico ed è un importante simbolo storico e culturale.",
+      "title6": "6. Natura incontaminata nelle vicinanze",
+      "des6": "I dintorni di Valle sono pieni di uliveti, vigneti e paesaggi naturali ideali per passeggiate, ciclismo ed esplorazioni dell'Istria.",
       "title7": "7. Pace e autenticità",
-      "des7": "Valle è la destinazione ideale per chi cerca tranquillità, autenticità istriana e una fuga dal turismo di massa."
+      "des7": "Valle è una destinazione perfetta per chi cerca tranquillità, autentica atmosfera istriana e una fuga dal turismo di massa."
     }
   },
   "PriceTable": {
     "title": "Periodo",
     "title2": "Prezzo*",
-    "title3": "Ospiti",
-    "title4": "Soggiorno Minimo"
+    "title3": "Persone",
+    "title4": "Soggiorno min."
   },
   "Contact": {
     "title": "Contattaci",
     "Contact_Form": {
-      "name": "Nome e Cognome",
+      "name": "Nome e cognome",
       "email": "Email",
-      "phone": "Telefono/Cellulare",
-      "home": "Villa",
+      "phone": "Telefono / Cellulare",
+      "home": "Casa vacanze",
       "adults": "Adulti",
       "children": "Bambini",
       "arrival": "Arrivo",
       "departure": "Partenza",
       "message": "Richiesta",
-      "des": "Il contenuto di questo modulo sarà inviato direttamente all’email del proprietario della villa e sarà utilizzato esclusivamente per richieste relative alla prenotazione.",
+      "des": "Il contenuto di questo modulo sarà inviato direttamente all'indirizzo email del proprietario e sarà utilizzato esclusivamente per richieste di prenotazione.",
       "button": "Invia richiesta",
       "sent": "Inviato con successo"
     },
     "Contact_Info": {
-      "contact_person": "persona di contatto",
+      "contact_person": "Persona di contatto",
       "mobile": "Cellulare",
       "email": "Email",
       "address": "Indirizzo",
@@ -380,7 +380,7 @@
     "booked": "Prenotato",
     "checkIn": "Arrivo",
     "checkOut": "Partenza",
-    "reset": "Resetta",
+    "reset": "Reset",
     "back": "Indietro",
     "next": "Avanti"
   }

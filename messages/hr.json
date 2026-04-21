@@ -25,22 +25,22 @@
   },
   "HeaderSwiper": {
     "titles": [
-      "Villa Bergi — Kuća za odmor u srcu Istre",
+      "Autentična vila u Istri",
       "Privatni bazen i opuštanje na otvorenom",
-      "4 spavaće sobe · Za 12 gostiju · Idealno za obitelji",
-      "Tradicionalni istarski šarm uz modernu udobnost"
+      "5 spavaćih soba · Za 12 gostiju · Idealno za obitelji",
+      "Izvorni istarski šarm uz modernu udobnost"
     ],
     "descriptions": [
-      "Šarmantna kamena vila u Damijanićima kraj Žminja — savršena baza za istraživanje Istre.",
+      "Šarmantna kamena vila u Damijanićima kraj Žminja, savršena baza za istraživanje Istre.",
       "Uživajte u privatnom bazenu, vrtu, jacuzziju i mirnom vanjskom prostoru tijekom dugih ljetnih dana.",
       "Udoban boravak za obitelji i manje grupe s dovoljno prostora za odmor, objedovanje i zajedničko uživanje.",
-      "Tradicionalna arhitektura, topao interijer i autentični detalji stvaraju pravo istarsko iskustvo boravka."
+      "Tradicionalna arhitektura, topao interijer i autentični detalji stvaraju pravi istarski doživljaj boravka."
     ],
     "button": "Pročitaj više"
   },
   "About": {
     "title": "Pregled Ville Bergi",
-    "des": "Villa Bergi je moderna vila za odmor u Žminju, u srcu centralne Istre — savršena baza za istraživanje cijelog poluotoka. Sa 7 spavaćih soba za do 16 gostiju, bazenom od 68m² sa zračnom masažom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kamenim 'kazunom' s roštiljem, idealna je za grupe prijatelja i obitelji. Uživajte u biljaru, pikadu, stolnom nogometu, 8 bicikala i 2500m² privatnog vanjskog prostora. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
+    "des": "Luksuzna Villa Bergi smještena je u malom i šarmantnom selu Damijanići, samo 2 km od Žminja, istarskog gradića bogate povijesti. Villa Bergi je 300 godina stara kamena kuća koja je stoljećima u vlasništvu iste obitelji. Vila je obnovljena u skladu s tradicionalnim istarskim stilom i nekadašnjim načinom života lokalnih poljoprivrednih obitelji.",
     "the_space": {
       "title": "Prostor",
       "des": "Vila je prikladna za 12 osoba i ima 4 spavaće sobe i 4 kupaonice. Dnevni boravak i kuhinja uređeni su u kombinaciji istarskog i modernog stila. Vila ima kamin, zeleni vrt, bazen i prostor za roštilj gdje možete provesti kvalitetno i opuštajuće vrijeme s prijateljima i obitelji. Na zidu kuće nalazi se portret, iznad kojeg stoji natpis San Giacomo (sv. Jakov). Još uvijek nije poznato tko je postavio kamenu glavu na zid kuće, ali vjeruje se da ju je tijekom gradnje postavio vlasnik kuće.",
@@ -53,21 +53,21 @@
     "locations": {
       "title": "Što posjetiti:",
       "des": [
-        "- Vodeni zabavni park Aquacolors.",
+        "- Vodeni park Aquacolors.",
         "- Istražite prekrasne otoke Nacionalnog parka Brijuni, bogate prirodnom ljepotom i kulturnom baštinom.",
-        "- Otkrijte drevni rimski amfiteatar u Puli, jedan od najbolje sačuvanih rimskih amfiteatara na svijetu.",
-        "- Zaronite u podvodni svijet u Akvariju Pula, smještenom blizu centra grada. Istražite različite morske habitate, promatrajte raznolike morske vrste i saznajte o važnosti očuvanja mora.",
-        "- Doživite uzbudljive tobogane, lijeni rijeke i opuštajuće bazene u aquaparku Istralandia, smještenom blizu Novigrada. Savršeno za obitelji i ljubitelje vode, ovaj aquapark nudi zabavan dan za sve uzraste."
+        "- Otkrijte drevni rimski amfiteatar u Puli, jedan od najbolje očuvanih na svijetu.",
+        "- Zaronite u podvodni svijet Akvarija Pula, smještenog blizu centra grada. Istražite raznolike morske habitate, promatrajte morske vrste i saznajte više o očuvanju mora.",
+        "- Doživite uzbudljive tobogane, lijene rijeke i opuštajuće bazene u aquaparku Istralandia kraj Novigrada. Savršeno za obitelji i ljubitelje vode, zabavan dan za sve uzraste."
       ]
     }
   },
   "Distances": {
     "title": "Udaljenosti od Ville Bergi",
-    "button": "Prikaži Mapu",
+    "button": "Prikaži kartu",
     "place": [
       "More",
       "Plaža",
-      "Trgovina prehrambenim proizvodima",
+      "Trgovina",
       "Restoran",
       "Banka / Bankomat",
       "Ljekarna",
@@ -81,7 +81,7 @@
   },
   "Acommodation": {
     "subtitle": "Smještaj",
-    "title": "Nudimo vam 1 Vilu",
+    "title": "Nudimo 1 vilu",
     "card_title": "Villa Bergi",
     "card_des": "Maksimalno 12 osoba",
     "card_des2": "Cijena od",
@@ -89,19 +89,19 @@
   },
   "Photogalleries": {
     "subtitle": "Fotogalerije",
-    "title": "Foto galerije — Villa Bergi u Žminju",
+    "title": "Fotogalerije, Villa Bergi u Žminju",
     "button": "Prikaži fotogaleriju"
   },
   "Tourist_Guide": {
-    "subtitle": "VODIČ ZA TURISTE",
-    "title": "Turistički vodič — Istra iz Ville Bergi",
+    "subtitle": "TURISTIČKI VODIČ",
+    "title": "Turistički vodič, istražite Istru iz Ville Bergi",
     "image_des": [
       "Najveći u Hrvatskoj",
       "Nacionalni park",
       "Vodeni park",
       "Događaji",
       "Vodeni park",
-      "skakanje s plaže/stijena"
+      "Skakanje sa stijena / plaže"
     ]
   },
   "Send_Message": {
@@ -109,14 +109,14 @@
     "button": "Pošalji poruku"
   },
   "Footer": {
-    "year": "©2024 . Villa Bergi — Kuća za odmor u Žminju, Istra",
+    "year": "©2024 . Villa Bergi, kuća za odmor u Žminju, Istra",
     "rights": "Sva prava pridržana",
     "created_by": "Web stranica od BoostWeb",
     "Discover": {
       "title": "Otkrijte",
       "list": {
         "Pula": "Pula Info",
-        "Guide": "Turistički vodič Istra"
+        "Guide": "Turistički vodič Istre"
       }
     },
     "Contact_Us": {
@@ -132,11 +132,11 @@
     ]
   },
   "Villa_Description": {
-    "des": "Villa Bergi je moderna vila za odmor u Žminju, u srcu centralne Istre — savršena baza za istraživanje cijelog poluotoka. Sa 7 spavaćih soba za do 16 gostiju, bazenom od 68m² sa zračnom masažom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kamenim 'kazunom' s roštiljem, idealna je za grupe prijatelja i obitelji. Uživajte u biljaru, pikadu, stolnom nogometu, 8 bicikala i 2500m² privatnog vanjskog prostora. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
+    "des": "Luksuzna Villa Bergi nalazi se u malom i šarmantnom selu Damijanići. Damijanići su udaljeni 2 km od Žminja, istarskog gradića bogate povijesti. Villa Bergi je 300 godina stara kamena kuća koja je stoljećima u vlasništvu iste obitelji. Vila je obnovljena u skladu s nekadašnjim načinom života poljoprivrednih obitelji i tradicionalnim istarskim stilom gradnje.",
     "subtitle": "Prostor",
-    "des2": "Ispred vile nalazi se vanjski bazen (68 m2) sa zračnom masažom. Prostrana trava nudi dječje igralište s trampolinom i nogometnim golovima. Pokraj bazena nalazi se replika stare istarske kuće nazvane \"kazun\", koja nudi sadržaje za roštiljanje. Prekrasna terasa savršeno je mjesto za uživanje u obroku. Još jedno mjesto za objedovanje je ljetna kuhinja, koja se nalazi unutar prostorije za igre s pikadom, biljarom i stolnim nogometom. Soba za ljepotu pored vile nudi saunu, jacuzzi i opremu za vježbanje. Vila ima sustav nadzora koji snima okolicu vile i pruža sigurnost svojim gostima. Vila može primiti 16 osoba. U vili se nalazi 7 spavaćih soba. U 3 spavaće sobe nalaze se bračni kreveti veličine king size, i u svakoj od njih može se smjestiti 2 osobe. U preostalim sobama (njih 4) nalaze se 2 odvojena kreveta. Netko može spavati i na kaučima u dnevnom boravku, ako to želi.",
-    "subtitle2": "Pristup gostiju",
-    "des3": "Gosti mogu pristupiti 7 spavaćih soba, 2 dnevna boravka, 2 kuhinje, 9 kupaonica + odvojeni WC, balkoni, terasa, prostorija za ljepotu, prostorija za igre/ljetna kuhinja, \"kazun\" s sadržajima za roštiljanje, prostorija s perilicom i opremom za glačanje, bazen, travnjak, vrt, dječje igralište i cijelo vanjsko područje (2500 m2)."
+    "des2": "Vila je prikladna za 12 osoba, ima 4 spavaće sobe i 4 kupaonice, a dnevni boravak i kuhinja uređeni su u kombinaciji istarskog i modernog stila. Vila ima kamin, zeleni vrt, bazen i roštilj gdje možete provesti kvalitetno i opuštajuće vrijeme s prijateljima i obitelji. Na zidu kuće nalazi se portret, iznad kojeg stoji natpis San Giacomo (sv. Jakov). Još uvijek nije poznato tko je postavio kamenu glavu na zid kuće, ali vjeruje se da ju je tijekom gradnje postavio vlasnik kuće. OPĆENITO: klima uređaj, kamin, grijanje, perilica rublja, kauč na razvlačenje, bazen, bežični internet, posteljina uključena, ručnici uključeni. KUHINJA I BLAGOVAONICA: štednjak, aparat za kavu, posuđe i pribor, pećnica. ZABAVA I OSTALE POGODNOSTI: TV, SATELITSKA / KABELSKA, vanjski roštilj, travnjak / vrt, radio, jacuzzi.",
+    "subtitle2": "Pristup gostima",
+    "des3": "ATRAKCIJE I OSTALE AKTIVNOSTI: marina, vinske ceste, ribolov, ronjenje, biciklizam, jedrenje, casino, plaža, aquapark, ski lift Poreč, jahanje, golf, posjeti povijesnim znamenitostima, najam bicikala, ture maslinovog ulja. PARKING JE BESPLATAN I DOSTUPAN U SKLOPU OBJEKTA."
   },
   "Villa_Features": {
     "title": "Značajke",
@@ -153,7 +153,7 @@
     "title12": "Parkiranje i sadržaji",
     "title13": "Usluge",
     "title14": "Sigurnost",
-    "button": "Prikaži sve 43 pogodnosti",
+    "button": "Prikaži svih 43 pogodnosti",
     "card": {
       "title": [
         "Sušilo za kosu",
@@ -190,9 +190,9 @@
         "Štednjak",
         "Pećnica",
         "Aparat za kavu",
-        "Protuklizni lim",
+        "Protuklizna podloga",
         "Pribor za roštilj",
-        "Stražnje dvorište",
+        "Dvorište",
         "Besplatno parkiralište na posjedu",
         "Bazen",
         "Dopušteno ostavljanje prtljage",
@@ -233,36 +233,36 @@
         "",
         "",
         "Lonci i tave, ulje, sol i papar",
-        "Pribor za zdjele, štapiće, tanjure, šalice, itd.",
+        "Zdjelice, tanjuri, šalice i ostalo",
         "",
         "",
         "",
         "",
         "",
-        "Roštilj, ugljen, bambus štapići/željezni štapići, itd.",
-        "Otvoreni prostor na imanju obično prekriven travom",
+        "Roštilj, ugljen, bambusovi ili željezni štapići i slično",
+        "Vanjski prostor obično prekriven travom",
         "",
         "",
-        "Za udobnost gostiju kada imaju ran dolazak ili kasni odlazak",
+        "Za udobnost gostiju pri ranijem dolasku ili kasnijem odlasku",
         "",
-        "Dopušten boravak od 28 dana ili duže",
+        "Boravak od 28 dana ili dulje je dopušten",
         ""
       ]
     }
   },
   "Pricelist": {
     "title": "Cjenik",
-    "subtitle": "*Cijena se odnosi na period od 1 noćenja u eurima"
+    "subtitle": "*Cijena se odnosi na jedno noćenje u eurima"
   },
   "Payment_conditions": {
     "subtitle": "UVJETI PLAĆANJA I REZERVACIJE",
     "title": "Uvjeti plaćanja i rezervacije",
     "des": "Boravišna pristojba nije uključena u cijenu!",
-    "des2": "Za osiguranje rezervacije obvezno je platiti 30% od pune cijene unaprijed izravno vlasniku smještaja, a 70% prilikom dolaska u smještajnu jedinicu.",
-    "des3": "Depozit je povratni ako je sve u redu: 500 eura.",
-    "des4": "Mogućnost besplatnog otkazivanja tjedan dana nakon rezervacije (OSIM U SLUČAJU REZERVACIJA U ZADNJI TRENUTAK, TADA JE ROK 48 SATI). Rezervacija u zadnji trenutak - Rezervacija dva tjedna prije.",
-    "des5": "Posljednjeg dana boravka, gost je dužan napustiti smještaj do 10 sati, kako bi drugi gosti mogli provjeriti od 16 sati.",
-    "des6": "Napomena: Kućni ljubimci nisu dopušteni na prostoru objekta.",
+    "des2": "Za potvrdu rezervacije potrebno je unaprijed platiti 30% ukupnog iznosa izravno vlasniku smještaja, a 70% po dolasku.",
+    "des3": "Povratni polog ako je sve u redu: 500 eura.",
+    "des4": "Besplatno otkazivanje unutar tjedan dana od rezervacije (OSIM LAST-MINUTE REZERVACIJA, TADA JE ROK 48 SATI). Last-minute rezervacija znači dva tjedna prije dolaska.",
+    "des5": "Posljednjeg dana boravka gosti moraju napustiti smještaj do 10 sati kako bi drugi mogli ući od 16 sati.",
+    "des6": "Napomena: kućni ljubimci nisu dopušteni na objektu.",
     "title2": "Načini plaćanja:"
   },
   "Map_Location": {
@@ -281,69 +281,69 @@
     "title": "Kako rezervirati",
     "steps": {
       "title": "Pošaljite upit",
-      "des": "Molimo vas da nam pošaljete upit putem obrasca za kontakt, e-pošte ili telefona sa svim potrebnim informacijama i periodom u kojem želite provesti odmor u kući za odmor Villa Relax i očekujte brz odgovor putem e-pošte i našu najbolju ponudu.",
-      "title2": "Osiguranje rezervacije (plaćanje)",
-      "des2": "Za osiguranje rezervacije obvezno je platiti 30% od pune svote unaprijed, a ostatak iznosa na dan dolaska. Nakon što izvršite plaćanje, molimo vas da nam pošaljete obavijest i mi ćemo vam poslati potvrdu plaćanja i rezervacije. Postoje 2 načina plaćanja unaprijed: bankovni transfer i putem PayPal-a (debitne i kreditne kartice).",
+      "des": "Pošaljite nam upit putem kontakt obrasca, e-maila ili telefona sa svim potrebnim informacijama i željenim terminom boravka u kući za odmor Villa Bergi. Očekujte brzi odgovor e-mailom i našu najbolju ponudu.",
+      "title2": "Potvrda rezervacije (plaćanje)",
+      "des2": "Za potvrdu rezervacije potrebno je unaprijed platiti 30% ukupnog iznosa, a ostatak po dolasku. Nakon uplate pošaljite nam potvrdu, a mi ćemo vam poslati potvrdu plaćanja i rezervacije. Postoje 2 načina plaćanja: bankovni prijenos ili PayPal (debitne i kreditne kartice).",
       "subtitle": "Bankovni prijenos",
       "span": "Vlasnik računa",
       "span2": "Adresa",
       "span3": "Banka",
       "title3": "Potvrda plaćanja",
-      "des3": "Kada je plaćanje izvršeno, potvrdit ćemo vaše plaćanje i rezervaciju. Opustite se i mirno očekujte svoj odmor u ljeti i uživajte u svojim odmorima u kući za odmor Villa Bergi, Istra - Hrvatska!"
+      "des3": "Kada uplata bude evidentirana, potvrdit ćemo vašu rezervaciju. Opustite se i veselite ljetnom boravku u Villi Bergi, Istra, Hrvatska!"
     }
   },
   "Environs": {
     "title": "Žminj & Istra",
-    "des": "Žminj je slikoviti istarski gradić smješten u središtu poluotoka, poznat po svojoj tradicijskoj arhitekturi i mirnom, autentičnom ozračju. Okružen brežuljcima, vinogradima i maslinicima, idealno je mjesto za opuštanje i otkrivanje istarske kulture.",
-    "button": "Prikaži Kartu",
+    "des": "Žminj je slikoviti istarski gradić smješten u središtu poluotoka, poznat po tradicionalnoj arhitekturi i mirnoj, autentičnoj atmosferi. Okružen brežuljcima, vinogradima i maslinicima, idealno je mjesto za opuštanje i otkrivanje istarske kulture.",
+    "button": "Prikaži kartu",
     "title2": "Kretanje",
-    "des2": "Vilu možete doseći automobilom ili taksijem. Parkiranje je besplatno i dostupno na licu mjesta.",
-    "subtitle": "Zanimljivosti u blizini",
+    "des2": "Do vile se može doći automobilom ili taksijem. Besplatno parkiranje dostupno je na licu mjesta.",
+    "subtitle": "Atrakcije u blizini",
     "rovinj_title": "Rovinj",
     "bale_title": "Bale",
     "rovinj": {
-      "title1": "1. Stari grad je bio otok",
-      "des1": "Rovinj je sve do 18. stoljeća bio pravi otok. Tek 1763. Austrijanci su zatrpali kanal i spojili ga s kopnom. Zato su ulice tako uske i zavojite – pravljene su za obranu, ne za udobnost.",
+      "title1": "1. Stari grad bio je otok",
+      "des1": "Sve do 18. stoljeća Rovinj je bio pravi otok. Godine 1763. Austrijanci su zatrpali kanal i spojili ga s kopnom. Zato su ulice tako uske i zavojite, građene za obranu, ne za udobnost.",
       "title2": "2. Zvonik sv. Eufemije",
-      "des2": "Crkva sv. Eufemije ima najviši zvonik u Istri – 62 metra – a kip sv. Eufemije na vrhu okreće se ovisno o smjeru vjetra.",
+      "des2": "Crkva sv. Eufemije ima najviši zvonik u Istri, 62 metra, a kip sv. Eufemije na vrhu okreće se ovisno o smjeru vjetra.",
       "title3": "3. Kuće na samom moru",
-      "des3": "U starom gradu mnoge kuće imaju vrata i prozore direktno na more, što je tipično za stare venecijanske ribarske gradove i jedna od najpoznatijih rovinjskih atrakcija.",
-      "title4": "4. Batana – tradicionalni brod",
-      "des4": "Batana je mali drveni brod ravan na dnu, simbol rovinjske ribarske tradicije. Ima svoj Ekomuzej koji je upisan na UNESCO listu nematerijalne baštine.",
+      "des3": "U starom gradu mnoge kuće imaju vrata i prozore direktno na more, tipično za stare venecijanske ribarske gradove i jednu od najpoznatijih rovinjskih scena.",
+      "title4": "4. Batana, tradicionalni brod",
+      "des4": "Batana je mali drveni brod ravnog dna, simbol rovinjske ribarske tradicije. Ima i vlastiti Ekomuzej upisan na UNESCO listu nematerijalne baštine.",
       "title5": "5. Balbijev luk",
-      "des5": "Balbijev luk iz 17. stoljeća označava ulaz u stari grad. Na sebi ima uklesane glave Turčina i Mlečana, podsjetnik na mletačku vladavinu.",
-      "title6": "6. Zlatni rt – park-šuma",
-      "des6": "Zlatni rt (Punta Corrente) jedno je od najljepših mjesta za šetnju i vožnju biciklom u Istri, poznat po borovoj šumi, uvalama i kristalno čistom moru.",
-      "title7": "7. Romantični zalasci",
-      "des7": "Rovinj se svrstava među najromantičnije gradove Europe zahvaljujući pogledima na more, fotogeničnim uličicama i spektakularnim zalascima sunca."
+      "des5": "Balbijev luk iz 17. stoljeća označava ulaz u stari grad. Na njemu su uklesane glave Turčina i Mlečanina, podsjetnik na mletačku vlast.",
+      "title6": "6. Zlatni rt, park šuma",
+      "des6": "Zlatni rt (Punta Corrente) jedno je od najljepših mjesta za šetnju i vožnju biciklom u Istri, poznato po borovoj šumi, uvalama i kristalno čistom moru.",
+      "title7": "7. Romantični zalasci sunca",
+      "des7": "Rovinj se smatra jednim od najromantičnijih gradova Europe zahvaljujući pogledu na more, slikovitim uskim ulicama i spektakularnim zalascima sunca."
     },
     "bale": {
-      "title1": "1. Kameni gradić s bogatom poviješću",
-      "des1": "Bale su mali srednjovjekovni gradić izgrađen od kamena, s poviješću koja seže u rimsko doba. Uske ulice i kamene kuće čuvaju autentični duh Istre.",
+      "title1": "1. Kameni gradić bogate povijesti",
+      "des1": "Bale su mali srednjovjekovni kameni gradić s poviješću koja seže do rimskog doba. Uske ulice i kamene kuće čuvaju autentični duh Istre.",
       "title2": "2. Castrum Vallis",
-      "des2": "Stari naziv mjesta bio je Castrum Vallis, što znači utvrda u dolini. Bale su nekada bile važno obrambeno i strateško središte.",
-      "title3": "3. Dino Park i nalazi fosila",
-      "des3": "Na području Bala pronađeni su brojni fosili dinosaura, uključujući kosti brahiosaura, što Bale čini jedinstvenim mjestom u Europi.",
-      "title4": "4. Umjetnički i kulturni centar",
+      "des2": "Mjesto je nekoć bilo poznato kao Castrum Vallis, što znači utvrda u dolini. Bale su bile važno obrambeno i strateško središte.",
+      "title3": "3. Fosili dinosaura",
+      "des3": "Na području Bala pronađeni su brojni fosili dinosaura, uključujući ostatke brahiosaura, što ih čini jedinstvenim mjestom u Europi.",
+      "title4": "4. Umjetničko i kulturno središte",
       "des4": "Bale su poznate kao grad umjetnika, s brojnim galerijama, ateljeima i kulturnim događanjima tijekom cijele godine.",
       "title5": "5. Crkva Blažene Djevice Marije",
-      "des5": "Župna crkva Blažene Djevice Marije dominira starom jezgrom mjesta i važan je povijesni i kulturni simbol Bala.",
-      "title6": "6. Blizina netaknute prirode",
-      "des6": "U okolici Bala nalaze se maslinici, vinogradi i prirodna područja idealna za šetnje, biciklizam i istraživanje Istre.",
+      "des5": "Župna crkva Blažene Djevice Marije dominira starom jezgrom i važan je povijesni i kulturni simbol mjesta.",
+      "title6": "6. Netaknuta priroda u blizini",
+      "des6": "Okolica Bala ispunjena je maslinicima, vinogradima i prirodnim krajolicima idealnima za šetnju, biciklizam i istraživanje Istre.",
       "title7": "7. Mir i autentičnost",
-      "des7": "Bale su savršena destinacija za one koji traže mir, autentičan istarski ambijent i bijeg od masovnog turizma."
+      "des7": "Bale su savršena destinacija za sve koji traže mir, autentičnu istarsku atmosferu i bijeg od masovnog turizma."
     }
   },
   "PriceTable": {
     "title": "Razdoblje",
     "title2": "Cijena*",
     "title3": "Osobe",
-    "title4": "Min. Boravak"
+    "title4": "Min. boravak"
   },
   "Contact": {
     "title": "Kontaktirajte nas",
     "Contact_Form": {
-      "name": "Ime i Prezime",
+      "name": "Ime i prezime",
       "email": "Email",
       "phone": "Telefon/Mobitel",
       "home": "Kuća za odmor",
@@ -352,12 +352,12 @@
       "arrival": "Dolazak",
       "departure": "Odlazak",
       "message": "Upit",
-      "des": "Sadržaj ovog obrasca bit će poslan izravno na e-mail adresu vlasnika smještaja i koristi se isključivo za slanje upita o rezervaciji navedenog objekta.",
+      "des": "Sadržaj ovog obrasca bit će poslan izravno na email adresu vlasnika smještaja i koristi se isključivo za upite o rezervaciji.",
       "button": "Pošalji upit",
       "sent": "Uspješno poslano"
     },
     "Contact_Info": {
-      "contact_person": "kontakt osoba",
+      "contact_person": "Kontakt osoba",
       "mobile": "Mobitel",
       "email": "Email",
       "address": "Adresa",
