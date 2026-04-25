@@ -39,11 +39,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   de: {
     home: {
       title: "Villa Bergi | Ferienvilla in Žminj, Zentralistrien — nahe Rovinj & Pula",
-      description: "Ferienvilla in Žminj, Zentralistrien. Pool, Jacuzzi, 7 Schlafzimmer, für 16 Gäste. Nahe Rovinj, Pula und Pazin. Für Gruppen und Familien.",
+      description: "Ferienvilla in Damijanići bei Žminj, Zentralistrien. Pool, Jacuzzi, 4 Schlafzimmer, für 12 Gäste. Nahe Rovinj, Pula und Pazin. Ideal für Familien und kleinere Gruppen.",
     },
     villa: {
-      title: "Villa Bergi — 7-Schlafzimmer-Villa in Žminj, Istrien mit Pool & Jacuzzi",
-      description: "7-Schlafzimmer-Villa in Žminj, Istrien mit Pool, Jacuzzi, Sauna und Spielbereich. Für 16 Gäste, ideal für Gruppen und Familien.",
+      title: "Villa Bergi — 4-Schlafzimmer-Villa in Žminj, Istrien mit Pool & Jacuzzi",
+      description: "4-Schlafzimmer-Villa in Damijanići bei Žminj, Istrien mit Pool, Jacuzzi und Garten. Für 12 Gäste, ideal für Familien und kleinere Gruppen.",
     },
     pricelist: {
       title: "Villa Bergi Preise — Villa-Mietpreise in Žminj, Istrien",
@@ -51,7 +51,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Fotos — Villafotos aus Žminj, Istrien",
-      description: "Entdecken Sie Villafotos aus Žminj, Istrien: Pool, Jacuzzi, 7 Schlafzimmer und Außenbereiche für Gruppen und Familien.",
+      description: "Entdecken Sie Villafotos aus Damijanići bei Žminj, Istrien: Pool, Jacuzzi, 4 Schlafzimmer und Außenbereiche für Familien und kleinere Gruppen.",
     },
     surroundings: {
       title: "Ausflüge nahe Žminj — Zentralistrien rund um Villa Bergi",
@@ -65,11 +65,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   hr: {
     home: {
       title: "Villa Bergi | Vila za odmor u Žminju, središnja Istra — blizu Rovinja i Pule",
-      description: "Vila za odmor u Žminju, središnja Istra. Bazen, jacuzzi, 7 soba, za 16 gostiju. Blizu Rovinja, Pule i Pazina. Za grupe i obitelji.",
+      description: "Vila za odmor u Damijanićima kraj Žminja, središnja Istra. Bazen, jacuzzi, 4 spavaće sobe, za 12 gostiju. Blizu Rovinja, Pule i Pazina. Idealno za obitelji i manje grupe.",
     },
     villa: {
-      title: "Villa Bergi — Vila sa 7 soba u Žminju, Istra s bazenom i jacuzzijem",
-      description: "Vila sa 7 soba u Žminju, Istra s bazenom, jacuzzijem, saunom i igrama. Za 16 gostiju, idealna za grupe i obitelji.",
+      title: "Villa Bergi — Vila s 4 spavaće sobe u Žminju, Istra s bazenom i jacuzzijem",
+      description: "Vila s 4 spavaće sobe u Damijanićima kraj Žminja, Istra s bazenom, jacuzzijem i vrtom. Za 12 gostiju, idealna za obitelji i manje grupe.",
     },
     pricelist: {
       title: "Villa Bergi Cjenik — Cijene najma vile u Žminju, Istra",
@@ -77,7 +77,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Fotografije — Fotografije vile u Žminju, Istra",
-      description: "Pogledajte fotografije Ville Bergi u Žminju, Istra: bazen, jacuzzi, 7 soba i vanjske prostore za grupe i obitelji.",
+      description: "Pogledajte fotografije Ville Bergi u Damijanićima kraj Žminja, Istra: bazen, jacuzzi, 4 spavaće sobe i vanjske prostore za obitelji i manje grupe.",
     },
     surroundings: {
       title: "Što posjetiti blizu Žminja — Središnja Istra oko Ville Bergi",
@@ -91,11 +91,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   it: {
     home: {
       title: "Villa Bergi | Villa vacanze a Žminj, Istria centrale — vicino a Rovigno e Pola",
-      description: "Villa vacanze a Žminj, Istria centrale. Piscina, jacuzzi, 7 camere, 16 ospiti. Vicino a Rovigno, Pola e Pisino. Per gruppi e famiglie.",
+      description: "Villa vacanze a Damijanići vicino a Žminj, Istria centrale. Piscina, jacuzzi, 4 camere, 12 ospiti. Vicino a Rovigno, Pola e Pisino. Ideale per famiglie e gruppi più piccoli.",
     },
     villa: {
-      title: "Villa Bergi — Villa con 7 camere a Žminj, Istria con piscina e jacuzzi",
-      description: "Villa con 7 camere a Žminj, Istria con piscina, jacuzzi, sauna e giochi. Per 16 ospiti, ideale per gruppi e famiglie.",
+      title: "Villa Bergi — Villa con 4 camere a Žminj, Istria con piscina e jacuzzi",
+      description: "Villa con 4 camere a Damijanići vicino a Žminj, Istria con piscina, jacuzzi e giardino. Per 12 ospiti, ideale per famiglie e gruppi più piccoli.",
     },
     pricelist: {
       title: "Villa Bergi Prezzi — Prezzi villa in affitto a Žminj, Istria",
@@ -103,7 +103,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Foto — Foto villa a Žminj, Istria",
-      description: "Guarda le foto di Villa Bergi a Žminj, Istria: piscina, jacuzzi, 7 camere e spazi esterni per gruppi e famiglie.",
+      description: "Guarda le foto di Villa Bergi a Damijanići vicino a Žminj, Istria: piscina, jacuzzi, 4 camere e spazi esterni per famiglie e gruppi più piccoli.",
     },
     surroundings: {
       title: "Cosa fare vicino a Žminj — Istria centrale intorno a Villa Bergi",
