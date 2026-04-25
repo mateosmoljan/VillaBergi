@@ -13,11 +13,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   en: {
     home: {
       title: "Villa Bergi | Holiday Villa in Žminj, Central Istria — Near Rovinj & Pula",
-      description: "Holiday villa in Damijanići near Žminj, central Istria. Pool, jacuzzi, 4 bedrooms, sleeps 12. Near Rovinj, Pula and Pazin. Ideal for families and smaller groups.",
+      description: "Holiday villa in Damijanići near Žminj, central Istria. Pool, jacuzzi, 5 bedrooms, sleeps 12. Near Rovinj, Pula and Pazin. Ideal for families and smaller groups.",
     },
     villa: {
-      title: "Villa Bergi — 4 Bedroom Villa in Žminj, Istria with Pool & Jacuzzi",
-      description: "4 bedroom villa in Damijanići near Žminj, Istria with pool, jacuzzi and garden. Sleeps 12 and suits families and smaller groups in central Istria.",
+      title: "Villa Bergi — 5 Bedroom Villa in Žminj, Istria with Pool & Jacuzzi",
+      description: "5 bedroom villa in Damijanići near Žminj, Istria with pool, jacuzzi and garden. Sleeps 12 and suits families and smaller groups in central Istria.",
     },
     pricelist: {
       title: "Villa Bergi Prices — Villa Rental Prices in Žminj, Istria",
@@ -25,7 +25,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Photos — Villa Photos in Žminj, Istria",
-      description: "View Villa Bergi photos from Damijanići near Žminj, Istria: pool, jacuzzi, 4 bedrooms and outdoor spaces for families and smaller groups.",
+      description: "View Villa Bergi photos from Damijanići near Žminj, Istria: pool, jacuzzi, 5 bedrooms and outdoor spaces for families and smaller groups.",
     },
     surroundings: {
       title: "Things to Do Near Žminj — Central Istria Around Villa Bergi",
@@ -39,11 +39,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   de: {
     home: {
       title: "Villa Bergi | Ferienvilla in Žminj, Zentralistrien — nahe Rovinj & Pula",
-      description: "Ferienvilla in Damijanići bei Žminj, Zentralistrien. Pool, Jacuzzi, 4 Schlafzimmer, für 12 Gäste. Nahe Rovinj, Pula und Pazin. Ideal für Familien und kleinere Gruppen.",
+      description: "Ferienvilla in Damijanići bei Žminj, Zentralistrien. Pool, Jacuzzi, 5 Schlafzimmer, für 12 Gäste. Nahe Rovinj, Pula und Pazin. Ideal für Familien und kleinere Gruppen.",
     },
     villa: {
-      title: "Villa Bergi — 4-Schlafzimmer-Villa in Žminj, Istrien mit Pool & Jacuzzi",
-      description: "4-Schlafzimmer-Villa in Damijanići bei Žminj, Istrien mit Pool, Jacuzzi und Garten. Für 12 Gäste, ideal für Familien und kleinere Gruppen.",
+      title: "Villa Bergi — 5-Schlafzimmer-Villa in Žminj, Istrien mit Pool & Jacuzzi",
+      description: "5-Schlafzimmer-Villa in Damijanići bei Žminj, Istrien mit Pool, Jacuzzi und Garten. Für 12 Gäste, ideal für Familien und kleinere Gruppen.",
     },
     pricelist: {
       title: "Villa Bergi Preise — Villa-Mietpreise in Žminj, Istrien",
@@ -51,7 +51,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Fotos — Villafotos aus Žminj, Istrien",
-      description: "Entdecken Sie Villafotos aus Damijanići bei Žminj, Istrien: Pool, Jacuzzi, 4 Schlafzimmer und Außenbereiche für Familien und kleinere Gruppen.",
+      description: "Entdecken Sie Villafotos aus Damijanići bei Žminj, Istrien: Pool, Jacuzzi, 5 Schlafzimmer und Außenbereiche für Familien und kleinere Gruppen.",
     },
     surroundings: {
       title: "Ausflüge nahe Žminj — Zentralistrien rund um Villa Bergi",
@@ -65,11 +65,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   hr: {
     home: {
       title: "Villa Bergi | Vila za odmor u Žminju, središnja Istra — blizu Rovinja i Pule",
-      description: "Vila za odmor u Damijanićima kraj Žminja, središnja Istra. Bazen, jacuzzi, 4 spavaće sobe, za 12 gostiju. Blizu Rovinja, Pule i Pazina. Idealno za obitelji i manje grupe.",
+      description: "Vila za odmor u Damijanićima kraj Žminja, središnja Istra. Bazen, jacuzzi, 5 spavaćih soba, za 12 gostiju. Blizu Rovinja, Pule i Pazina. Idealno za obitelji i manje grupe.",
     },
     villa: {
-      title: "Villa Bergi — Vila s 4 spavaće sobe u Žminju, Istra s bazenom i jacuzzijem",
-      description: "Vila s 4 spavaće sobe u Damijanićima kraj Žminja, Istra s bazenom, jacuzzijem i vrtom. Za 12 gostiju, idealna za obitelji i manje grupe.",
+      title: "Villa Bergi — Vila s 5 spavaćih soba u Žminju, Istra s bazenom i jacuzzijem",
+      description: "Vila s 5 spavaćih soba u Damijanićima kraj Žminja, Istra s bazenom, jacuzzijem i vrtom. Za 12 gostiju, idealna za obitelji i manje grupe.",
     },
     pricelist: {
       title: "Villa Bergi Cjenik — Cijene najma vile u Žminju, Istra",
@@ -77,7 +77,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Fotografije — Fotografije vile u Žminju, Istra",
-      description: "Pogledajte fotografije Ville Bergi u Damijanićima kraj Žminja, Istra: bazen, jacuzzi, 4 spavaće sobe i vanjske prostore za obitelji i manje grupe.",
+      description: "Pogledajte fotografije Ville Bergi u Damijanićima kraj Žminja, Istra: bazen, jacuzzi, 5 spavaćih soba i vanjske prostore za obitelji i manje grupe.",
     },
     surroundings: {
       title: "Što posjetiti blizu Žminja — Središnja Istra oko Ville Bergi",
@@ -91,11 +91,11 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
   it: {
     home: {
       title: "Villa Bergi | Villa vacanze a Žminj, Istria centrale — vicino a Rovigno e Pola",
-      description: "Villa vacanze a Damijanići vicino a Žminj, Istria centrale. Piscina, jacuzzi, 4 camere, 12 ospiti. Vicino a Rovigno, Pola e Pisino. Ideale per famiglie e gruppi più piccoli.",
+      description: "Villa vacanze a Damijanići vicino a Žminj, Istria centrale. Piscina, jacuzzi, 5 camere, 12 ospiti. Vicino a Rovigno, Pola e Pisino. Ideale per famiglie e gruppi più piccoli.",
     },
     villa: {
-      title: "Villa Bergi — Villa con 4 camere a Žminj, Istria con piscina e jacuzzi",
-      description: "Villa con 4 camere a Damijanići vicino a Žminj, Istria con piscina, jacuzzi e giardino. Per 12 ospiti, ideale per famiglie e gruppi più piccoli.",
+      title: "Villa Bergi — Villa con 5 camere a Žminj, Istria con piscina e jacuzzi",
+      description: "Villa con 5 camere a Damijanići vicino a Žminj, Istria con piscina, jacuzzi e giardino. Per 12 ospiti, ideale per famiglie e gruppi più piccoli.",
     },
     pricelist: {
       title: "Villa Bergi Prezzi — Prezzi villa in affitto a Žminj, Istria",
@@ -103,7 +103,7 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     },
     photogallery: {
       title: "Villa Bergi Foto — Foto villa a Žminj, Istria",
-      description: "Guarda le foto di Villa Bergi a Damijanići vicino a Žminj, Istria: piscina, jacuzzi, 4 camere e spazi esterni per famiglie e gruppi più piccoli.",
+      description: "Guarda le foto di Villa Bergi a Damijanići vicino a Žminj, Istria: piscina, jacuzzi, 5 camere e spazi esterni per famiglie e gruppi più piccoli.",
     },
     surroundings: {
       title: "Cosa fare vicino a Žminj — Istria centrale intorno a Villa Bergi",
@@ -155,7 +155,7 @@ export function getLodgingJsonLd(_locale: Locale) {
     "@context": "https://schema.org",
     "@type": "VacationRental",
     name: "Villa Bergi",
-    description: "Holiday villa in Damijanići near Žminj, central Istria with 4 bedrooms, pool, jacuzzi and garden. Sleeps 12.",
+    description: "Holiday villa in Damijanići near Žminj, central Istria with 5 bedrooms, pool, jacuzzi and garden. Sleeps 12.",
     url: "https://villabergi.com",
     image: "https://villabergi.com/assets/images/optimized-hero/28.webp",
     address: {
@@ -169,7 +169,7 @@ export function getLodgingJsonLd(_locale: Locale) {
       latitude: 45.1292,
       longitude: 13.8986,
     },
-    numberOfRooms: 4,
+    numberOfRooms: 5,
     occupancy: {
       "@type": "QuantitativeValue",
       maxValue: 12,
