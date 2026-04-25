@@ -27,13 +27,13 @@
     "titles": [
       "Villa autentica in Istria",
       "Piscina privata e relax all'aperto",
-      "5 camere da letto · Fino a 12 ospiti · Ideale per famiglie",
+      "5 camere da letto · Fino a 12 ospiti · Ideale per gruppi di amici",
       "Autentico fascino istriano con comfort moderni"
     ],
     "descriptions": [
       "Un'affascinante villa in pietra a Damijanići vicino a Žminj, la base perfetta per esplorare l'Istria.",
       "Godetevi la piscina privata, il giardino, la jacuzzi e il tranquillo spazio esterno durante le lunghe giornate estive.",
-      "Un soggiorno confortevole per famiglie e piccoli gruppi con spazio per rilassarsi, pranzare e stare insieme.",
+      "Un soggiorno spazioso per gruppi di amici, gruppi giovani e feste private con spazio per rilassarsi, mangiare e stare insieme.",
       "Architettura tradizionale, interni accoglienti e dettagli autentici creano una vera esperienza istriana."
     ],
     "button": "Leggi di più"
@@ -43,7 +43,7 @@
     "des": "La lussuosa Villa Bergi si trova nel piccolo e affascinante villaggio di Damijanići, a soli 2 km da Žminj, una cittadina istriana ricca di storia. Villa Bergi è una casa in pietra di 300 anni appartenuta alla stessa famiglia per secoli. La villa è stata ristrutturata nel rispetto dello stile tradizionale istriano e dell'antico modo di vivere delle famiglie contadine locali.",
     "the_space": {
       "title": "Lo spazio",
-      "des": "La villa è adatta a 12 persone e dispone di 5 camere da letto e 4 bagni. Il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e area barbecue, dove potrete trascorrere momenti di relax con amici e famiglia. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa.",
+      "des": "La villa è adatta a 12 persone e dispone di 5 camere da letto e 4 bagni. Il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e area barbecue, dove potrete trascorrere momenti di relax con amici e il vostro gruppo. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa.",
       "des2": "GENERALE: aria condizionata, camino, riscaldamento, lavatrice, divano letto, piscina, internet wireless, biancheria inclusa, asciugamani inclusi. CUCINA E SALA DA PRANZO: fornello, macchina da caffè, piatti e utensili, forno. INTRATTENIMENTO E ALTRI SERVIZI: TV, satellite/cavo, grill esterno, prato/giardino, radio, jacuzzi."
     },
     "guest_access": {
@@ -134,7 +134,7 @@
   "Villa_Description": {
     "des": "La lussuosa Villa Bergi si trova nel piccolo e affascinante villaggio di Damijanići. Damijanići si trova a 2 km da Žminj, una cittadina istriana ricca di storia. Villa Bergi è una casa in pietra di 300 anni appartenuta alla stessa famiglia per secoli. La villa è stata ristrutturata nel rispetto dell'antico stile di vita contadino e della tradizionale architettura istriana.",
     "subtitle": "Lo spazio",
-    "des2": "La villa è adatta a 12 persone, dispone di 5 camere da letto e 4 bagni, e il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e barbecue, dove è possibile trascorrere momenti di relax con amici e famiglia. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa. GENERALE: aria condizionata, camino, riscaldamento, lavatrice, divano letto, piscina, internet wireless, biancheria inclusa, asciugamani inclusi. CUCINA E SALA DA PRANZO: fornello, macchina da caffè, piatti e utensili, forno. INTRATTENIMENTO E ALTRI SERVIZI: TV, SATELLITE / CAVO, grill esterno, prato / giardino, radio, jacuzzi.",
+    "des2": "La villa è adatta a 12 persone, dispone di 5 camere da letto e 4 bagni, e il soggiorno e la cucina sono arredati con una combinazione di stile istriano e moderno. La villa dispone di camino, giardino verde, piscina e barbecue, dove è possibile trascorrere momenti di relax con amici e il vostro gruppo. Sulla parete della casa si trova un ritratto, sopra il quale appare l'iscrizione San Giacomo. Ancora oggi non si sa chi abbia collocato la testa di pietra sulla parete della casa, ma si ritiene che sia stata installata dal proprietario durante la costruzione della casa. GENERALE: aria condizionata, camino, riscaldamento, lavatrice, divano letto, piscina, internet wireless, biancheria inclusa, asciugamani inclusi. CUCINA E SALA DA PRANZO: fornello, macchina da caffè, piatti e utensili, forno. INTRATTENIMENTO E ALTRI SERVIZI: TV, SATELLITE / CAVO, grill esterno, prato / giardino, radio, jacuzzi.",
     "subtitle2": "Accesso ospiti",
     "des3": "ATTRAZIONI E ALTRE ATTIVITÀ: marina, strade del vino, pesca, immersioni, ciclismo, vela, casinò, spiaggia, aquapark, ski lift Poreč, equitazione, golf, visite a siti storici, noleggio biciclette, tour dell'olio d'oliva. IL PARCHEGGIO È GRATUITO E DISPONIBILE IN LOCO."
   },
@@ -144,7 +144,7 @@
     "title3": "Bagno",
     "title4": "Camera da letto e lavanderia",
     "title5": "Intrattenimento",
-    "title6": "Famiglia",
+    "title6": "Comfort per gruppi",
     "title7": "Riscaldamento e raffreddamento",
     "title8": "Sicurezza della casa",
     "title9": "Internet e ufficio",
