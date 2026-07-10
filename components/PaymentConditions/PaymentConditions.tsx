@@ -1,6 +1,5 @@
 import { getPaymentConditionsData } from "@/lib/paymentConditions";
 import { useLocale } from "next-intl";
-import Markdown from "react-markdown";
 
 function PaymentConditions() {
   const localeActive = useLocale();
@@ -9,22 +8,16 @@ function PaymentConditions() {
   return (
     <div>
       <div className="flex flex-col gap-5 mb-5">
-        <p>{PaymentConditionsData.data[0].des}</p>
-        <p>
-          <Markdown>{PaymentConditionsData.data[0].des2}</Markdown>
-        </p>
-        <p>
-          <Markdown>{PaymentConditionsData.data[0].des3}</Markdown>
-        </p>
-        <p>
-          <Markdown>{PaymentConditionsData.data[0].des4}</Markdown>
-        </p>
-        <p>
-          <Markdown>{PaymentConditionsData.data[0].des5}</Markdown>
-        </p>
-        <p>
-          <Markdown>{PaymentConditionsData.data[0].des6}</Markdown>
-        </p>
+        {[
+          PaymentConditionsData.data[0].des,
+          PaymentConditionsData.data[0].des2,
+          PaymentConditionsData.data[0].des3,
+          PaymentConditionsData.data[0].des4,
+          PaymentConditionsData.data[0].des5,
+          PaymentConditionsData.data[0].des6,
+        ].filter(Boolean).map((description, index) => (
+          <p key={index}>{description}</p>
+        ))}
       </div>
       <div>
         <p className="font-titleBold">{PaymentConditionsData.data[0].title2}</p>

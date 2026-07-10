@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "@/navigation";
 import { useLocale } from "next-intl";
 import React, { useTransition, useState, useRef, useEffect } from "react";
 import en_src from "@/public/assets/icons/flags/en.png";
@@ -41,11 +41,8 @@ function LanguageSwitch() {
 
   const handleSelect = (nextLocale: string) => {
     setOpen(false);
-    const segments = pathname.split("/").filter(Boolean);
-    const rest = segments.slice(1).join("/");
-    const nextPath = `/${nextLocale}${rest ? `/${rest}` : ""}`;
     startTransition(() => {
-      router.replace(nextPath);
+      router.replace(pathname, { locale: nextLocale });
     });
   };
 

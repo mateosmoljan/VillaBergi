@@ -11,9 +11,9 @@ function About() {
   return (
     <section className="pt-20 Visit" id="about">
       <div className="container">
-        <h1 className="flex justify-center font-arbutus text-3xl sm:text-4xl font-bold text-primary">
+        <h2 className="flex justify-center font-arbutus text-3xl sm:text-4xl font-bold text-primary">
           {t("homepage_title")}
-        </h1>
+        </h2>
         <div className="pt-10 text-secondary">
           <Markdown>{a("des")}</Markdown>
           <br />

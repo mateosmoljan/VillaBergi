@@ -31,7 +31,7 @@ function GoogleMaps({ onClose }: GoogleMapsProps) {
         className="container px-3 flex flex-col h-[75%] bg-white rounded-md transitionMap"
       >
         <div className="flex justify-between py-3">
-          <h1 className="font-bold text-xl">Location of Villa Relax</h1>
+          <h2 className="font-bold text-xl">Location of Villa Bergi</h2>
           <button onClick={onClose} className="text-xl">
             <RxCross2 />
           </button>

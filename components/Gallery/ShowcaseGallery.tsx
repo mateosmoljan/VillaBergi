@@ -38,9 +38,9 @@ function ShowcaseGallery() {
           <h2 className="accent-primary font-semibold uppercase tracking-widest">
             Villa Bergi
           </h2>
-          <h1 className="font-bold text-2xl sm:text-3xl text-primary">
+          <h2 className="font-bold text-2xl sm:text-3xl text-primary">
             Villa Bergi
-          </h1>
+          </h2>
         </div>
         <AppContext.Provider
           value={{ openIndexPropertyGallery, setOpenIndexPropertyGallery }}

@@ -52,9 +52,9 @@ function FeaturesComponent({ handleClose }: Props) {
         </div>
         <div className="overflow-y-scroll h-[98%] w-full p-6">
           <div className="flex flex-col gap-4">
-            <h1 className="font-titleBold text-2xl text-primary mb-4">
+            <h2 className="font-titleBold text-2xl text-primary mb-4">
               {FeaturesTitleData.data[0].title2}
-            </h1>
+            </h2>
             <div>
               <h2 className="font-titleBold text-xl text-primary mb-3">
                 {FeaturesTitleData.data[0].title3}

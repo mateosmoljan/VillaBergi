@@ -49,6 +49,7 @@ export const TitleDataEn: DataObject = {
     createTitle(
       enData.Payment_conditions.subtitle,
       enData.Payment_conditions.title,
+      enData.Payment_conditions.des,
       enData.Payment_conditions.des2,
       enData.Payment_conditions.des3,
       enData.Payment_conditions.des4,
@@ -65,6 +66,7 @@ export const TitleDataDE: DataObject = {
     createTitle(
       deData.Payment_conditions.subtitle,
       deData.Payment_conditions.title,
+      deData.Payment_conditions.des,
       deData.Payment_conditions.des2,
       deData.Payment_conditions.des3,
       deData.Payment_conditions.des4,
@@ -80,6 +82,7 @@ export const TitleDataHR: DataObject = {
     createTitle(
       hrData.Payment_conditions.subtitle,
       hrData.Payment_conditions.title,
+      hrData.Payment_conditions.des,
       hrData.Payment_conditions.des2,
       hrData.Payment_conditions.des3,
       hrData.Payment_conditions.des4,
@@ -95,6 +98,7 @@ export const TitleDataIT: DataObject = {
     createTitle(
       itData.Payment_conditions.subtitle,
       itData.Payment_conditions.title,
+      itData.Payment_conditions.des,
       itData.Payment_conditions.des2,
       itData.Payment_conditions.des3,
       itData.Payment_conditions.des4,

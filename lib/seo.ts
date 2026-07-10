@@ -4,7 +4,13 @@ export const locales = ["en", "de", "hr", "it"] as const;
 export type Locale = (typeof locales)[number];
 
 const siteName = "Villa Bergi";
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://villabergi.com";
+function getCanonicalBaseUrl() {
+  const url = new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.villabergi.com");
+  if (url.hostname === "villabergi.com") url.hostname = "www.villabergi.com";
+  return url.origin;
+}
+
+export const baseUrl = getCanonicalBaseUrl();
 const defaultOgImage = "/assets/images/i/28.jpg";
 
 type SeoPage = "home" | "villa" | "pricelist" | "photogallery" | "surroundings" | "contact";
@@ -130,7 +136,10 @@ export function buildMetadata(locale: Locale, page: SeoPage, pathname: string): 
     description: data.description,
     alternates: {
       canonical,
-      languages: Object.fromEntries(locales.map((loc) => [loc, `${baseUrl}/${loc}${pathname}`])),
+      languages: {
+        ...Object.fromEntries(locales.map((loc) => [loc, `${baseUrl}/${loc}${pathname}`])),
+        "x-default": `${baseUrl}/en${pathname}`,
+      },
     },
     openGraph: {
       type: "website",
@@ -156,8 +165,8 @@ export function getLodgingJsonLd(_locale: Locale) {
     "@type": "VacationRental",
     name: "Villa Bergi",
     description: "Holiday villa in Damijanići near Žminj, central Istria with 5 bedrooms, pool, jacuzzi and garden. Sleeps 12.",
-    url: "https://villabergi.com",
-    image: "https://villabergi.com/assets/images/optimized-hero/28.webp",
+    url: baseUrl,
+    image: `${baseUrl}/assets/images/optimized-hero/28.webp`,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Žminj",

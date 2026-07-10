@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import "./nav.css";
 import { getNavigationLinks } from "@/lib/Links";
-import { usePathname } from "next/navigation";
+import { usePathname } from "@/navigation";
 import LanguageSwitch from "./languageSwitch";
 import { useLocale } from "next-intl";
 
