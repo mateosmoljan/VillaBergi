@@ -7,24 +7,38 @@ import Children from "./Inputs/Children";
 import { IoIosSend } from "react-icons/io";
 import DataRangeComponent from "./Inputs/DateRangeComponent";
 import emailjs from "@emailjs/browser";
+import { sendGAEvent } from "@next/third-parties/google";
+import { useLocale } from "next-intl";
 import "./style.css";
+
+type SubmitState = "idle" | "sending" | "success" | "error";
 
 function ContactForm() {
   const form = useRef<HTMLFormElement>(null);
-  const [messageSent, setMessageSent] = useState(false);
+  const locale = useLocale();
+  const [submitState, setSubmitState] = useState<SubmitState>("idle");
 
-  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+  const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setMessageSent(true);
-    setTimeout(() => setMessageSent(false), 10000);
+    if (!form.current || submitState === "sending") return;
 
-    if (form.current) {
-      emailjs
-        .sendForm("service_jgpc6ko", "template_76f692g", form.current, {
-          publicKey: "x1heB8vixoZsmR2Mh",
-        })
-        .then(() => form.current?.reset())
-        .catch((error) => console.error("FAILED...", error.text));
+    setSubmitState("sending");
+
+    try {
+      await emailjs.sendForm("service_jgpc6ko", "template_76f692g", form.current, {
+        publicKey: "x1heB8vixoZsmR2Mh",
+      });
+      form.current.reset();
+      setSubmitState("success");
+      sendGAEvent("event", "generate_lead", {
+        method: "emailjs",
+        form_name: "villa_inquiry",
+        villa: "villa_bergi",
+        language: locale,
+      });
+    } catch (error) {
+      console.error("Villa inquiry delivery failed", error);
+      setSubmitState("error");
     }
   };
 
@@ -67,9 +81,29 @@ function ContactForm() {
         </p>
 
         <div className="px-4">
-          <button type="submit" className={`${messageSent ? "bg-[#EDF7ED]" : "bg-yellow hover:bg-yellow"} w-full tracking-widest text-base font-Bold py-3 rounded-md text-black flex items-center justify-center gap-2`}>
-            {messageSent ? "Successfully sent" : <><span>Send Inquiry</span><IoIosSend className="text-2xl" /></>}
+          <button
+            type="submit"
+            disabled={submitState === "sending"}
+            className={`${submitState === "success" ? "bg-[#EDF7ED]" : "bg-yellow hover:bg-yellow"} w-full tracking-widest text-base font-Bold py-3 rounded-md text-black flex items-center justify-center gap-2 disabled:cursor-wait disabled:opacity-70`}
+          >
+            {submitState === "sending" ? (
+              "Sending…"
+            ) : submitState === "success" ? (
+              "Inquiry sent"
+            ) : (
+              <><span>{submitState === "error" ? "Try Again" : "Send Inquiry"}</span><IoIosSend className="text-2xl" /></>
+            )}
           </button>
+          {submitState === "success" && (
+            <p role="status" aria-live="polite" className="mt-3 text-sm font-semibold text-green-700">
+              Your inquiry was delivered successfully. We’ll reply by email as soon as possible.
+            </p>
+          )}
+          {submitState === "error" && (
+            <p role="alert" className="mt-3 text-sm font-semibold text-red-700">
+              We couldn’t send your inquiry. Please try again or contact us using the details below.
+            </p>
+          )}
         </div>
       </form>
     </div>
