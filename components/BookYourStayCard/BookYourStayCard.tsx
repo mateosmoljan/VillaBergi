@@ -1,6 +1,9 @@
+"use client";
+
 import { getBookStayData } from "@/lib/bookStay";
 import { useLocale } from "next-intl";
 import { Link } from "@/navigation";
+import { trackBookingEvent } from "@/lib/analytics";
 
 function BookYourStayCard() {
   const localeActive = useLocale();
@@ -11,11 +14,15 @@ function BookYourStayCard() {
     >
       <p className="font-poppins text-secondary font-ExtraBold text-center lg:text-right">
         {BookStayData.data[0].des}{" "}
-        <span className="text-3xl accent-primary">297 €</span>{" "}
+        <span className="text-3xl accent-primary">169 €</span>{" "}
         {BookStayData.data[0].des2}
       </p>
       <hr />
-      <Link href="/contact" className="btn justify-center">
+      <Link
+        href="/contact"
+        className="btn justify-center"
+        onClick={() => trackBookingEvent("check_availability", { placement: "villa_card", language: localeActive })}
+      >
         {BookStayData.data[0].button}
       </Link>
     </div>

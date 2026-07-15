@@ -7,6 +7,7 @@ import TouristGuide from "@/components/TouristGuide/TouristGuide";
 import React from "react";
 import NavPath from "@/components/NavPath/NavPath";
 import { buildMetadata, getLodgingJsonLd, isLocale } from "@/lib/seo";
+import TrustStrip from "@/components/Conversion/TrustStrip";
 
 export async function generateMetadata({ params }: { params: { locale: string } }) {
   const locale = isLocale(params.locale) ? params.locale : "en";
@@ -20,17 +21,18 @@ function Home({ params }: { params: { locale: string } }) {
   return (
     <div>
       <HeadSwiper />
+      <TrustStrip />
       <main className="primary-bg">
         <h1 className="sr-only">Villa Bergi</h1>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NavPath homePage={true} />
-        <About />
         <Acommodation />
+        <About />
         <Photogalleries />
-        <TouristGuide />
         <div className="mb-24">
           <SendMessage />
         </div>
+        <TouristGuide />
       </main>
     </div>
   );

@@ -55,7 +55,7 @@ function LanguageSwitch() {
         onClick={() => setOpen((prev) => !prev)}
         disabled={isPending}
         className="flex items-center gap-1.5 rounded-md border border-gray-300 bg-white px-2.5 py-1.5 text-sm hover:bg-gray-50 transition-colors"
-        aria-label="Select language"
+        aria-label={`Select language, current ${activeLabel.code.toUpperCase()}`}
         aria-expanded={open}
         aria-haspopup="listbox"
       >
@@ -86,6 +86,7 @@ function LanguageSwitch() {
             <li key={label.code} role="option" aria-selected={label.code === localeActive}>
               <button
                 type="button"
+                aria-label={`Switch language to ${label.code.toUpperCase()}`}
                 onClick={() => handleSelect(label.code)}
                 className={`flex w-full items-center justify-center gap-2 px-3 py-2 transition-colors hover:bg-blue-50 ${
                   label.code === localeActive ? "bg-blue-100" : ""
@@ -93,7 +94,7 @@ function LanguageSwitch() {
               >
                 <Image
                   src={label.src}
-                  alt={`${label.code} flag`}
+                  alt=""
                   width={24}
                   height={24}
                   className="rounded-full object-cover"

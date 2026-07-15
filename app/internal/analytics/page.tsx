@@ -1,5 +1,7 @@
 import { getGaDashboardData, type BreakdownItem, type TrendPoint } from '@/lib/ga4Dashboard';
 
+export const metadata = { robots: { index: false, follow: false } };
+
 type ChartDatum = TrendPoint;
 
 function maxOf(values: number[]) {
@@ -143,7 +145,7 @@ function SetupState({ missingVars }: { missingVars: string[] }) {
   );
 }
 
-function ErrorState({ error }: { error: string }) {
+function ErrorState() {
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(14,165,233,0.18),transparent_35%),#020617] px-6 py-10 text-slate-100">
       <div className="mx-auto max-w-4xl rounded-[32px] border border-rose-400/20 bg-slate-900/80 p-8 shadow-2xl">
@@ -152,7 +154,6 @@ function ErrorState({ error }: { error: string }) {
         <p className="mt-4 text-slate-300">
           The route is wired correctly, but GA4 rejected the request or the credentials/property access are incomplete.
         </p>
-        <div className="mt-6 rounded-2xl border border-white/10 bg-black/20 p-4 text-sm text-rose-200">{error}</div>
         <ol className="mt-6 list-inside list-decimal space-y-2 text-sm text-slate-300">
           <li>Confirm the service account has access in GA4 Property Access Management.</li>
           <li>Verify <code className="text-cyan-300">GA4_PROPERTY_ID</code> points to the correct GA4 property.</li>
@@ -173,7 +174,8 @@ export default async function AnalyticsDashboardPage() {
   }
 
   if (!result.ok) {
-    return <ErrorState error={result.error} />;
+    console.error('GA4 dashboard request failed');
+    return <ErrorState />;
   }
 
   const { data } = result;

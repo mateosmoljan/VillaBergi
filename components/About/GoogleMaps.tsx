@@ -22,7 +22,7 @@ function GoogleMaps({ onClose }: GoogleMapsProps) {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+  }, [onClose]);
 
   return (
     <section className="flex justify-center fixed inset-0 items-center w-screen h-screen bg-black bg-opacity-50 z-50">
@@ -32,7 +32,7 @@ function GoogleMaps({ onClose }: GoogleMapsProps) {
       >
         <div className="flex justify-between py-3">
           <h2 className="font-bold text-xl">Location of Villa Bergi</h2>
-          <button onClick={onClose} className="text-xl">
+          <button onClick={onClose} className="text-xl" aria-label="Close map">
             <RxCross2 />
           </button>
         </div>

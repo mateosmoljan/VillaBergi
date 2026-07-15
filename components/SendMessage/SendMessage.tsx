@@ -1,9 +1,13 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/navigation";
+import { trackBookingEvent } from "@/lib/analytics";
 
 
 function SendMessage() {
   const t = useTranslations("Send_Message");
+  const locale = useLocale();
   return (
     <section className="">
       <div className="container py-10">
@@ -12,7 +16,11 @@ function SendMessage() {
             <p className="text-base">{t("des")}</p>
           </div>
           <div className=" flex justify-end ">
-            <Link href="/contact" className="btn lg:min-w-full">
+            <Link
+              href="/contact"
+              className="btn lg:min-w-full"
+              onClick={() => trackBookingEvent("check_availability", { placement: "message_cta", language: locale })}
+            >
               {t("button")}
             </Link>
           </div>

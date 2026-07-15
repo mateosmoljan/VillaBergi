@@ -1,113 +1,125 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
-import { DateRange } from "react-date-range";
-import "react-date-range/dist/styles.css";
-import "react-date-range/dist/theme/default.css";
-import { FaCalendarAlt } from "react-icons/fa";
-import enGB from "date-fns/locale/en-GB";
 
-interface CustomRange {
-  startDate: Date | undefined;
-  endDate: Date | undefined;
-  key: string | undefined;
+import { estimateStay2026 } from "@/lib/pricing2026";
+import { trackBookingEvent } from "@/lib/analytics";
+import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useMemo, useRef, useState } from "react";
+
+function toLocalISO(date: Date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
-function DataRangeComponent() {
-  const dateRangeRef = useRef<HTMLDivElement>(null);
-  const [activeDateRange, setActiveDateRange] = useState(false);
-  const [activateDate, setActivateDate] = useState(false);
-  const [state, setState] = useState<CustomRange[]>([{ startDate: new Date(), endDate: new Date(), key: "selection" }]);
-  const [arrivalDate, setArrivalDate] = useState("");
-  const [departureDate, setDepartureDate] = useState("");
-  const [calendarWidth, setCalendarWidth] = useState("vertical");
-  const [disabledDateArray, setDisabledDateArray] = useState<Date[]>([]);
+function addOneDay(value: string) {
+  if (!value) return "";
+  const date = new Date(`${value}T12:00:00`);
+  date.setDate(date.getDate() + 1);
+  return toLocalISO(date);
+}
+
+function stayLengthBucket(nights: number) {
+  if (nights <= 3) return "1_3";
+  if (nights <= 7) return "4_7";
+  if (nights <= 14) return "8_14";
+  return "15_plus";
+}
+
+function leadTimeBucket(days: number) {
+  if (days <= 7) return "0_7";
+  if (days <= 30) return "8_30";
+  if (days <= 90) return "31_90";
+  return "91_plus";
+}
+
+export default function DataRangeComponent() {
+  const locale = useLocale();
+  const t = useTranslations("Contact.Contact_Form");
+  const pricing = useTranslations("Pricing");
+  const trackedDates = useRef("");
+  const today = useMemo(() => toLocalISO(new Date()), []);
+  const [arrival, setArrival] = useState("");
+  const [departure, setDeparture] = useState("");
+  const minimumDeparture = arrival ? addOneDay(arrival) : today;
+  const estimate = useMemo(() => estimateStay2026(arrival, departure), [arrival, departure]);
+  const currency = useMemo(
+    () => new Intl.NumberFormat(locale, { style: "currency", currency: "EUR", maximumFractionDigits: 0 }),
+    [locale]
+  );
 
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (dateRangeRef.current && !dateRangeRef.current.contains(event.target as Node)) setActiveDateRange(false);
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  useEffect(() => {
-    const formatDate = (date: Date) => `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
-    if (state[0].startDate) setArrivalDate(formatDate(state[0].startDate));
-    if (state[0].endDate) setDepartureDate(formatDate(state[0].endDate));
-  }, [state]);
-
-  useEffect(() => {
-    setCalendarWidth(window.innerWidth > 640 ? "horizontal" : "vertical");
-  }, []);
-
-  useEffect(() => {
-    if (state[0].startDate !== state[0].endDate) setActiveDateRange(false);
-  }, [state]);
-
-  const getDisabledDates = (): Date[] => {
-    const disabledRanges = [
-      { startDate: new Date("2024-05-02"), endDate: new Date("2024-11-09") },
-      { startDate: new Date("2024-11-17"), endDate: new Date("2024-11-22") },
-      { startDate: new Date("2025-01-05"), endDate: new Date("2025-01-06") },
-      { startDate: new Date("2025-02-08"), endDate: new Date("2025-02-08") },
-      { startDate: new Date("2025-03-08"), endDate: new Date("2025-03-09") },
-      { startDate: new Date("2025-04-10"), endDate: new Date("2025-04-14") },
-      { startDate: new Date("2025-04-24"), endDate: new Date("2025-04-29") },
-      { startDate: new Date("2025-05-02"), endDate: new Date("2025-05-03") },
-      { startDate: new Date("2025-05-17"), endDate: new Date("2025-06-28") },
-      { startDate: new Date("2025-07-11"), endDate: new Date("2025-07-22") },
-      { startDate: new Date("2025-08-05"), endDate: new Date("2025-08-08") },
-      { startDate: new Date("2025-09-05"), endDate: new Date("2025-09-07") },
-      { startDate: new Date("2025-09-11"), endDate: new Date("2025-09-13") },
-      { startDate: new Date("2025-09-15"), endDate: new Date("2025-09-20") },
-      { startDate: new Date("2025-10-20"), endDate: new Date("2025-10-25") },
-    ];
-
-    const disabledDates: Date[] = [...disabledDateArray];
-    disabledRanges.forEach((range) => {
-      let currentDate = new Date(range.startDate);
-      while (currentDate <= range.endDate) {
-        disabledDates.push(new Date(currentDate));
-        currentDate.setDate(currentDate.getDate() + 1);
-      }
+    if (!arrival || !departure) return;
+    const stay = `${arrival}:${departure}`;
+    if (trackedDates.current === stay) return;
+    trackedDates.current = stay;
+    const arrivalTime = Date.parse(`${arrival}T12:00:00Z`);
+    const departureTime = Date.parse(`${departure}T12:00:00Z`);
+    const nights = Math.max(1, Math.round((departureTime - arrivalTime) / 86400000));
+    const leadDays = Math.max(0, Math.round((arrivalTime - Date.now()) / 86400000));
+    trackBookingEvent("select_dates", {
+      form_name: "villa_inquiry",
+      language: locale,
+      lead_time_bucket: leadTimeBucket(leadDays),
+      stay_length_bucket: stayLengthBucket(nights),
     });
-
-    return disabledDates;
-  };
+  }, [arrival, departure, locale]);
 
   return (
-    <div className="w-full px-2">
-      <div className="flex flex-row w-full gap-4">
-        <button type="button" className="text-grey3 border-solid border-2 bg-white font-Bold font-poppins mb-4 rounded-md justify-between items-center flex w-full py-[8.5px] px-[14px]" onClick={() => { setActiveDateRange(true); setActivateDate(true); }}>
-          {activateDate ? arrivalDate : <span>Arrival*</span>}
-          <FaCalendarAlt />
-        </button>
-        <button type="button" className="text-grey3 border-solid border-2 bg-white font-Bold font-poppins mb-4 rounded-md justify-between items-center flex w-full py-[8.5px] px-[14px]" onClick={() => setActiveDateRange(!activeDateRange)}>
-          <span>{activateDate ? departureDate : "Departure*"}</span>
-          <FaCalendarAlt />
-        </button>
+    <fieldset className="mb-4 grid w-full gap-4 px-2 sm:grid-cols-2">
+      <legend className="sr-only">{t("arrival")} / {t("departure")}</legend>
+      <div>
+        <label htmlFor="arrivalDate" className="mb-1 block text-sm font-Bold text-gray-700">
+          {t("arrival")}
+        </label>
+        <input
+          id="arrivalDate"
+          type="date"
+          name="arrivalDate"
+          required
+          min={today}
+          value={arrival}
+          onChange={(event) => {
+            const nextArrival = event.target.value;
+            setArrival(nextArrival);
+            if (departure && departure <= nextArrival) setDeparture("");
+          }}
+          className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-black"
+        />
       </div>
-      {activeDateRange ? (
-        <div ref={dateRangeRef} className="absolute border-solid border-2 border-grey3 z-20">
-          <DateRange
-            editableDateInputs
-            onChange={(item) => setState([item.selection as CustomRange])}
-            moveRangeOnFirstSelection={false}
-            ranges={state}
-            className="relative bg-white z-20"
-            months={2}
-            locale={enGB}
-            direction={calendarWidth === "horizontal" ? "horizontal" : "vertical"}
-            rangeColors={["#B29600"]}
-            disabledDates={getDisabledDates()}
-            dateDisplayFormat="d.M.y"
-          />
+      <div>
+        <label htmlFor="departureDate" className="mb-1 block text-sm font-Bold text-gray-700">
+          {t("departure")}
+        </label>
+        <input
+          id="departureDate"
+          type="date"
+          name="departureDate"
+          required
+          min={minimumDeparture}
+          value={departure}
+          onChange={(event) => setDeparture(event.target.value)}
+          className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-black"
+        />
+      </div>
+
+      {arrival && departure && (
+        <div className="rounded-lg border border-white/15 bg-[#032552] p-4 text-white sm:col-span-2" aria-live="polite">
+          {estimate ? (
+            <>
+              <p className="text-sm text-gray-300">
+                {pricing("estimatedTotal")} · {estimate.nights} {pricing("nights")}
+              </p>
+              <p className="text-2xl font-bold">{currency.format(estimate.total)}</p>
+              <p className="mt-1 text-xs leading-5 text-gray-300">{pricing("estimateNote")}</p>
+              <input type="hidden" name="estimatedTotal" value={estimate.total.toFixed(2)} />
+              <input type="hidden" name="estimatedNights" value={estimate.nights} />
+            </>
+          ) : (
+            <p className="text-sm leading-6 text-gray-200">{pricing("quoteOnly")}</p>
+          )}
         </div>
-      ) : null}
-      <input type="hidden" required name="arrivalDate" value={arrivalDate} />
-      <input type="hidden" required name="departureDate" value={departureDate} />
-    </div>
+      )}
+    </fieldset>
   );
 }
-
-export default DataRangeComponent;

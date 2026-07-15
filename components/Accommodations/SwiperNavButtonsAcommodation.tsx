@@ -12,12 +12,14 @@ export const SwiperNavButtonsAcommodation = () => {
     >
       <button
         onClick={() => swiper.slidePrev()}
+        aria-label="Previous villa image"
         className={` h-full rounded-t-md block`}
       >
         <MdOutlineKeyboardArrowLeft className={` text-6xl text-white  `} />
       </button>
       <button
         onClick={() => swiper.slideNext()}
+        aria-label="Next villa image"
         className={` h-full rounded-t-md block `}
       >
         <MdOutlineKeyboardArrowRight className={`text-6xl text-white`} />

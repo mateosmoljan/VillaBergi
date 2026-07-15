@@ -27,7 +27,7 @@ export default function Environs() {
   const links = getLocationsData(localeActive);
 
   return (
-    <section className="pt-16 md:pt-14 text-text_secondary">
+    <main className="pt-16 md:pt-14 text-text_secondary">
       <NavPath />
       <div className="container pb-24">
         <h1 className="mt-12 text-center text-3xl sm:text-4xl font-ExtraBold text-primary tracking-wider">
@@ -115,6 +115,6 @@ export default function Environs() {
           </section>
         </div>
       </div>
-    </section>
+    </main>
   );
 }

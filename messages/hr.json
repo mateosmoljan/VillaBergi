@@ -23,6 +23,55 @@
     ],
     "navLinksButton": "Rezerviraj"
   },
+  "Conversion": {
+    "checkAvailability": "Provjeri dostupnost",
+    "viewPrices": "Pogledaj cijene",
+    "viewVilla": "Pogledaj vilu",
+    "call": "Nazovi",
+    "directBooking": "Izravna rezervacija",
+    "bookingTerms": "30 % za potvrdu · ostatak po dolasku",
+    "parking": "Besplatan parking uz vilu",
+    "priceLine": "5 spavaćih soba · 12 gostiju · privatni bazen i jacuzzi · od 169 €/noć"
+  },
+  "Pricing": {
+    "ratesTitle": "Cijene noćenja za 2026.",
+    "month": "Mjesec",
+    "nightlyRate": "Cijena po noći",
+    "ratesNote": "Cijene ovise o točnom datumu. Od svibnja do listopada slijede vlasnikovu krivulju cijena za sedam noći; blagdani imaju posebne cijene.",
+    "estimatedTotal": "Procijenjeni ukupni iznos",
+    "nights": "noći",
+    "estimateNote": "Procjena se temelji na kalendaru cijena za 2026. Dostupnost i konačnu cijenu potvrđuje vlasnik.",
+    "quoteOnly": "Odaberite datume u 2026. za procjenu. Za ostale datume dobit ćete točnu ponudu uz upit."
+  },
+  "Booking_FAQ": {
+    "title": "Pitanja o rezervaciji",
+    "reserve": "Kako potvrditi rezervaciju?",
+    "cancel": "Koji su uvjeti otkazivanja?",
+    "times": "Kada su prijava i odjava?",
+    "pets": "Jesu li kućni ljubimci dopušteni?"
+  },
+  "Privacy": {
+    "title": "Obavijest o privatnosti",
+    "intro": "Ova obavijest objašnjava kako Villa Bergi obrađuje podatke poslane putem ove web-stranice.",
+    "controllerTitle": "Voditelj obrade",
+    "controller": "Valter Brgić, Damijanići 6, 52341 Žminj, Hrvatska. Kontakt: villa.bergi.wb@gmail.com.",
+    "dataTitle": "Podaci koje obrađujemo",
+    "data": "Upit može sadržavati ime, e-mail, broj telefona, željene datume, broj gostiju i poruku. Uz vašu privolu analitika može prikupljati tehničke podatke o korištenju.",
+    "purposeTitle": "Svrha obrade",
+    "purpose": "Podaci iz upita koriste se za odgovor i poduzimanje koraka prema mogućoj rezervaciji. Ne koriste se za nepovezani marketing.",
+    "processorsTitle": "Pružatelji usluga",
+    "processors": "Podaci iz upita prenose se putem EmailJS-a i dostavljaju vlasniku. Stranicu hosta Vercel. Google Analytics učitava se tek nakon vaše privole.",
+    "retentionTitle": "Čuvanje podataka",
+    "retention": "Podaci se čuvaju samo koliko je potrebno za odgovor, upravljanje eventualnom rezervacijom i ispunjavanje primjenjivih obveza čuvanja evidencije.",
+    "rightsTitle": "Vaša prava",
+    "rights": "Možete zatražiti pristup, ispravak, brisanje ili ograničenje te uložiti prigovor gdje je primjenjivo. Možete se obratiti i Agenciji za zaštitu osobnih podataka.",
+    "updated": "Posljednje ažuriranje: 16. srpnja 2026.",
+    "banner": "Koristimo neobavezne Google Analytics kolačiće kako bismo razumjeli korisne stranice i radnje rezervacije. Stranica radi i bez njih.",
+    "accept": "Prihvati analitiku",
+    "decline": "Odbij",
+    "link": "Obavijest o privatnosti",
+    "settings": "Postavke privatnosti"
+  },
   "HeaderSwiper": {
     "titles": [
       "Autentična vila u Istri",
@@ -354,7 +403,17 @@
       "message": "Upit",
       "des": "Sadržaj ovog obrasca bit će poslan izravno na email adresu vlasnika smještaja i koristi se isključivo za upite o rezervaciji.",
       "button": "Pošalji upit",
-      "sent": "Uspješno poslano"
+      "sent": "Uspješno poslano",
+      "sending": "Šalje se…",
+      "sent_button": "Upit poslan",
+      "try_again": "Pokušaj ponovno",
+      "success": "Vaš je upit uspješno poslan. Odgovorit ćemo vam e-mailom u najkraćem mogućem roku.",
+      "error": "Upit nije moguće poslati. Pokušajte ponovno ili nas kontaktirajte putem podataka uz obrazac.",
+      "date_error": "Datum odlaska mora biti nakon datuma dolaska.",
+      "consent": "Slažem se da se moji podaci koriste za odgovor na ovaj upit za rezervaciju.",
+      "privacy_notice": "Podaci iz upita obrađuju se putem EmailJS-a i dostavljaju vlasniku samo radi odgovora na vaš zahtjev.",
+      "privacy_link": "Pročitajte obavijest o privatnosti.",
+      "capacity_error": "Villa Bergi prima najviše 12 gostiju. Smanjite broj odraslih osoba ili djece."
     },
     "Contact_Info": {
       "contact_person": "Kontakt osoba",

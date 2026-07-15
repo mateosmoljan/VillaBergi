@@ -4,9 +4,11 @@ import "./footer.css";
 import { Link } from "@/navigation";
 import FooterSvg from "./FooterSvg";
 import { useTranslations } from "next-intl";
+import { PrivacySettingsButton } from "@/components/Privacy/AnalyticsConsent";
 
 function Footer() {
   const t = useTranslations("Footer");
+  const privacy = useTranslations("Privacy");
   return (
     <section className="flex relative justify-center bg-dark_blue_black xl:px-20 pb-10 xl:pb-20 mt-20">
       <FooterSvg />
@@ -14,8 +16,10 @@ function Footer() {
         <div className="h-full relative pl-5 sm:pl-0 w-full sm:w-3/5 lg:w-auto">
           <div className="space-y-4 ">
             <Image src={SSL} alt="Secure booking for Villa Bergi" width={200} />
-            <p>{t("year")}</p>
+            <p>{t("year").replace("2024", String(new Date().getFullYear()))}</p>
             <p>{t("rights")}</p>
+            <p><Link href="/privacy" className="!text-white underline hover:!text-yellow">{privacy("link")}</Link></p>
+            <p><PrivacySettingsButton /></p>
             {/* <p className="">
               <a
                 href="https://www.boostweb.io"
@@ -58,8 +62,8 @@ function Footer() {
           <ul className="space-y-4">
             <li>Valter Brgić</li>
             <li>Istria, Žminj, Damijanići 6, 52341, Žminj</li>
-            <li>+(385) 99 371 7777</li>
-            <li>villa.bergi.wb@gmail.com</li>
+            <li><a href="tel:+385993717777" className="!text-white underline hover:!text-yellow">+385 99 371 7777</a></li>
+            <li><a href="mailto:villa.bergi.wb@gmail.com" className="!text-white underline hover:!text-yellow">villa.bergi.wb@gmail.com</a></li>
           </ul>
         </div>
       </div>
