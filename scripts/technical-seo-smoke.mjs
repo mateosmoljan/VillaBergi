@@ -1,7 +1,7 @@
 const testOrigin = process.env.TEST_BASE_URL || "http://127.0.0.1:3005";
 const canonicalOrigin = "https://www.villabergi.com";
 const locales = ["en", "de", "hr", "it"];
-const paths = ["", "/villa-bergi", "/pricelist", "/photogallery", "/surroundings", "/contact"];
+const paths = ["", "/villa-bergi", "/pricelist", "/photogallery", "/surroundings", "/contact", "/privacy"];
 
 const failures = [];
 let checkedPages = 0;
@@ -61,7 +61,7 @@ check(
 
 const sitemap = await (await fetch(`${testOrigin}/sitemap.xml`)).text();
 const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
-check(sitemapUrls.length === locales.length * paths.length, `sitemap: expected 24 URLs, received ${sitemapUrls.length}`);
+check(sitemapUrls.length === locales.length * paths.length, `sitemap: expected ${locales.length * paths.length} URLs, received ${sitemapUrls.length}`);
 check(sitemapUrls.every((url) => url.startsWith(`${canonicalOrigin}/`)), "sitemap: found a non-WWW URL");
 
 const robots = await (await fetch(`${testOrigin}/robots.txt`)).text();

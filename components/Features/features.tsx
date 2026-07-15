@@ -31,7 +31,7 @@ function FeaturesComponent({ handleClose }: Props) {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+  }, [handleClose]);
 
   return (
     <section className="bg-black/50 w-screen h-screen inset-0 fixed z-50 flex items-center justify-center">
@@ -42,6 +42,7 @@ function FeaturesComponent({ handleClose }: Props) {
         <div className="flex p-3">
           <button
             onClick={() => handleClose()}
+            aria-label="Close features"
             className="text-white cursor-pointer p-2 close-button"
           >
             <RxCross2

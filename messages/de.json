@@ -23,6 +23,55 @@
     ],
     "navLinksButton": "Jetzt buchen"
   },
+  "Conversion": {
+    "checkAvailability": "Verfügbarkeit prüfen",
+    "viewPrices": "Preise ansehen",
+    "viewVilla": "Villa ansehen",
+    "call": "Anrufen",
+    "directBooking": "Direktbuchung",
+    "bookingTerms": "30 % zur Bestätigung · Restzahlung bei Ankunft",
+    "parking": "Kostenlose Parkplätze vor Ort",
+    "priceLine": "5 Schlafzimmer · 12 Gäste · privater Pool & Whirlpool · ab 169 €/Nacht"
+  },
+  "Pricing": {
+    "ratesTitle": "Übernachtungspreise 2026",
+    "month": "Monat",
+    "nightlyRate": "Preis pro Nacht",
+    "ratesNote": "Die Preise variieren je nach Datum. Mai–Oktober folgt der vom Eigentümer vorgegebenen Sieben-Nächte-Preiskurve; Feiertage haben eigene Preise.",
+    "estimatedTotal": "Geschätzter Gesamtpreis",
+    "nights": "Nächte",
+    "estimateNote": "Schätzung anhand des Übernachtungskalenders 2026. Verfügbarkeit und Endpreis werden vom Eigentümer bestätigt.",
+    "quoteOnly": "Wählen Sie Daten im Jahr 2026 für eine Schätzung. Für andere Daten erhalten Sie mit der Anfrage ein genaues Angebot."
+  },
+  "Booking_FAQ": {
+    "title": "Fragen zur Buchung",
+    "reserve": "Wie bestätige ich eine Reservierung?",
+    "cancel": "Wie sind die Stornierungsbedingungen?",
+    "times": "Wann sind Check-in und Check-out?",
+    "pets": "Sind Haustiere erlaubt?"
+  },
+  "Privacy": {
+    "title": "Datenschutzhinweis",
+    "intro": "Dieser Hinweis erklärt, wie Villa Bergi Informationen verarbeitet, die über diese Website übermittelt werden.",
+    "controllerTitle": "Verantwortliche Person",
+    "controller": "Valter Brgić, Damijanići 6, 52341 Žminj, Kroatien. Kontakt: villa.bergi.wb@gmail.com.",
+    "dataTitle": "Verarbeitete Informationen",
+    "data": "Buchungsanfragen können Name, E-Mail, Telefonnummer, gewünschte Daten, Gruppengröße und Nachricht enthalten. Mit Ihrer Zustimmung können Analysedienste technische Nutzungsdaten erfassen.",
+    "purposeTitle": "Zweck",
+    "purpose": "Anfragedaten werden verwendet, um Ihre Anfrage zu beantworten und Schritte zu einer möglichen Reservierung einzuleiten. Sie werden nicht für sachfremde Werbung genutzt.",
+    "processorsTitle": "Dienstleister",
+    "processors": "Anfragedaten werden über EmailJS übertragen und dem Eigentümer zugestellt. Die Website wird von Vercel gehostet. Google Analytics wird erst nach Ihrer Zustimmung geladen.",
+    "retentionTitle": "Speicherdauer",
+    "retention": "Anfragedaten werden nur so lange gespeichert, wie es für die Antwort, eine daraus entstehende Buchung und gesetzliche Aufbewahrungspflichten erforderlich ist.",
+    "rightsTitle": "Ihre Rechte",
+    "rights": "Sie können Auskunft, Berichtigung, Löschung oder Einschränkung verlangen und gegebenenfalls widersprechen. Sie können sich auch an die kroatische Datenschutzbehörde wenden.",
+    "updated": "Zuletzt aktualisiert: 16. Juli 2026.",
+    "banner": "Wir verwenden optionale Google-Analytics-Cookies, um hilfreiche Seiten und Buchungsaktionen zu verstehen. Die Website funktioniert auch ohne sie.",
+    "accept": "Analyse akzeptieren",
+    "decline": "Ablehnen",
+    "link": "Datenschutzhinweis",
+    "settings": "Datenschutzeinstellungen"
+  },
   "HeaderSwiper": {
     "titles": [
       "Authentische Villa in Istrien",
@@ -354,7 +403,17 @@
       "message": "Anfrage",
       "des": "Der Inhalt dieses Formulars wird direkt an die E-Mail-Adresse des Eigentümers gesendet und ausschließlich für Buchungsanfragen verwendet.",
       "button": "Anfrage senden",
-      "sent": "Erfolgreich gesendet"
+      "sent": "Erfolgreich gesendet",
+      "sending": "Wird gesendet…",
+      "sent_button": "Anfrage gesendet",
+      "try_again": "Erneut versuchen",
+      "success": "Ihre Anfrage wurde erfolgreich übermittelt. Wir antworten Ihnen so bald wie möglich per E-Mail.",
+      "error": "Ihre Anfrage konnte nicht gesendet werden. Versuchen Sie es erneut oder nutzen Sie die Kontaktdaten neben dem Formular.",
+      "date_error": "Die Abreise muss nach der Anreise liegen.",
+      "consent": "Ich stimme zu, dass meine Angaben zur Beantwortung dieser Buchungsanfrage verwendet werden.",
+      "privacy_notice": "Anfragedaten werden über EmailJS verarbeitet und nur zur Beantwortung Ihrer Anfrage an den Eigentümer übermittelt.",
+      "privacy_link": "Datenschutzhinweis lesen.",
+      "capacity_error": "Villa Bergi bietet Platz für maximal 12 Gäste. Bitte reduzieren Sie die Anzahl der Erwachsenen oder Kinder."
     },
     "Contact_Info": {
       "contact_person": "Kontaktperson",

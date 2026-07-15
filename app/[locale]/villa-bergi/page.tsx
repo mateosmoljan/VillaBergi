@@ -15,6 +15,7 @@ import { getPaymentConditionsData } from "@/lib/paymentConditions";
 import { getPricelistData } from "@/lib/pricelist";
 import { getTitleData } from "@/lib/title";
 import { getVilla_DescriptionData } from "@/lib/Villa_Description";
+import { getLodgingJsonLd, type Locale } from "@/lib/seo";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -48,7 +49,11 @@ function VillaPanorama() {
   }, [showFeatures]);
 
   return (
-    <section className="pt-16 md:pt-14 text-secondary">
+    <main className="pt-16 md:pt-14 text-secondary">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(getLodgingJsonLd(localeActive as Locale)) }}
+      />
       <NavPath />
       <div className="container">
         <h1 className="text-primary my-12 text-center flex justify-center text-3xl sm:text-4xl font-ExtraBold  tracking-wider">
@@ -166,9 +171,9 @@ function VillaPanorama() {
           </h2>
           <AvailabilityCalendar />
         </div> */}
-      </div>
-    </section>
-  );
+ </div>
+ </main>
+ );
 }
 
 export default VillaPanorama;

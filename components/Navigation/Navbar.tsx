@@ -9,6 +9,7 @@ import { getNavigationLinks } from "@/lib/Links";
 import { usePathname } from "@/navigation";
 import LanguageSwitch from "./languageSwitch";
 import { useLocale } from "next-intl";
+import { trackBookingEvent } from "@/lib/analytics";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -46,7 +47,11 @@ const Navbar = () => {
             ))}
             <li><LanguageSwitch /></li>
             <li>
-              <Link href="/contact" className="btn">
+              <Link
+                href="/contact"
+                className="btn"
+                onClick={() => trackBookingEvent("check_availability", { placement: "desktop_nav", language: localeActive })}
+              >
                 {navigationLinks.NavData[0].button}
                 <MdKeyboardDoubleArrowRight />
               </Link>
@@ -71,7 +76,11 @@ const Navbar = () => {
             ))}
             <li><LanguageSwitch /></li>
             <li className="flex" onClick={() => setOpen(false)}>
-              <Link href="/contact" className="btn pb-2">
+              <Link
+                href="/contact"
+                className="btn pb-2"
+                onClick={() => trackBookingEvent("check_availability", { placement: "mobile_menu", language: localeActive })}
+              >
                 {navigationLinks.NavData[0].button}
                 <MdKeyboardDoubleArrowRight />
               </Link>

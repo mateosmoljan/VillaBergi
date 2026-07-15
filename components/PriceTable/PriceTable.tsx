@@ -1,91 +1,62 @@
-import { getPriceTableData } from "@/lib/priceTable";
-import { useLocale } from "next-intl";
+"use client";
 
-function createData(
-  period: string,
-  price: number,
-  persons: number,
-  stay: number
-) {
-  return { period, price, persons, stay };
-}
-
-const rows = [
-  createData("01.11. - 08.12.", 297, 12, 5),
-  createData("09.12. - 16.12.", 397, 12, 5),
-  createData("17.12. - 24.12.", 429, 12, 5),
-  createData("25.12. - 29.12.", 529, 12, 5),
-  createData("30.12. - 01.01.", 797, 12, 5),
-  createData("02.01. - 28.02.", 297, 12, 5),
-  createData("01.03. - 31.03.", 327, 12, 5),
-  createData("01.04. - 30.04.", 367, 12, 5),
-];
+import { getMonthlyRanges2026 } from "@/lib/pricing2026";
+import { trackBookingEvent } from "@/lib/analytics";
+import { Link } from "@/navigation";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function PriceTable() {
-  const localeActive = useLocale();
-  const PriceTableData = getPriceTableData(localeActive);
+  const locale = useLocale();
+  const t = useTranslations("Pricing");
+  const c = useTranslations("Conversion");
+  const ranges = getMonthlyRanges2026();
+  const currency = new Intl.NumberFormat(locale, {
+    style: "currency",
+    currency: "EUR",
+    maximumFractionDigits: 0,
+  });
+  const monthName = new Intl.DateTimeFormat(locale, { month: "long" });
+
   return (
-    <div className="text-primary p-2">
-      <table
-        aria-label="Pricing Table"
-        className="w-full text-primary border-collapse"
-      >
-        <thead className="primary-bg secondary-bg">
-          <tr className="font-titleBold border-b-2 p-2">
-            <th className="font-titleBold py-2 px-0 w-[160px] text-center">
-              {PriceTableData.data[0].title}
-            </th>
-            <th
-              align="right"
-              className="text-primary font-titleBold py-2 px-0 w-[112px] text-center"
-            >
-              {PriceTableData.data[0].title2}
-            </th>
-            <th
-              align="right"
-              className="text-primary font-titleBold py-2 px-0 w-[112px] text-center"
-            >
-              {PriceTableData.data[0].title3}
-            </th>
-            <th
-              align="right"
-              className="text-primary font-titleBold py-2 px-0 w-[112px] text-center"
-            >
-              {PriceTableData.data[0].title4}
-            </th>
-          </tr>
-        </thead>
-        <tbody className="secondary-bg">
-          {rows.map((row) => (
-            <tr
-              key={row.period}
-              className="border-b-2 border-b-text_secondary/20"
-            >
-              <td className="text-secondary px-0 font-Bold py-2 text-center">
-                {row.period}
-              </td>
-              <td
-                align="right"
-                className="text-secondary px-0 font-ExtraBold py-2 text-center"
-              >
-                {row.price} €
-              </td>
-              <td
-                align="right"
-                className="text-secondary px-0 font-Bold py-2 text-center"
-              >
-                {row.persons}
-              </td>
-              <td
-                align="right"
-                className="text-secondary px-0 font-Bold py-2 text-center"
-              >
-                {row.stay}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <section className="mb-12" aria-labelledby="rates-title">
+      <div className="rounded-xl border border-white/15 bg-white/5 p-4 md:p-8">
+        <h2 id="rates-title" className="mb-2 text-2xl font-bold text-white md:text-3xl">
+          {t("ratesTitle")}
+        </h2>
+        <p className="mb-6 max-w-3xl text-sm leading-6 text-gray-300">{t("ratesNote")}</p>
+
+        <div className="overflow-x-auto rounded-lg border border-white/15">
+          <table className="w-full min-w-[480px] border-collapse text-left">
+            <thead className="bg-[#032552] text-white">
+              <tr>
+                <th scope="col" className="px-4 py-3 font-semibold">{t("month")}</th>
+                <th scope="col" className="px-4 py-3 font-semibold">{t("nightlyRate")}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {ranges.map(({ month, minimum, maximum }) => (
+                <tr key={month} className="border-t border-white/10 even:bg-white/5">
+                  <th scope="row" className="px-4 py-3 font-medium capitalize text-white">
+                    {monthName.format(new Date(2026, month - 1, 1))}
+                  </th>
+                  <td className="px-4 py-3 text-gray-200">
+                    {currency.format(Math.round(minimum))}
+                    {Math.round(minimum) !== Math.round(maximum) && ` – ${currency.format(Math.round(maximum))}`}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <Link
+          href="/contact"
+          className="btn mt-6 inline-flex"
+          onClick={() => trackBookingEvent("check_availability", { placement: "price_table", language: locale })}
+        >
+          {c("checkAvailability")}
+        </Link>
+      </div>
+    </section>
   );
 }

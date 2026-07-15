@@ -96,11 +96,11 @@ a {
 /* Button - colors in tailwind*/
 
 .btn {
-  @apply flex items-center p-2 bg-accent_primary rounded-md font-poppins   text-white uppercase text-sm	 px-4 hover:bg-accent_secondary tracking-widest;
+  @apply flex items-center p-2 bg-accent_primary rounded-md font-poppins font-bold text-[#032552] uppercase text-sm px-4 hover:bg-accent_secondary tracking-widest;
 }
 
 .btn-2 {
-  @apply flex items-center p-2 bg-accent_primary rounded-md font-poppins text-white tracking-widest px-4 uppercase text-sm  hover:bg-accent_secondary;
+  @apply flex items-center p-2 bg-accent_primary rounded-md font-poppins font-bold text-[#032552] tracking-widest px-4 uppercase text-sm hover:bg-accent_secondary;
 }
 
 .btn:focus {

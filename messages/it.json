@@ -23,6 +23,55 @@
     ],
     "navLinksButton": "Prenota ora"
   },
+  "Conversion": {
+    "checkAvailability": "Verifica disponibilità",
+    "viewPrices": "Vedi prezzi",
+    "viewVilla": "Scopri la villa",
+    "call": "Chiama",
+    "directBooking": "Prenotazione diretta",
+    "bookingTerms": "30% alla conferma · saldo all’arrivo",
+    "parking": "Parcheggio gratuito in loco",
+    "priceLine": "5 camere · 12 ospiti · piscina privata e jacuzzi · da 169 €/notte"
+  },
+  "Pricing": {
+    "ratesTitle": "Tariffe per notte 2026",
+    "month": "Mese",
+    "nightlyRate": "Prezzo per notte",
+    "ratesNote": "Le tariffe variano in base alla data. Da maggio a ottobre seguono la curva dei prezzi per sette notti fornita dal proprietario; le festività hanno tariffe dedicate.",
+    "estimatedTotal": "Totale stimato del soggiorno",
+    "nights": "notti",
+    "estimateNote": "Stima basata sul calendario delle tariffe 2026. Disponibilità e prezzo finale sono confermati dal proprietario.",
+    "quoteOnly": "Seleziona date nel 2026 per una stima. Per altre date riceverai un preventivo preciso con la richiesta."
+  },
+  "Booking_FAQ": {
+    "title": "Domande sulla prenotazione",
+    "reserve": "Come si conferma una prenotazione?",
+    "cancel": "Qual è la politica di cancellazione?",
+    "times": "Quali sono gli orari di check-in e check-out?",
+    "pets": "Gli animali sono ammessi?"
+  },
+  "Privacy": {
+    "title": "Informativa sulla privacy",
+    "intro": "Questa informativa spiega come Villa Bergi tratta le informazioni inviate tramite il sito.",
+    "controllerTitle": "Titolare del trattamento",
+    "controller": "Valter Brgić, Damijanići 6, 52341 Žminj, Croazia. Contatto: villa.bergi.wb@gmail.com.",
+    "dataTitle": "Informazioni trattate",
+    "data": "Le richieste possono includere nome, e-mail, telefono, date desiderate, numero di ospiti e messaggio. Con il consenso, l'analisi può raccogliere dati tecnici di utilizzo.",
+    "purposeTitle": "Finalità",
+    "purpose": "I dati della richiesta servono a rispondere e ad avviare i passaggi verso una possibile prenotazione. Non vengono usati per marketing non correlato.",
+    "processorsTitle": "Fornitori di servizi",
+    "processors": "I dati vengono trasmessi tramite EmailJS e consegnati al proprietario. Il sito è ospitato da Vercel. Google Analytics viene caricato solo dopo il consenso.",
+    "retentionTitle": "Conservazione",
+    "retention": "I dati vengono conservati solo per il tempo necessario a rispondere, gestire un'eventuale prenotazione e rispettare gli obblighi applicabili.",
+    "rightsTitle": "I tuoi diritti",
+    "rights": "Puoi chiedere accesso, rettifica, cancellazione o limitazione e opporti ove applicabile. Puoi anche contattare l'autorità croata per la protezione dei dati.",
+    "updated": "Ultimo aggiornamento: 16 luglio 2026.",
+    "banner": "Usiamo cookie opzionali di Google Analytics per capire quali pagine e azioni di prenotazione sono utili. Il sito funziona anche senza.",
+    "accept": "Accetta analisi",
+    "decline": "Rifiuta",
+    "link": "Informativa privacy",
+    "settings": "Impostazioni privacy"
+  },
   "HeaderSwiper": {
     "titles": [
       "Villa autentica in Istria",
@@ -354,7 +403,17 @@
       "message": "Richiesta",
       "des": "Il contenuto di questo modulo sarà inviato direttamente all'indirizzo email del proprietario e sarà utilizzato esclusivamente per richieste di prenotazione.",
       "button": "Invia richiesta",
-      "sent": "Inviato con successo"
+      "sent": "Inviato con successo",
+      "sending": "Invio in corso…",
+      "sent_button": "Richiesta inviata",
+      "try_again": "Riprova",
+      "success": "La richiesta è stata inviata correttamente. Risponderemo via email il prima possibile.",
+      "error": "Non è stato possibile inviare la richiesta. Riprova oppure usa i contatti accanto al modulo.",
+      "date_error": "La partenza deve essere successiva all’arrivo.",
+      "consent": "Accetto che i miei dati siano utilizzati per rispondere a questa richiesta di prenotazione.",
+      "privacy_notice": "I dati della richiesta sono trattati tramite EmailJS e consegnati al proprietario esclusivamente per rispondere.",
+      "privacy_link": "Leggi l’informativa privacy.",
+      "capacity_error": "Villa Bergi può ospitare al massimo 12 persone. Riduci il numero di adulti o bambini."
     },
     "Contact_Info": {
       "contact_person": "Persona di contatto",

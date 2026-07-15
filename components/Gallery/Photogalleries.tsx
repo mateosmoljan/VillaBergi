@@ -7,6 +7,7 @@ import PhotogalleriesImages from "./PhotogalleriesImages";
 import Gallery from "./Gallery";
 import { getPhotogalleriesData } from "@/lib/photogalleries";
 import { useLocale } from "next-intl";
+import { trackBookingEvent } from "@/lib/analytics";
 
 export type AppContextType = {
   openIndex: boolean;
@@ -34,7 +35,7 @@ function Photogalleries() {
     <section className="Photo">
       <div className="container py-10">
         <div className="w-6xl flex flex-col gap-3 pb-10">
-          <h2 className="text-pink font-semibold uppercase tracking-widest">
+          <h2 className="text-[#f0abfc] font-semibold uppercase tracking-widest">
             {PhotogalleriesData.data[0].subtitle}
           </h2>
           <h2 className="font-bold text-2xl sm:text-3xl text-primary">
@@ -44,7 +45,11 @@ function Photogalleries() {
         <AppContext.Provider value={{ openIndex, setOpenIndex }}>
           <PhotogalleriesImages handleImageClick={handleImageClick} />
           <div className="pt-5 flex justify-end">
-            <Link href="/photogallery" className="btn-2 flex gap-2">
+            <Link
+              href="/photogallery"
+              className="btn-2 flex gap-2"
+              onClick={() => trackBookingEvent("view_gallery", { placement: "home_gallery", language: localeActive })}
+            >
               <TfiGallery />
               <span>{PhotogalleriesData.data[0].button}</span>
             </Link>

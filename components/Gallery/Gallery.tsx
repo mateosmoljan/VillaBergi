@@ -46,8 +46,8 @@ function Gallery({ initIndex, library }: Props) {
     <section className="fixed !inset-0 w-screen !h-screen bg-black z-[1000] overflow-y-hidden">
       <div className="flex justify-end mr-4 absolute w-full z-[100]">
         <div className="rounded-md bg-grey2 flex justify-end items-center gap-2 mt-6 m-4 landscape_custom_buttons">
-          <button className="fullscreen-button"><FullscreenButton /></button>
-          <button onClick={handleClose} className="text-white cursor-pointer p-2 close-button">
+          <div className="fullscreen-button"><FullscreenButton /></div>
+          <button aria-label="Close gallery" onClick={handleClose} className="text-white cursor-pointer p-2 close-button">
             <RxCross2 className="text-2xl text-dark_blue_black hover:scale-150 transition-scale duration-300" />
           </button>
         </div>

@@ -13,7 +13,7 @@ function getCanonicalBaseUrl() {
 export const baseUrl = getCanonicalBaseUrl();
 const defaultOgImage = "/assets/images/i/28.jpg";
 
-type SeoPage = "home" | "villa" | "pricelist" | "photogallery" | "surroundings" | "contact";
+type SeoPage = "home" | "villa" | "pricelist" | "photogallery" | "surroundings" | "contact" | "privacy";
 
 const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description: string }>> = {
   en: {
@@ -41,6 +41,10 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
       title: "Book Villa Bergi — Villa in Žminj, Istria",
       description: "Book a villa in Žminj with direct contact. Villa rental Istria for celebrations, young groups and friend groups, near Rovinj, Pula and central Istria sights.",
     },
+    privacy: {
+      title: "Privacy Notice — Villa Bergi",
+      description: "How Villa Bergi processes booking inquiry information and optional website analytics.",
+    },
   },
   de: {
     home: {
@@ -66,6 +70,10 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     contact: {
       title: "Villa Bergi buchen — Villa in Žminj, Istrien",
       description: "Buchen Sie eine Villa in Žminj direkt. Villa-Miete in Istrien für Feiern, Freundesgruppen und junge Gruppen, nahe Rovinj, Pula und Zentralistrien.",
+    },
+    privacy: {
+      title: "Datenschutzhinweis — Villa Bergi",
+      description: "Informationen zur Verarbeitung von Buchungsanfragen und optionaler Website-Analyse bei Villa Bergi.",
     },
   },
   hr: {
@@ -93,6 +101,10 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
       title: "Rezerviraj Villa Bergi — Vila u Žminju, Istra",
       description: "Rezervirajte vilu u Žminju izravno. Najam vile u Istri za proslave, društva prijatelja i mlade grupe, blizu Rovinja, Pule i znamenitosti središnje Istre.",
     },
+    privacy: {
+      title: "Obavijest o privatnosti — Villa Bergi",
+      description: "Kako Villa Bergi obrađuje podatke iz upita za rezervaciju i neobaveznu analitiku web-stranice.",
+    },
   },
   it: {
     home: {
@@ -118,6 +130,10 @@ const seoDictionary: Record<Locale, Record<SeoPage, { title: string; description
     contact: {
       title: "Prenota Villa Bergi — Villa a Žminj, Istria",
       description: "Prenota una villa a Žminj con contatto diretto. Villa in affitto in Istria per feste private, gruppi di amici e gruppi giovani, vicino a Rovigno e Pola.",
+    },
+    privacy: {
+      title: "Informativa sulla privacy — Villa Bergi",
+      description: "Come Villa Bergi tratta i dati delle richieste di prenotazione e l'analisi opzionale del sito.",
     },
   },
 };
@@ -159,26 +175,34 @@ export function buildMetadata(locale: Locale, page: SeoPage, pathname: string): 
   };
 }
 
-export function getLodgingJsonLd(_locale: Locale) {
+export function getLodgingJsonLd(locale: Locale) {
   return {
     "@context": "https://schema.org",
     "@type": "VacationRental",
     name: "Villa Bergi",
     description: "Holiday villa in Damijanići near Žminj, central Istria with 5 bedrooms, pool, jacuzzi and garden. Sleeps 12.",
-    url: baseUrl,
+    url: `${baseUrl}/${locale}/villa-bergi`,
     image: `${baseUrl}/assets/images/optimized-hero/28.webp`,
+    telephone: "+385993717777",
+    priceRange: "€169–€957 per night",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Damijanići 6",
+      postalCode: "52341",
       addressLocality: "Žminj",
       addressRegion: "Istria",
       addressCountry: "HR",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 45.1292,
-      longitude: 13.8986,
+      latitude: 45.142614,
+      longitude: 13.906568,
     },
     numberOfRooms: 5,
+    numberOfBedrooms: 5,
+    numberOfBathroomsTotal: 4,
+    checkinTime: "16:00",
+    checkoutTime: "10:00",
     occupancy: {
       "@type": "QuantitativeValue",
       maxValue: 12,

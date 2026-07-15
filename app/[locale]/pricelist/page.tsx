@@ -4,6 +4,7 @@ import PaymentConditions from "@/components/PaymentConditions/PaymentConditions"
 import PriceTable from "@/components/PriceTable/PriceTable";
 import SendMessage from "@/components/SendMessage/SendMessage";
 import TouristGuide from "@/components/TouristGuide/TouristGuide";
+import BookingFAQ from "@/components/BookingFAQ/BookingFAQ";
 import { getPaymentConditionsData } from "@/lib/paymentConditions";
 import { getPricelistData } from "@/lib/pricelist";
 import { getTitleData } from "@/lib/title";
@@ -23,7 +24,7 @@ function Pricelist() {
   const t = useTranslations("How_Reserve");
 
   return (
-    <section className="pt-16 md:pt-14 text-secondary">
+    <main className="pt-16 md:pt-14 text-secondary">
       <NavPath />
       <div>
         <div className="mt-12 pb-28 container">
@@ -45,12 +46,13 @@ function Pricelist() {
             <HowToReserve />
           </div>
         </div>
+        <BookingFAQ />
         <SendMessage />
       </div>
       <div className="mb-24">
         <TouristGuide />
       </div>
-    </section>
+    </main>
   );
 }
 

@@ -11,6 +11,7 @@ export const SwiperNavButtons = () => {
     <>
       <button
         onClick={() => swiper.slidePrev()}
+        aria-label="Previous hero image"
         className="h-screen w-1/5 flex justify-center items-center absolute z-10 top-0 left-0"
       >
         <div>
@@ -19,6 +20,7 @@ export const SwiperNavButtons = () => {
       </button>
       <button
         onClick={() => swiper.slideNext()}
+        aria-label="Next hero image"
         className="h-screen w-1/5 flex justify-center items-center absolute z-10 top-0 right-0"
       >
         <div className="">

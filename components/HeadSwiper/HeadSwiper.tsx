@@ -7,10 +7,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { MdKeyboardArrowDown } from "react-icons/md";
 import { SwiperNavButtons } from "./SwiperNavButton";
 import { getHeadSwiperLib } from "@/lib/HeadSwiperLib";
 import { useLocale } from "next-intl";
+import { HeroBookingActions } from "@/components/Conversion/BookingActions";
 import "./style.css";
 
 export default function HeadSwiper() {
@@ -38,16 +38,14 @@ export default function HeadSwiper() {
                   alt={image.alt}
                   fill
                   priority={index === 0}
-                  quality={86}
+                  quality={75}
                   sizes="100vw"
                   className="object-cover"
                 />
-                <div className="left-1/20 right-1/20 md:left-auto md:right-auto md:mx-0 md:max-w-2xl z-20 absolute bottom-8 flex items-center justify-center flex-col bg-black bg-opacity-60 rounded-md p-8 gap-3">
+                <div className="left-1/20 right-1/20 md:left-auto md:right-auto md:mx-0 md:max-w-3xl z-20 absolute bottom-20 sm:bottom-8 flex items-center justify-center flex-col bg-black bg-opacity-70 rounded-md p-5 sm:p-8 gap-3">
                   <h2 className="text-white font-arbutus text-center text-3xl font-bold">{image.title}</h2>
-                  <p className="text-white">{image.des}</p>
-                  <a href="#about">
-                    <button className="btn">{image.button} <MdKeyboardArrowDown className="text-2xl" /></button>
-                  </a>
+                  <p className="text-center text-white">{image.des}</p>
+                  <HeroBookingActions />
                 </div>
               </div>
             </SwiperSlide>

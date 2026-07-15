@@ -21,19 +21,20 @@ const FullscreenButton = () => {
 
   useEffect(() => {
     if (typeof document !== "undefined") {
-      document.addEventListener("fullscreenchange", () => {
+      const handleFullscreenChange = () => {
         setIsFullscreen(!!document.fullscreenElement);
-      });
+      };
+      document.addEventListener("fullscreenchange", handleFullscreenChange);
 
       return () => {
-        document.removeEventListener("fullscreenchange", () => {});
+        document.removeEventListener("fullscreenchange", handleFullscreenChange);
       };
     }
   }, []);
 
   return (
     <div className="flex items-center">
-      <button onClick={handleFullscreen} className="  p-2">
+      <button aria-label={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"} onClick={handleFullscreen} className="p-2">
         {isFullscreen ? (
           <RiFullscreenExitFill className=" text-2xl text-dark_blue_black" />
         ) : (
