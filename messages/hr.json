@@ -34,14 +34,16 @@
     "priceLine": "5 spavaćih soba · 12 gostiju · privatni bazen i jacuzzi · od 169 €/noć"
   },
   "Pricing": {
-    "ratesTitle": "Cijene noćenja za 2026.",
+    "ratesTitle": "Cijene noćenja u otvorenoj sezoni 2026.",
     "month": "Mjesec",
     "nightlyRate": "Cijena po noći",
-    "ratesNote": "Cijene ovise o točnom datumu. Od svibnja do listopada slijede vlasnikovu krivulju cijena za sedam noći; blagdani imaju posebne cijene.",
+    "ratesNote": "Villa Bergi otvorena je od studenoga do kraja travnja. Cijene su prikazane samo za mjesece kada je vila otvorena; blagdani imaju posebne cijene.",
+    "openSeason": "Otvoreno od studenoga do kraja travnja. Villa Bergi zatvorena je od svibnja do listopada.",
+    "closedSeason": "Villa Bergi zatvorena je za odabrane datume. Odaberite boravak između studenoga i kraja travnja.",
     "estimatedTotal": "Procijenjeni ukupni iznos",
     "nights": "noći",
     "estimateNote": "Procjena se temelji na kalendaru cijena za 2026. Dostupnost i konačnu cijenu potvrđuje vlasnik.",
-    "quoteOnly": "Odaberite datume u 2026. za procjenu. Za ostale datume dobit ćete točnu ponudu uz upit."
+    "quoteOnly": "Za datume otvorene sezone izvan 2026. dobit ćete točnu ponudu uz upit."
   },
   "Booking_FAQ": {
     "title": "Pitanja o rezervaciji",
@@ -338,7 +340,7 @@
       "span2": "Adresa",
       "span3": "Banka",
       "title3": "Potvrda plaćanja",
-      "des3": "Kada uplata bude evidentirana, potvrdit ćemo vašu rezervaciju. Opustite se i veselite ljetnom boravku u Villi Bergi, Istra, Hrvatska!"
+      "des3": "Kada uplata bude evidentirana, potvrdit ćemo vašu rezervaciju. Opustite se i veselite boravku u Villi Bergi, Istra, Hrvatska!"
     }
   },
   "Environs": {
@@ -413,7 +415,8 @@
       "consent": "Slažem se da se moji podaci koriste za odgovor na ovaj upit za rezervaciju.",
       "privacy_notice": "Podaci iz upita obrađuju se putem EmailJS-a i dostavljaju vlasniku samo radi odgovora na vaš zahtjev.",
       "privacy_link": "Pročitajte obavijest o privatnosti.",
-      "capacity_error": "Villa Bergi prima najviše 12 gostiju. Smanjite broj odraslih osoba ili djece."
+      "capacity_error": "Villa Bergi prima najviše 12 gostiju. Smanjite broj odraslih osoba ili djece.",
+      "closed_season_error": "Villa Bergi otvorena je samo od studenoga do kraja travnja. Odaberite datume unutar otvorene sezone."
     },
     "Contact_Info": {
       "contact_person": "Kontakt osoba",

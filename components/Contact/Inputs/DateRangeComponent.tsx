@@ -1,6 +1,6 @@
 "use client";
 
-import { estimateStay2026 } from "@/lib/pricing2026";
+import { estimateStay2026, isVillaOpenForStay } from "@/lib/pricing2026";
 import { trackBookingEvent } from "@/lib/analytics";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -42,6 +42,7 @@ export default function DataRangeComponent() {
   const [arrival, setArrival] = useState("");
   const [departure, setDeparture] = useState("");
   const minimumDeparture = arrival ? addOneDay(arrival) : today;
+  const openSeasonStay = useMemo(() => isVillaOpenForStay(arrival, departure), [arrival, departure]);
   const estimate = useMemo(() => estimateStay2026(arrival, departure), [arrival, departure]);
   const currency = useMemo(
     () => new Intl.NumberFormat(locale, { style: "currency", currency: "EUR", maximumFractionDigits: 0 }),
@@ -103,9 +104,13 @@ export default function DataRangeComponent() {
         />
       </div>
 
+      <p className="-mt-2 text-xs leading-5 text-gray-600 sm:col-span-2">{pricing("openSeason")}</p>
+
       {arrival && departure && (
         <div className="rounded-lg border border-white/15 bg-[#032552] p-4 text-white sm:col-span-2" aria-live="polite">
-          {estimate ? (
+          {!openSeasonStay ? (
+            <p className="text-sm font-semibold leading-6 text-white">{pricing("closedSeason")}</p>
+          ) : estimate ? (
             <>
               <p className="text-sm text-gray-300">
                 {pricing("estimatedTotal")} · {estimate.nights} {pricing("nights")}

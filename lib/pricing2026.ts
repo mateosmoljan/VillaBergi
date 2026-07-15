@@ -1,13 +1,5 @@
 const YEAR = 2026;
-
-const seasonalAnchors: Record<number, { startTotal: number; endTotal: number }> = {
-  5: { startTotal: 1583, endTotal: 2150 },
-  6: { startTotal: 3018, endTotal: 4206 },
-  7: { startTotal: 5118, endTotal: 6700 },
-  8: { startTotal: 6700, endTotal: 4945 },
-  9: { startTotal: 3067, endTotal: 1895 },
-  10: { startTotal: 1835, endTotal: 1835 },
-};
+const OPEN_MONTHS = [1, 2, 3, 4, 11, 12];
 
 function daysInMonth(month: number) {
   return new Date(YEAR, month, 0).getDate();
@@ -18,19 +10,6 @@ export function getNightlyRate2026(date: Date): number | null {
 
   const month = date.getMonth() + 1;
   const day = date.getDate();
-  const anchor = seasonalAnchors[month];
-
-  if (anchor) {
-    const start = anchor.startTotal / 7;
-    const end = anchor.endTotal / 7;
-    const totalDays = daysInMonth(month);
-    if (day <= 7) return start;
-    if (day > totalDays - 7) return end;
-    const transitionStart = 7;
-    const transitionEnd = totalDays - 6;
-    const progress = (day - transitionStart) / (transitionEnd - transitionStart);
-    return start + (end - start) * progress;
-  }
 
   if (month === 1) return day === 1 ? 797 : day <= 6 ? 249 : 179;
   if (month === 2) return 169;
@@ -46,6 +25,25 @@ export function getNightlyRate2026(date: Date): number | null {
   }
 
   return null;
+}
+
+export function isVillaOpenDate(date: Date) {
+  return OPEN_MONTHS.includes(date.getMonth() + 1);
+}
+
+export function isVillaOpenForStay(arrivalISO: string, departureISO: string) {
+  if (!arrivalISO || !departureISO) return false;
+  const arrival = new Date(`${arrivalISO}T12:00:00`);
+  const departure = new Date(`${departureISO}T12:00:00`);
+  if (Number.isNaN(arrival.getTime()) || Number.isNaN(departure.getTime()) || departure <= arrival) return false;
+
+  const cursor = new Date(arrival);
+  while (cursor < departure) {
+    if (!isVillaOpenDate(cursor)) return false;
+    cursor.setDate(cursor.getDate() + 1);
+  }
+
+  return true;
 }
 
 export function estimateStay2026(arrivalISO: string, departureISO: string) {
@@ -68,8 +66,8 @@ export function estimateStay2026(arrivalISO: string, departureISO: string) {
 }
 
 export function getMonthlyRanges2026() {
-  return Array.from({ length: 12 }, (_, index) => {
-    const month = index + 1;
+  return OPEN_MONTHS.map((month) => {
+    const index = month - 1;
     const rates = Array.from({ length: daysInMonth(month) }, (_, day) =>
       getNightlyRate2026(new Date(YEAR, index, day + 1))
     ).filter((rate): rate is number => rate !== null);

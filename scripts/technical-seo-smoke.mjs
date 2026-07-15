@@ -5,6 +5,7 @@ const paths = ["", "/villa-bergi", "/pricelist", "/photogallery", "/surroundings
 
 const failures = [];
 let checkedPages = 0;
+let englishPricingHtml = "";
 
 function check(condition, message) {
   if (!condition) failures.push(message);
@@ -16,6 +17,8 @@ for (const locale of locales) {
     const response = await fetch(`${testOrigin}${route}`);
     const html = await response.text();
     const expectedCanonical = `${canonicalOrigin}${route}`;
+
+    if (locale === "en" && path === "/pricelist") englishPricingHtml = html;
 
     check(response.status === 200, `${route}: expected 200, received ${response.status}`);
     check(
@@ -51,6 +54,17 @@ for (const locale of locales) {
     checkedPages += 1;
   }
 }
+
+for (const month of ["January", "February", "March", "April", "November", "December"]) {
+  check(englishPricingHtml.includes(`>${month}</th>`), `/en/pricelist: missing open-season price row for ${month}`);
+}
+for (const month of ["May", "June", "July", "August", "September", "October"]) {
+  check(!englishPricingHtml.includes(`>${month}</th>`), `/en/pricelist: unexpectedly shows a closed-season price row for ${month}`);
+}
+check(
+  englishPricingHtml.includes("closed from May through October"),
+  "/en/pricelist: missing the May–October closure notice",
+);
 
 const duplicateResponse = await fetch(`${testOrigin}/en/en/pricelist?source=smoke`, { redirect: "manual" });
 check(duplicateResponse.status === 308, `duplicate locale route: expected 308, received ${duplicateResponse.status}`);

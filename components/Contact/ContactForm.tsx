@@ -10,6 +10,7 @@ import emailjs from "@emailjs/browser";
 import { sendGAEvent } from "@next/third-parties/google";
 import { useLocale, useTranslations } from "next-intl";
 import { trackBookingEvent } from "@/lib/analytics";
+import { isVillaOpenForStay } from "@/lib/pricing2026";
 import { Link } from "@/navigation";
 import "./style.css";
 
@@ -73,6 +74,26 @@ function ContactForm() {
     const departure = String(formData.get("departureDate"));
     const arrivalTime = Date.parse(`${arrival}T12:00:00Z`);
     const departureTime = Date.parse(`${departure}T12:00:00Z`);
+    if (!Number.isFinite(arrivalTime) || !Number.isFinite(departureTime) || departureTime <= arrivalTime) {
+      setValidationError(t("date_error"));
+      setSubmitState("idle");
+      trackBookingEvent("inquiry_validation_error", {
+        field_group: "stay_dates",
+        form_name: "villa_inquiry",
+        language: locale,
+      });
+      return;
+    }
+    if (!isVillaOpenForStay(arrival, departure)) {
+      setValidationError(t("closed_season_error"));
+      setSubmitState("idle");
+      trackBookingEvent("inquiry_validation_error", {
+        field_group: "open_season",
+        form_name: "villa_inquiry",
+        language: locale,
+      });
+      return;
+    }
     const nights = Math.max(1, Math.round((departureTime - arrivalTime) / 86400000));
     const leadDays = Math.max(0, Math.round((arrivalTime - Date.now()) / 86400000));
     const funnelParameters = {

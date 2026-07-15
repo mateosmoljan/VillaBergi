@@ -184,7 +184,7 @@ export function getLodgingJsonLd(locale: Locale) {
     url: `${baseUrl}/${locale}/villa-bergi`,
     image: `${baseUrl}/assets/images/optimized-hero/28.webp`,
     telephone: "+385993717777",
-    priceRange: "€169–€957 per night",
+    priceRange: "€169–€797 per night during the November–April open season",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Damijanići 6",
@@ -206,6 +206,11 @@ export function getLodgingJsonLd(locale: Locale) {
     occupancy: {
       "@type": "QuantitativeValue",
       maxValue: 12,
+    },
+    additionalProperty: {
+      "@type": "PropertyValue",
+      name: "Open season",
+      value: "November through the end of April",
     },
     amenityFeature: [
       { "@type": "LocationFeatureSpecification", name: "Swimming Pool", value: true },

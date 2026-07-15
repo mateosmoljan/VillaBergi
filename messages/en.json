@@ -34,14 +34,16 @@
     "priceLine": "5 bedrooms · 12 guests · private pool & jacuzzi · from €169/night"
   },
   "Pricing": {
-    "ratesTitle": "2026 nightly rates",
+    "ratesTitle": "2026 open-season nightly rates",
     "month": "Month",
     "nightlyRate": "Price per night",
-    "ratesNote": "Rates vary by exact date. May–October follows the owner-supplied seven-night price curve; holiday nights have separate rates.",
+    "ratesNote": "Villa Bergi is open from November through the end of April. Prices are shown only for open months; holiday nights have separate rates.",
+    "openSeason": "Open season: November through the end of April. Villa Bergi is closed from May through October.",
+    "closedSeason": "Villa Bergi is closed for these dates. Please choose a stay between November and the end of April.",
     "estimatedTotal": "Estimated stay total",
     "nights": "nights",
     "estimateNote": "Estimate based on the 2026 nightly price calendar. Availability and final price are confirmed with the owner.",
-    "quoteOnly": "Select dates in 2026 for an estimate. Other dates receive an exact quote with the inquiry."
+    "quoteOnly": "For open-season dates outside 2026, you will receive an exact quote with the inquiry."
   },
   "Booking_FAQ": {
     "title": "Booking questions",
@@ -338,7 +340,7 @@
       "span2": "Address",
       "span3": "Bank",
       "title3": "Payment Confirmation",
-      "des3": "Once payment is completed, we’ll confirm your reservation. Relax and look forward to your summer stay at Villa Bergi, Istria – Croatia!"
+      "des3": "Once payment is completed, we’ll confirm your reservation. Relax and look forward to your stay at Villa Bergi, Istria – Croatia!"
     }
   },
   "Environs": {
@@ -413,7 +415,8 @@
       "consent": "I agree that my details may be used to answer this booking inquiry.",
       "privacy_notice": "Inquiry details are processed through EmailJS and delivered to the property owner only to answer your request.",
       "privacy_link": "Read the privacy notice.",
-      "capacity_error": "Villa Bergi accommodates a maximum of 12 guests. Please reduce the number of adults or children."
+      "capacity_error": "Villa Bergi accommodates a maximum of 12 guests. Please reduce the number of adults or children.",
+      "closed_season_error": "Villa Bergi is open only from November through the end of April. Please choose dates within the open season."
     },
     "Contact_Info": {
       "contact_person": "Contact Person",
