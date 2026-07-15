@@ -31,7 +31,7 @@ export function AnalyticsConsent({ measurementId }: { measurementId?: string }) 
       {consent === "unknown" && (
         <aside
           aria-label={t("settings")}
-          className="fixed bottom-20 left-3 right-3 z-[70] rounded-xl border border-white/20 bg-[#032552] p-4 text-white shadow-2xl lg:bottom-4 lg:left-auto lg:max-w-md"
+          className="fixed left-3 right-3 top-20 z-[70] rounded-xl border border-white/20 bg-[#032552] p-4 text-white shadow-2xl lg:bottom-4 lg:left-auto lg:right-4 lg:top-auto lg:max-w-md"
         >
           <p className="text-sm leading-6">{t("banner")}</p>
           <Link href="/privacy" className="mt-2 inline-block text-sm font-semibold underline">
