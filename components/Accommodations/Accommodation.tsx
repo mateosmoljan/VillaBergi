@@ -12,9 +12,9 @@ function Acommodation() {
           <h2 className="accent-primary font-semibold uppercase tracking-widest">
             {AccommodationsData.data[0].subtitle}
           </h2>
-          <h1 className="font-bold text-2xl sm:text-3xl text-primary">
+          <h2 className="font-bold text-2xl sm:text-3xl text-primary">
             {AccommodationsData.data[0].title}
-          </h1>
+          </h2>
         </div>
         <div className="w-full flex justify-center items-center">
           <PropertyCard />

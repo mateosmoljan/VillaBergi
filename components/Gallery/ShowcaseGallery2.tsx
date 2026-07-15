@@ -39,9 +39,9 @@ function ShowcaseGallery2() {
           <h2 className="accent-primary font-semibold uppercase tracking-widest">
             {TitleData.data[0].subtitle2}
           </h2>
-          <h1 className="font-bold text-2xl sm:text-3xl text-primary">
+          <h2 className="font-bold text-2xl sm:text-3xl text-primary">
             {TitleData.data[0].title5}
-          </h1>
+          </h2>
         </div>
         <AppContext.Provider
           value={{

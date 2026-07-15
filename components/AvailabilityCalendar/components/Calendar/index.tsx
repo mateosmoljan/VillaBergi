@@ -156,9 +156,9 @@ const Calendar = ({
         {!shouldRender.controls && !shouldRender.currentYear ? null : (
           <div className="controlWrap">
             {shouldRender.currentYear && (
-              <h1 className="currentYear" data-testid="currentYear">
+              <h2 className="currentYear" data-testid="currentYear">
                 {activeYear}
-              </h1>
+              </h2>
             )}
 
             {shouldRender.controls && <Controls {...configControls} />}

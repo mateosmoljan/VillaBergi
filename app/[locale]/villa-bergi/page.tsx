@@ -1,5 +1,4 @@
 "use client";
-"use client";
 
 import IFrameMaps from "@/components/About/iFrameMaps";
 import AvailabilityCalendar from "@/components/AvailabilityCalendar/AvailabilityCalendar";
@@ -79,9 +78,7 @@ function VillaPanorama() {
             </div>
             <div className="py-10">
               <h2 className="font-bold text-2xl text-primary mb-4">{}</h2>
-              <p>
-                <Markdown>{Villa_DescriptionData.data[0].des}</Markdown>
-              </p>
+              <Markdown>{Villa_DescriptionData.data[0].des}</Markdown>
               {/* <p>
                 <br />
                 <h2 className="text-md font-ExtraBold">

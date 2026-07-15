@@ -9,6 +9,7 @@ import {
   getMonthName,
 } from "./../Utils";
 import { bookings } from "@/components/AvailabilityCalendar/AvailabilityCalendar";
+import { useLocale } from "next-intl";
 
 dayjs.extend(isBetween);
 
@@ -20,6 +21,7 @@ const Year: React.FC<IYear> = ({
   monthsFrom = 1,
 }): JSX.Element => {
   const _year = activeYear || dayjs().year();
+  const locale = useLocale();
 
   return (
     <div className="year" data-testid="year">
@@ -27,7 +29,7 @@ const Year: React.FC<IYear> = ({
         const arrOffset = 1;
         const month = monthsFrom + pos;
         const date = `${_year}-${month}`;
-        const monthName = getMonthName(month);
+        const monthName = getMonthName(month, locale);
         const totalDays = dayjs(date).daysInMonth();
         const firstDayOfWeek = dayjs(`${date}-01`).day();
 

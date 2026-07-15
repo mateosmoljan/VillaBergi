@@ -13,7 +13,7 @@ function Footer() {
       <div className="pt-8 max-w-screen-2xl grid w-full text-white sm:grid-cols-2 gap-y-8 lg:grid-cols-4 place-items-center">
         <div className="h-full relative pl-5 sm:pl-0 w-full sm:w-3/5 lg:w-auto">
           <div className="space-y-4 ">
-            <Image src={SSL} alt="ssl Villa Relax" width={200} />
+            <Image src={SSL} alt="Secure booking for Villa Bergi" width={200} />
             <p>{t("year")}</p>
             <p>{t("rights")}</p>
             {/* <p className="">

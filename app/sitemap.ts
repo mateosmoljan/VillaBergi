@@ -1,7 +1,5 @@
 import type { MetadataRoute } from "next";
-import { locales } from "@/lib/seo";
-
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://villabergi.com";
+import { baseUrl, locales } from "@/lib/seo";
 const paths = ["", "/villa-bergi", "/pricelist", "/photogallery", "/surroundings", "/contact"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
