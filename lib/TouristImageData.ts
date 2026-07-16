@@ -44,9 +44,9 @@ export const TouristImageData: LocationToVisitData[] = [
   { src: image9, alt: "Aquacolors Porec" },
   { src: image10, alt: "Aquarium Pula" },
   { src: image11, alt: "Arena Pula" },
-  { src: image12, alt: "Beach" },
-  { src: image13, alt: "Beach" },
-  { src: image14, alt: "Island Kamenjak" },
+  { src: image12, alt: "Rocky beach and clear sea in Istria" },
+  { src: image13, alt: "Cliff jumping at Cape Kamenjak, Istria" },
+  { src: image14, alt: "Aerial view of Cape Kamenjak, Istria" },
 ];
 
 const replaceTouristGuide = (

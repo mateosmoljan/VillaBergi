@@ -1,19 +1,15 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import { useEffect, useState } from "react";
-import FullscreenButton from "../About/FullscreenButton";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
+import FullscreenButton from "../About/FullscreenButton";
+import { useGalleryContext } from "../PropertyGallery/PropertyGallery";
+import { useFourGalleryContext } from "./FourGallery";
 import { useGlobalContext } from "./Photogalleries";
 import { usePropertyGalleryContext } from "./ShowcaseGallery";
 import { useShowcaseGallery2Context } from "./ShowcaseGallery2";
-import { useGalleryContext } from "../PropertyGallery/PropertyGallery";
-import { useFourGalleryContext } from "./FourGallery";
-import { EffectFade, Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
 
 type Props = {
   initIndex: number;
@@ -26,57 +22,157 @@ function Gallery({ initIndex, library }: Props) {
   const { setOpenIndexPropertyGallery } = usePropertyGalleryContext();
   const { setOpenIndexShowcaseGallery2Context } = useShowcaseGallery2Context();
   const { setOpenGalleryContext } = useGalleryContext();
-  const [currentSlide, setCurrentSlide] = useState(initIndex);
+  const firstIndex = initIndex >= 0 && initIndex < library.length ? initIndex : 0;
+  const [currentSlide, setCurrentSlide] = useState(firstIndex);
+  const touchStartX = useRef<number | null>(null);
 
-  function handleClose() {
-    if (document.body) document.body.style.overflowY = "auto";
+  const showSlide = useCallback(
+    (index: number) => {
+      if (!library.length) return;
+      setCurrentSlide((index + library.length) % library.length);
+    },
+    [library.length]
+  );
+
+  const showPrevious = useCallback(() => showSlide(currentSlide - 1), [currentSlide, showSlide]);
+  const showNext = useCallback(() => showSlide(currentSlide + 1), [currentSlide, showSlide]);
+
+  const handleClose = useCallback(() => {
     setOpenIndexPropertyGallery(false);
     setOpenIndex(false);
     setOpenIndexShowcaseGallery2Context(false);
     setOpenGalleryContext(false);
     setFourGalleryContext(false);
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+    if (document.fullscreenElement) void document.exitFullscreen();
+  }, [
+    setFourGalleryContext,
+    setOpenGalleryContext,
+    setOpenIndex,
+    setOpenIndexPropertyGallery,
+    setOpenIndexShowcaseGallery2Context,
+  ]);
 
   useEffect(() => {
-    if (document.body) document.body.style.overflowY = "hidden";
-  }, []);
+    const previousOverflow = document.body.style.overflowY;
+    document.body.style.overflowY = "hidden";
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "ArrowLeft") showPrevious();
+      if (event.key === "ArrowRight") showNext();
+      if (event.key === "Escape") handleClose();
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.body.style.overflowY = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [handleClose, showNext, showPrevious]);
+
+  const thumbnailIndexes = useMemo(() => {
+    const count = Math.min(5, library.length);
+    return Array.from({ length: count }, (_, offset) =>
+      (currentSlide - Math.floor(count / 2) + offset + library.length) % library.length
+    );
+  }, [currentSlide, library.length]);
+
+  if (!library.length) return null;
+  const currentImage = library[currentSlide];
 
   return (
-    <section className="fixed !inset-0 w-screen !h-screen bg-black z-[1000] overflow-y-hidden">
-      <div className="flex justify-end mr-4 absolute w-full z-[100]">
-        <div className="rounded-md bg-grey2 flex justify-end items-center gap-2 mt-6 m-4 landscape_custom_buttons">
-          <div className="fullscreen-button"><FullscreenButton /></div>
-          <button aria-label="Close gallery" onClick={handleClose} className="text-white cursor-pointer p-2 close-button">
-            <RxCross2 className="text-2xl text-dark_blue_black hover:scale-150 transition-scale duration-300" />
+    <section
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image gallery"
+      className="fixed inset-0 z-[1000] flex h-dvh w-screen flex-col overflow-hidden bg-black text-white"
+    >
+      <header className="relative z-20 flex h-16 shrink-0 items-center justify-between border-b border-white/10 px-3 sm:px-6">
+        <p className="min-w-16 text-sm font-semibold tabular-nums" aria-live="polite">
+          {currentSlide + 1} / {library.length}
+        </p>
+        <div className="flex items-center gap-1 rounded-lg bg-white/90 text-black shadow-lg">
+          <FullscreenButton />
+          <button
+            type="button"
+            aria-label="Close gallery"
+            autoFocus
+            onClick={handleClose}
+            className="cursor-pointer rounded-md p-2 transition hover:bg-black/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            <RxCross2 className="text-2xl" aria-hidden="true" />
           </button>
         </div>
-      </div>
+      </header>
 
-      <div className="h-screen flex items-center justify-center">
-        <div className="w-screen m-auto landscape:m-0">
-          <div className="mx-auto z-50 flex justify-center mb-3 sm:mb-10">
-            <div className="block text-white">{currentSlide + 1}/{library.length}</div>
-          </div>
+      <div
+        className="relative min-h-0 flex-1 px-12 py-3 sm:px-24 sm:py-5"
+        onTouchStart={(event) => {
+          touchStartX.current = event.touches[0]?.clientX ?? null;
+        }}
+        onTouchEnd={(event) => {
+          if (touchStartX.current === null) return;
+          const distance = event.changedTouches[0].clientX - touchStartX.current;
+          touchStartX.current = null;
+          if (Math.abs(distance) < 45) return;
+          if (distance > 0) showPrevious();
+          else showNext();
+        }}
+      >
+        <button
+          type="button"
+          aria-label="Previous image"
+          onClick={showPrevious}
+          className="absolute inset-y-0 left-0 z-10 flex w-12 cursor-pointer items-center justify-center bg-gradient-to-r from-black/80 to-transparent text-white transition hover:from-black sm:w-24"
+        >
+          <IoChevronBack className="text-4xl drop-shadow" aria-hidden="true" />
+        </button>
 
-          <Swiper
-            modules={[Navigation, EffectFade]}
-            navigation
-            effect="fade"
-            loop
-            initialSlide={initIndex}
-            onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex)}
-          >
-            {library.map((image, index) => (
-              <SwiperSlide key={index}>
-                <div className="sm:container flex items-center justify-center relative image_gallery m-auto overflow-hidden">
-                  <Image src={image.src} alt={image.alt} placeholder="blur" className="object-contain object-center h-[300px] sm:h-[750px] sm:min-h-[500px] sm:min-w-[700px] min-w-full m-auto" sizes="100vw" />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <div className="relative h-full w-full overflow-hidden">
+          <Image
+            key={currentSlide}
+            src={currentImage.src}
+            alt={currentImage.alt}
+            fill
+            priority
+            placeholder="blur"
+            sizes="100vw"
+            className="select-none object-contain"
+          />
         </div>
+
+        <button
+          type="button"
+          aria-label="Next image"
+          onClick={showNext}
+          className="absolute inset-y-0 right-0 z-10 flex w-12 cursor-pointer items-center justify-center bg-gradient-to-l from-black/80 to-transparent text-white transition hover:from-black sm:w-24"
+        >
+          <IoChevronForward className="text-4xl drop-shadow" aria-hidden="true" />
+        </button>
       </div>
+
+      <footer className="shrink-0 border-t border-white/10 bg-black px-3 py-3 sm:px-6">
+        <p className="mb-2 truncate text-center text-xs text-white/75 sm:text-sm">{currentImage.alt}</p>
+        <div className="flex justify-center gap-2" aria-label="Nearby images">
+          {thumbnailIndexes.map((index) => {
+            const image = library[index];
+            const active = index === currentSlide;
+            return (
+              <button
+                key={index}
+                type="button"
+                aria-label={`Show image ${index + 1}`}
+                aria-current={active ? "true" : undefined}
+                onClick={() => showSlide(index)}
+                className={`relative h-11 w-16 cursor-pointer overflow-hidden rounded border-2 transition sm:h-14 sm:w-20 ${
+                  active ? "border-yellow opacity-100" : "border-transparent opacity-60 hover:opacity-100"
+                }`}
+              >
+                <Image src={image.src} alt="" fill sizes="80px" className="object-cover" />
+              </button>
+            );
+          })}
+        </div>
+      </footer>
     </section>
   );
 }

@@ -4,7 +4,6 @@ import { createContext, useContext, useState } from "react";
 import { FaMap } from "react-icons/fa";
 import GoogleMaps from "../About/GoogleMaps";
 import { TouristImageData } from "@/lib/TouristImageData";
-import GuideGallery from "./GuideGallery";
 import Gallery from "./Gallery";
 import { getEnvironsData } from "@/lib/environs";
 import { useLocale } from "next-intl";
