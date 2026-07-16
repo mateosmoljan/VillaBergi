@@ -110,16 +110,9 @@ function ContactForm() {
     setSubmitState("sending");
 
     try {
-      const messageField = form.current.elements.namedItem("message") as HTMLTextAreaElement | null;
-      const phoneField = form.current.elements.namedItem("user_phone") as HTMLInputElement | null;
-      const originalMessage = messageField?.value ?? "";
-      if (messageField && phoneField?.value) {
-        messageField.value = `${originalMessage}\n\nPhone / WhatsApp: ${phoneField.value}`;
-      }
       const delivery = emailjs.sendForm("service_jgpc6ko", "template_76f692g", form.current, {
         publicKey: "x1heB8vixoZsmR2Mh",
       });
-      if (messageField) messageField.value = originalMessage;
       await delivery;
       form.current.reset();
       setFormVersion((version) => version + 1);
@@ -158,19 +151,6 @@ function ContactForm() {
             <label htmlFor="user_email" className="block text-sm font-Bold mb-1 text-gray-700">{t("email")}</label>
             <input id="user_email" required maxLength={254} name="user_email" type="email" autoComplete="email" className="w-full bg-white rounded-md border border-gray-300 py-2 px-3 text-black" />
           </div>
-        </div>
-
-        <div className="mb-4 w-full px-2">
-          <label htmlFor="user_phone" className="mb-1 block text-sm font-Bold text-gray-700">{t("phone")}</label>
-          <input
-            id="user_phone"
-            required
-            name="user_phone"
-            type="tel"
-            maxLength={30}
-            autoComplete="tel"
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-black"
-          />
         </div>
 
         <div className="flex flex-col sm:flex-row w-full items-end">
